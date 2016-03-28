@@ -39,7 +39,7 @@ Partial Class AcumISN
     Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
         Dim sConnection As String = Intelexion.Framework.Model.SQLConnectionProvider.getConnection("default").getConnection.ConnectionString
-        'Dim sConnection As String = "Data Source=DCW319V1\MSSQLSERVER8; Initial Catalog=V5McGrawHillNominaTest; User Id=ITXTV5; Password=ITXTV5; Connection Lifetime=60; Max Pool Size=50; Min Pool Size=3"
+
 
         RPT.DataSource = New DataDynamics.ActiveReports.DataSources.OleDBDataSource("Provider=SQLOLEDB.1;" + sConnection, "sp_Reporte_ImpuestoSobreNominaAnual @IdRazonSocial = <%IdRazonSocial%>,@IdTipoNomina = <%IdTipoNomina%>,@Anio = <%Anio%>,@UID = <%UID%>, @LID = <%LID%>, @idAccion = <%idAccion%>", 90)
 
