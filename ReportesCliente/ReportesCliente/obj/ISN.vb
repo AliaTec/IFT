@@ -64,26 +64,26 @@ Public Class ISN
         Dim ParamidAccion As New Parameter
         ParamidAccion.Key = "idAccion"
 
-        'Dim SubReportePercepciones As New PercepcionesISN
-        'SubReportePercepciones.Parameters.Clear()
+        Dim SubReportePercepciones As New PercepcionesISN
+        SubReportePercepciones.Parameters.Clear()
 
-        ''aqui se agregan
-        'SubReportePercepciones.Parameters.Add(ParamIdRazonSocial)
-        'SubReportePercepciones.Parameters.Add(ParamAnio)
-        'SubReportePercepciones.Parameters.Add(ParamMes)
-        'SubReportePercepciones.Parameters.Add(ParamUID)
-        'SubReportePercepciones.Parameters.Add(ParamLID)
-        'SubReportePercepciones.Parameters.Add(ParamidAccion)
+        'aqui se agregan
+        SubReportePercepciones.Parameters.Add(ParamIdRazonSocial)
+        SubReportePercepciones.Parameters.Add(ParamAnio)
+        SubReportePercepciones.Parameters.Add(ParamMes)
+        SubReportePercepciones.Parameters.Add(ParamUID)
+        SubReportePercepciones.Parameters.Add(ParamLID)
+        SubReportePercepciones.Parameters.Add(ParamidAccion)
 
 
-        ''aqui se les asigna el valor
-        'SubReportePercepciones.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
-        'SubReportePercepciones.Parameters("Mes").Value = Me.Parameters("Mes").Value
-        'SubReportePercepciones.Parameters("LID").Value = Me.Parameters("LID").Value
-        'SubReportePercepciones.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
-        'SubReportePercepciones.Parameters("Anio").Value = Me.Parameters("Anio").Value
-        'SubReportePercepciones.Parameters("UID").Value = Me.Parameters("UID").Value
-        'Me.SubReport1.Report = SubReportePercepciones
+        'aqui se les asigna el valor
+        SubReportePercepciones.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
+        SubReportePercepciones.Parameters("Mes").Value = Me.Parameters("Mes").Value
+        SubReportePercepciones.Parameters("LID").Value = Me.Parameters("LID").Value
+        SubReportePercepciones.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
+        SubReportePercepciones.Parameters("Anio").Value = Me.Parameters("Anio").Value
+        SubReportePercepciones.Parameters("UID").Value = Me.Parameters("UID").Value
+        Me.SubReport1.Report = SubReportePercepciones
 
     End Sub
 
