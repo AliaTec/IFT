@@ -22,8 +22,8 @@ Partial Public Class PercepcionesRenuncia
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
         Me.TextBox1 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox3 = New DataDynamics.ActiveReports.TextBox
-        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.TextBox2 = New DataDynamics.ActiveReports.TextBox
+        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -38,7 +38,7 @@ Partial Public Class PercepcionesRenuncia
         '
         Me.Detail1.ColumnSpacing = 0.0!
         Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox3, Me.TextBox2})
-        Me.Detail1.Height = 0.25!
+        Me.Detail1.Height = 0.2083333!
         Me.Detail1.Name = "Detail1"
         '
         'TextBox1
@@ -52,13 +52,13 @@ Partial Public Class PercepcionesRenuncia
         Me.TextBox1.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox1.DataField = "Descripcion"
-        Me.TextBox1.Height = 0.25!
+        Me.TextBox1.Height = 0.1875!
         Me.TextBox1.Left = 0.9375!
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Style = ""
+        Me.TextBox1.Style = "ddo-char-set: 0; font-size: 9pt; "
         Me.TextBox1.Text = Nothing
         Me.TextBox1.Top = 0.0!
-        Me.TextBox1.Width = 2.0!
+        Me.TextBox1.Width = 2.5!
         '
         'TextBox3
         '
@@ -71,18 +71,13 @@ Partial Public Class PercepcionesRenuncia
         Me.TextBox3.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox3.DataField = "Dato"
-        Me.TextBox3.Height = 0.25!
-        Me.TextBox3.Left = 3.0!
+        Me.TextBox3.Height = 0.1875!
+        Me.TextBox3.Left = 3.4375!
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Style = "text-align: right; "
+        Me.TextBox3.Style = "ddo-char-set: 0; text-align: right; font-size: 9pt; "
         Me.TextBox3.Text = Nothing
         Me.TextBox3.Top = 0.0!
-        Me.TextBox3.Width = 1.0!
-        '
-        'PageFooter1
-        '
-        Me.PageFooter1.Height = 0.0!
-        Me.PageFooter1.Name = "PageFooter1"
+        Me.TextBox3.Width = 0.5625!
         '
         'TextBox2
         '
@@ -99,10 +94,15 @@ Partial Public Class PercepcionesRenuncia
         Me.TextBox2.Left = 4.4375!
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.OutputFormat = resources.GetString("TextBox2.OutputFormat")
-        Me.TextBox2.Style = "text-align: right; font-size: 9pt; "
+        Me.TextBox2.Style = "ddo-char-set: 0; text-align: right; font-size: 9pt; "
         Me.TextBox2.Text = Nothing
         Me.TextBox2.Top = 0.0!
         Me.TextBox2.Width = 1.0!
+        '
+        'PageFooter1
+        '
+        Me.PageFooter1.Height = 0.0!
+        Me.PageFooter1.Name = "PageFooter1"
         '
         'PercepcionesRenuncia
         '
