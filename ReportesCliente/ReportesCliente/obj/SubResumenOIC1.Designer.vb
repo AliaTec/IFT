@@ -22,9 +22,9 @@ Partial Public Class SubResumenOIC
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
         Me.TextBox2 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox4 = New DataDynamics.ActiveReports.TextBox
-        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.TextBox1 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox3 = New DataDynamics.ActiveReports.TextBox
+        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -58,7 +58,7 @@ Partial Public Class SubResumenOIC
         Me.TextBox2.Left = 6.0!
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.OutputFormat = resources.GetString("TextBox2.OutputFormat")
-        Me.TextBox2.Style = "text-align: right; font-size: 9pt; "
+        Me.TextBox2.Style = "ddo-char-set: 0; text-align: right; font-size: 8.25pt; "
         Me.TextBox2.Text = Nothing
         Me.TextBox2.Top = 0.0!
         Me.TextBox2.Width = 1.0!
@@ -77,15 +77,10 @@ Partial Public Class SubResumenOIC
         Me.TextBox4.Height = 0.1875!
         Me.TextBox4.Left = 0.0!
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Style = "font-size: 9pt; "
+        Me.TextBox4.Style = "ddo-char-set: 0; font-size: 8.25pt; "
         Me.TextBox4.Text = Nothing
         Me.TextBox4.Top = 0.0!
         Me.TextBox4.Width = 3.0!
-        '
-        'PageFooter1
-        '
-        Me.PageFooter1.Height = 0.0!
-        Me.PageFooter1.Name = "PageFooter1"
         '
         'TextBox1
         '
@@ -102,7 +97,7 @@ Partial Public Class SubResumenOIC
         Me.TextBox1.Left = 4.0!
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.OutputFormat = resources.GetString("TextBox1.OutputFormat")
-        Me.TextBox1.Style = "text-align: right; font-size: 9pt; "
+        Me.TextBox1.Style = "ddo-char-set: 0; text-align: right; font-size: 8.25pt; "
         Me.TextBox1.Text = Nothing
         Me.TextBox1.Top = 0.0!
         Me.TextBox1.Width = 1.0!
@@ -122,10 +117,15 @@ Partial Public Class SubResumenOIC
         Me.TextBox3.Left = 3.0!
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.OutputFormat = resources.GetString("TextBox3.OutputFormat")
-        Me.TextBox3.Style = "text-align: right; font-size: 9pt; "
+        Me.TextBox3.Style = "ddo-char-set: 0; text-align: right; font-size: 8.25pt; "
         Me.TextBox3.Text = Nothing
         Me.TextBox3.Top = 0.0!
         Me.TextBox3.Width = 1.0!
+        '
+        'PageFooter1
+        '
+        Me.PageFooter1.Height = 0.0!
+        Me.PageFooter1.Name = "PageFooter1"
         '
         'SubResumenOIC
         '
