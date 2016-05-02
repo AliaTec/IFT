@@ -150,12 +150,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox12.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox12.DataField = "TotalTrimestre"
         Me.TextBox12.Height = 0.1875!
-        Me.TextBox12.Left = 6.5625!
+        Me.TextBox12.Left = 6.5!
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Style = "text-align: right; "
         Me.TextBox12.Text = "TOTAL"
         Me.TextBox12.Top = 2.75!
-        Me.TextBox12.Width = 1.0!
+        Me.TextBox12.Width = 1.0625!
         '
         'TextBox6
         '
@@ -186,7 +186,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox7.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox7.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox7.Height = 0.1875!
-        Me.TextBox7.Left = 4.625!
+        Me.TextBox7.Left = 4.8125!
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox7.Text = "DE"
@@ -252,7 +252,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox2.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox2.Text = "Trimestre"
         Me.TextBox2.Top = 0.375!
-        Me.TextBox2.Width = 1.5!
+        Me.TextBox2.Width = 1.6875!
         '
         'TextBox3
         '
@@ -266,7 +266,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox3.DataField = "Anio"
         Me.TextBox3.Height = 0.1875!
-        Me.TextBox3.Left = 5.0!
+        Me.TextBox3.Left = 5.1875!
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox3.Text = "Año"
@@ -637,7 +637,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox10.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox10.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox10.Height = 0.1875!
-        Me.TextBox10.Left = 6.375!
+        Me.TextBox10.Left = 6.25!
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Style = "ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9.75pt; "
         Me.TextBox10.Text = "$"
