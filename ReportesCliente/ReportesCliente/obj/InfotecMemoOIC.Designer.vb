@@ -19,7 +19,6 @@ Partial Public Class InfotecMemoOIC
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(InfotecMemoOIC))
         Me.PageHeader1 = New DataDynamics.ActiveReports.PageHeader
-        Me.Picture1 = New DataDynamics.ActiveReports.Picture
         Me.TextBox5 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox6 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox7 = New DataDynamics.ActiveReports.TextBox
@@ -29,7 +28,6 @@ Partial Public Class InfotecMemoOIC
         Me.Label1 = New DataDynamics.ActiveReports.Label
         Me.Label2 = New DataDynamics.ActiveReports.Label
         Me.Label3 = New DataDynamics.ActiveReports.Label
-        Me.Line3 = New DataDynamics.ActiveReports.Line
         Me.TextBox11 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox13 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox14 = New DataDynamics.ActiveReports.TextBox
@@ -42,14 +40,17 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox2 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox4 = New DataDynamics.ActiveReports.TextBox
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
-        Me.Picture2 = New DataDynamics.ActiveReports.Picture
-        Me.TextBox3 = New DataDynamics.ActiveReports.TextBox
         Me.GroupHeader1 = New DataDynamics.ActiveReports.GroupHeader
         Me.GroupFooter1 = New DataDynamics.ActiveReports.GroupFooter
         Me.Line2 = New DataDynamics.ActiveReports.Line
         Me.Label5 = New DataDynamics.ActiveReports.Label
         Me.TextBox12 = New DataDynamics.ActiveReports.TextBox
-        CType(Me.Picture1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ReportHeader1 = New DataDynamics.ActiveReports.ReportHeader
+        Me.ReportFooter1 = New DataDynamics.ActiveReports.ReportFooter
+        Me.Picture3 = New DataDynamics.ActiveReports.Picture
+        Me.Line1 = New DataDynamics.ActiveReports.Line
+        Me.TextBox17 = New DataDynamics.ActiveReports.TextBox
+        Me.Picture1 = New DataDynamics.ActiveReports.Picture
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -69,36 +70,18 @@ Partial Public Class InfotecMemoOIC
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Picture2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Picture3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Picture1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'PageHeader1
         '
-        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Picture1, Me.TextBox5, Me.TextBox6, Me.TextBox7, Me.TextBox8, Me.TextBox9, Me.TextBox10, Me.Label1, Me.Label2, Me.Label3, Me.Line3, Me.TextBox11, Me.TextBox13, Me.TextBox14, Me.Label6, Me.Label7, Me.TextBox15, Me.TextBox16})
-        Me.PageHeader1.Height = 3.739583!
+        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox5, Me.TextBox6, Me.TextBox7, Me.TextBox8, Me.TextBox9, Me.TextBox10, Me.Label1, Me.Label2, Me.Label3, Me.TextBox11, Me.TextBox13, Me.TextBox14, Me.Label6, Me.Label7, Me.TextBox15, Me.TextBox16})
+        Me.PageHeader1.Height = 1.96875!
         Me.PageHeader1.Name = "PageHeader1"
-        '
-        'Picture1
-        '
-        Me.Picture1.Border.BottomColor = System.Drawing.Color.Black
-        Me.Picture1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Picture1.Border.LeftColor = System.Drawing.Color.Black
-        Me.Picture1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Picture1.Border.RightColor = System.Drawing.Color.Black
-        Me.Picture1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Picture1.Border.TopColor = System.Drawing.Color.Black
-        Me.Picture1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Picture1.Height = 1.25!
-        Me.Picture1.Image = CType(resources.GetObject("Picture1.Image"), System.Drawing.Image)
-        Me.Picture1.ImageData = CType(resources.GetObject("Picture1.ImageData"), System.IO.Stream)
-        Me.Picture1.Left = 0.875!
-        Me.Picture1.LineWeight = 0.0!
-        Me.Picture1.Name = "Picture1"
-        Me.Picture1.Top = 0.0!
-        Me.Picture1.Width = 6.25!
         '
         'TextBox5
         '
@@ -116,7 +99,7 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox5.Style = "text-align: justify; "
         Me.TextBox5.Text = "Anexo  al  presente  sírvase  encontrar  el Costo  del Órgano Interno de Control " & _
             "  y   los gastos"
-        Me.TextBox5.Top = 2.75!
+        Me.TextBox5.Top = 1.125!
         Me.TextBox5.Width = 6.0!
         '
         'TextBox6
@@ -135,7 +118,7 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox6.Style = "text-align: justify; "
         Me.TextBox6.Text = "del   titular   del  OIC  y  del   titular   de  Auditoria  correspondiente  al  " & _
             "mes de"
-        Me.TextBox6.Top = 2.9375!
+        Me.TextBox6.Top = 1.3125!
         Me.TextBox6.Width = 4.875!
         '
         'TextBox7
@@ -155,7 +138,7 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Style = ""
         Me.TextBox7.Text = "TextBox7"
-        Me.TextBox7.Top = 2.9375!
+        Me.TextBox7.Top = 1.3125!
         Me.TextBox7.Width = 1.0!
         '
         'TextBox8
@@ -174,7 +157,7 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Style = ""
         Me.TextBox8.Text = "de"
-        Me.TextBox8.Top = 3.125!
+        Me.TextBox8.Top = 1.5!
         Me.TextBox8.Width = 0.25!
         '
         'TextBox9
@@ -194,7 +177,7 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Style = "text-align: center; "
         Me.TextBox9.Text = "Año"
-        Me.TextBox9.Top = 3.125!
+        Me.TextBox9.Top = 1.5!
         Me.TextBox9.Width = 0.4375!
         '
         'TextBox10
@@ -213,7 +196,7 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Style = ""
         Me.TextBox10.Text = "."
-        Me.TextBox10.Top = 3.125!
+        Me.TextBox10.Top = 1.5!
         Me.TextBox10.Width = 0.25!
         '
         'Label1
@@ -232,7 +215,7 @@ Partial Public Class InfotecMemoOIC
         Me.Label1.Name = "Label1"
         Me.Label1.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.Label1.Text = "CONCEPTO"
-        Me.Label1.Top = 3.5!
+        Me.Label1.Top = 1.75!
         Me.Label1.Width = 1.0!
         '
         'Label2
@@ -251,7 +234,7 @@ Partial Public Class InfotecMemoOIC
         Me.Label2.Name = "Label2"
         Me.Label2.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.Label2.Text = "DESCRIPCION"
-        Me.Label2.Top = 3.5!
+        Me.Label2.Top = 1.75!
         Me.Label2.Width = 1.0!
         '
         'Label3
@@ -270,29 +253,8 @@ Partial Public Class InfotecMemoOIC
         Me.Label3.Name = "Label3"
         Me.Label3.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label3.Text = "IMPORTE"
-        Me.Label3.Top = 3.5!
+        Me.Label3.Top = 1.75!
         Me.Label3.Width = 1.0!
-        '
-        'Line3
-        '
-        Me.Line3.Border.BottomColor = System.Drawing.Color.Black
-        Me.Line3.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Line3.Border.LeftColor = System.Drawing.Color.Black
-        Me.Line3.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Line3.Border.RightColor = System.Drawing.Color.Black
-        Me.Line3.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Line3.Border.TopColor = System.Drawing.Color.Black
-        Me.Line3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Line3.Height = 0.0!
-        Me.Line3.Left = 1.0!
-        Me.Line3.LineWeight = 1.0!
-        Me.Line3.Name = "Line3"
-        Me.Line3.Top = 1.375!
-        Me.Line3.Width = 6.0!
-        Me.Line3.X1 = 1.0!
-        Me.Line3.X2 = 7.0!
-        Me.Line3.Y1 = 1.375!
-        Me.Line3.Y2 = 1.375!
         '
         'TextBox11
         '
@@ -310,7 +272,7 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox11.Text = "TextBox11"
-        Me.TextBox11.Top = 1.4375!
+        Me.TextBox11.Top = 0.0!
         Me.TextBox11.Width = 4.0!
         '
         'TextBox13
@@ -327,9 +289,9 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox13.Height = 0.1875!
         Me.TextBox13.Left = 1.625!
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Style = ""
+        Me.TextBox13.Style = "ddo-char-set: 0; font-size: 9pt; "
         Me.TextBox13.Text = "TextBox13"
-        Me.TextBox13.Top = 1.8125!
+        Me.TextBox13.Top = 0.25!
         Me.TextBox13.Width = 2.375!
         '
         'TextBox14
@@ -345,9 +307,9 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox14.Height = 0.1875!
         Me.TextBox14.Left = 1.625!
         Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Style = ""
+        Me.TextBox14.Style = "ddo-char-set: 0; font-size: 9pt; "
         Me.TextBox14.Text = "TITULAR DE AUDITORIA"
-        Me.TextBox14.Top = 2.0!
+        Me.TextBox14.Top = 0.4375!
         Me.TextBox14.Width = 2.0!
         '
         'Label6
@@ -366,7 +328,7 @@ Partial Public Class InfotecMemoOIC
         Me.Label6.Name = "Label6"
         Me.Label6.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.Label6.Text = "PARA:"
-        Me.Label6.Top = 1.8125!
+        Me.Label6.Top = 0.25!
         Me.Label6.Width = 0.5!
         '
         'Label7
@@ -385,7 +347,7 @@ Partial Public Class InfotecMemoOIC
         Me.Label7.Name = "Label7"
         Me.Label7.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.Label7.Text = "DE:"
-        Me.Label7.Top = 2.25!
+        Me.Label7.Top = 0.6875!
         Me.Label7.Width = 0.5!
         '
         'TextBox15
@@ -402,9 +364,9 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox15.Height = 0.1875!
         Me.TextBox15.Left = 1.625!
         Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Style = ""
+        Me.TextBox15.Style = "ddo-char-set: 0; font-size: 9pt; "
         Me.TextBox15.Text = "TextBox13"
-        Me.TextBox15.Top = 2.25!
+        Me.TextBox15.Top = 0.6875!
         Me.TextBox15.Width = 2.375!
         '
         'TextBox16
@@ -420,9 +382,9 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox16.Height = 0.1875!
         Me.TextBox16.Left = 1.625!
         Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Style = ""
+        Me.TextBox16.Style = "ddo-char-set: 0; font-size: 9pt; "
         Me.TextBox16.Text = "COORDINADOR DE NOMINAS"
-        Me.TextBox16.Top = 2.4375!
+        Me.TextBox16.Top = 0.875!
         Me.TextBox16.Width = 2.125!
         '
         'Detail1
@@ -446,7 +408,7 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox1.Height = 0.1875!
         Me.TextBox1.Left = 2.0!
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Style = ""
+        Me.TextBox1.Style = "ddo-char-set: 0; font-size: 9pt; "
         Me.TextBox1.Text = Nothing
         Me.TextBox1.Top = 0.0!
         Me.TextBox1.Width = 4.0!
@@ -466,7 +428,7 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox2.Left = 6.0!
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.OutputFormat = resources.GetString("TextBox2.OutputFormat")
-        Me.TextBox2.Style = "text-align: right; "
+        Me.TextBox2.Style = "ddo-char-set: 0; text-align: right; font-size: 9pt; "
         Me.TextBox2.Text = Nothing
         Me.TextBox2.Top = 0.0!
         Me.TextBox2.Width = 1.0!
@@ -485,63 +447,25 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox4.Height = 0.1875!
         Me.TextBox4.Left = 1.0!
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Style = ""
+        Me.TextBox4.Style = "ddo-char-set: 0; font-size: 9pt; "
         Me.TextBox4.Text = Nothing
         Me.TextBox4.Top = 0.0!
         Me.TextBox4.Width = 1.0!
         '
         'PageFooter1
         '
-        Me.PageFooter1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Picture2, Me.TextBox3})
-        Me.PageFooter1.Height = 2.21875!
+        Me.PageFooter1.Height = 0.02083333!
         Me.PageFooter1.Name = "PageFooter1"
-        '
-        'Picture2
-        '
-        Me.Picture2.Border.BottomColor = System.Drawing.Color.Black
-        Me.Picture2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Picture2.Border.LeftColor = System.Drawing.Color.Black
-        Me.Picture2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Picture2.Border.RightColor = System.Drawing.Color.Black
-        Me.Picture2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Picture2.Border.TopColor = System.Drawing.Color.Black
-        Me.Picture2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Picture2.Height = 1.75!
-        Me.Picture2.Image = CType(resources.GetObject("Picture2.Image"), System.Drawing.Image)
-        Me.Picture2.ImageData = CType(resources.GetObject("Picture2.ImageData"), System.IO.Stream)
-        Me.Picture2.Left = 1.0!
-        Me.Picture2.LineWeight = 0.0!
-        Me.Picture2.Name = "Picture2"
-        Me.Picture2.Top = 0.375!
-        Me.Picture2.Width = 6.0!
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox3.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox3.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox3.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox3.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox3.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox3.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox3.Height = 0.1875!
-        Me.TextBox3.Left = 1.5!
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Style = "text-align: center; "
-        Me.TextBox3.Text = "Sin mas por el momento, aprovecho la ocasión para enviarle un cordial saludo."
-        Me.TextBox3.Top = 0.125!
-        Me.TextBox3.Width = 5.0!
         '
         'GroupHeader1
         '
-        Me.GroupHeader1.Height = 0.03125!
+        Me.GroupHeader1.Height = 0.01041667!
         Me.GroupHeader1.Name = "GroupHeader1"
         '
         'GroupFooter1
         '
         Me.GroupFooter1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Line2, Me.Label5, Me.TextBox12})
-        Me.GroupFooter1.Height = 0.3645833!
+        Me.GroupFooter1.Height = 0.3541667!
         Me.GroupFooter1.Name = "GroupFooter1"
         '
         'Line2
@@ -604,24 +528,114 @@ Partial Public Class InfotecMemoOIC
         Me.TextBox12.Top = 0.125!
         Me.TextBox12.Width = 1.0!
         '
+        'ReportHeader1
+        '
+        Me.ReportHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Picture3, Me.Line1})
+        Me.ReportHeader1.Height = 1.291667!
+        Me.ReportHeader1.Name = "ReportHeader1"
+        '
+        'ReportFooter1
+        '
+        Me.ReportFooter1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox17, Me.Picture1})
+        Me.ReportFooter1.Height = 1.75!
+        Me.ReportFooter1.Name = "ReportFooter1"
+        '
+        'Picture3
+        '
+        Me.Picture3.Border.BottomColor = System.Drawing.Color.Black
+        Me.Picture3.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Picture3.Border.LeftColor = System.Drawing.Color.Black
+        Me.Picture3.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Picture3.Border.RightColor = System.Drawing.Color.Black
+        Me.Picture3.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Picture3.Border.TopColor = System.Drawing.Color.Black
+        Me.Picture3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Picture3.Height = 1.1875!
+        Me.Picture3.Image = CType(resources.GetObject("Picture3.Image"), System.Drawing.Image)
+        Me.Picture3.ImageData = CType(resources.GetObject("Picture3.ImageData"), System.IO.Stream)
+        Me.Picture3.Left = 0.8125!
+        Me.Picture3.LineWeight = 0.0!
+        Me.Picture3.Name = "Picture3"
+        Me.Picture3.Top = 0.0!
+        Me.Picture3.Width = 6.25!
+        '
+        'Line1
+        '
+        Me.Line1.Border.BottomColor = System.Drawing.Color.Black
+        Me.Line1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Border.LeftColor = System.Drawing.Color.Black
+        Me.Line1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Border.RightColor = System.Drawing.Color.Black
+        Me.Line1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Border.TopColor = System.Drawing.Color.Black
+        Me.Line1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Height = 0.0!
+        Me.Line1.Left = 1.0!
+        Me.Line1.LineWeight = 1.0!
+        Me.Line1.Name = "Line1"
+        Me.Line1.Top = 1.25!
+        Me.Line1.Width = 6.0!
+        Me.Line1.X1 = 1.0!
+        Me.Line1.X2 = 7.0!
+        Me.Line1.Y1 = 1.25!
+        Me.Line1.Y2 = 1.25!
+        '
+        'TextBox17
+        '
+        Me.TextBox17.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Height = 0.1875!
+        Me.TextBox17.Left = 1.5625!
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Style = "text-align: center; "
+        Me.TextBox17.Text = "Sin mas por el momento, aprovecho la ocasión para enviarle un cordial saludo."
+        Me.TextBox17.Top = 0.0!
+        Me.TextBox17.Width = 5.0!
+        '
+        'Picture1
+        '
+        Me.Picture1.Border.BottomColor = System.Drawing.Color.Black
+        Me.Picture1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Picture1.Border.LeftColor = System.Drawing.Color.Black
+        Me.Picture1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Picture1.Border.RightColor = System.Drawing.Color.Black
+        Me.Picture1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Picture1.Border.TopColor = System.Drawing.Color.Black
+        Me.Picture1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Picture1.Height = 1.5!
+        Me.Picture1.Image = CType(resources.GetObject("Picture1.Image"), System.Drawing.Image)
+        Me.Picture1.ImageData = CType(resources.GetObject("Picture1.ImageData"), System.IO.Stream)
+        Me.Picture1.Left = 1.0625!
+        Me.Picture1.LineWeight = 0.0!
+        Me.Picture1.Name = "Picture1"
+        Me.Picture1.Top = 0.25!
+        Me.Picture1.Width = 5.9375!
+        '
         'InfotecMemoOIC
         '
         Me.MasterReport = False
         Me.PageSettings.PaperHeight = 11.0!
         Me.PageSettings.PaperWidth = 8.5!
         Me.PrintWidth = 7.968336!
+        Me.Sections.Add(Me.ReportHeader1)
         Me.Sections.Add(Me.PageHeader1)
         Me.Sections.Add(Me.GroupHeader1)
         Me.Sections.Add(Me.Detail1)
         Me.Sections.Add(Me.GroupFooter1)
         Me.Sections.Add(Me.PageFooter1)
+        Me.Sections.Add(Me.ReportFooter1)
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-family: Arial; font-style: normal; text-decoration: none; font-weight: norma" & _
                     "l; font-size: 10pt; color: Black; ", "Normal"))
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-size: 16pt; font-weight: bold; ", "Heading1", "Normal"))
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: ita" & _
                     "lic; ", "Heading2", "Normal"))
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-size: 13pt; font-weight: bold; ", "Heading3", "Normal"))
-        CType(Me.Picture1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox7, System.ComponentModel.ISupportInitialize).EndInit()
@@ -641,19 +655,17 @@ Partial Public Class InfotecMemoOIC
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Picture2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Picture3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Picture1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
     Friend WithEvents TextBox1 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox2 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox4 As DataDynamics.ActiveReports.TextBox
-    Friend WithEvents Picture1 As DataDynamics.ActiveReports.Picture
-    Friend WithEvents Picture2 As DataDynamics.ActiveReports.Picture
-    Friend WithEvents TextBox3 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox5 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox6 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox7 As DataDynamics.ActiveReports.TextBox
@@ -663,7 +675,6 @@ Partial Public Class InfotecMemoOIC
     Friend WithEvents Label1 As DataDynamics.ActiveReports.Label
     Friend WithEvents Label2 As DataDynamics.ActiveReports.Label
     Friend WithEvents Label3 As DataDynamics.ActiveReports.Label
-    Friend WithEvents Line3 As DataDynamics.ActiveReports.Line
     Friend WithEvents GroupHeader1 As DataDynamics.ActiveReports.GroupHeader
     Friend WithEvents GroupFooter1 As DataDynamics.ActiveReports.GroupFooter
     Friend WithEvents Line2 As DataDynamics.ActiveReports.Line
@@ -676,4 +687,10 @@ Partial Public Class InfotecMemoOIC
     Friend WithEvents TextBox15 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox16 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox12 As DataDynamics.ActiveReports.TextBox
+    Friend WithEvents ReportHeader1 As DataDynamics.ActiveReports.ReportHeader
+    Friend WithEvents Picture3 As DataDynamics.ActiveReports.Picture
+    Friend WithEvents Line1 As DataDynamics.ActiveReports.Line
+    Friend WithEvents ReportFooter1 As DataDynamics.ActiveReports.ReportFooter
+    Friend WithEvents TextBox17 As DataDynamics.ActiveReports.TextBox
+    Friend WithEvents Picture1 As DataDynamics.ActiveReports.Picture
 End Class
