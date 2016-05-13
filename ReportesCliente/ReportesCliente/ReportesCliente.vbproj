@@ -128,6 +128,7 @@
     <Content Include="bin\ReportesCliente.dll" />
     <Content Include="bin\ReportesCliente.pdb" />
     <Content Include="bin\ReportesCliente.xml" />
+    <Content Include="InfotecMemorandumOICDetalle.aspx" />
     <Content Include="InfotecImpuestoSNomina.aspx" />
     <Content Include="InfotecAcumConceptos.aspx" />
     <Content Include="InfotecAcumISN.aspx" />
@@ -183,6 +184,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InfotecMemorandumOICDetalle.aspx.designer.vb">
+      <DependentUpon>InfotecMemorandumOICDetalle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfotecMemorandumOICDetalle.aspx.vb">
+      <DependentUpon>InfotecMemorandumOICDetalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="InfotecImpuestoSNomina.aspx.designer.vb">
       <DependentUpon>InfotecImpuestoSNomina.aspx</DependentUpon>
     </Compile>
@@ -273,6 +281,12 @@
     <Compile Include="IntotecPensionAlimenticia.aspx.vb">
       <DependentUpon>IntotecPensionAlimenticia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="obj\InfotecMemoOICDetalle.Designer.vb">
+      <DependentUpon>InfotecMemoOICDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\InfotecMemoOICDetalle.vb">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="obj\PerMensualISN.Designer.vb">
       <DependentUpon>PerMensualISN.vb</DependentUpon>
@@ -1060,6 +1074,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="obj\AcumuladodeConceptos.resx">
       <DependentUpon>AcumuladodeConceptos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\InfotecMemoOICDetalle.resx">
+      <DependentUpon>InfotecMemoOICDetalle.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\PerMensualISN.resx">

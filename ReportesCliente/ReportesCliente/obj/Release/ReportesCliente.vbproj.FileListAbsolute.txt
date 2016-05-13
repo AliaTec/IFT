@@ -945,3 +945,4 @@ C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Releas
 C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.dll
 C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.xml
 C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.pdb
+C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.InfotecMemoOICDetalle.resources
