@@ -48,9 +48,9 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox14 = New DataDynamics.ActiveReports.TextBox
         Me.Line3 = New DataDynamics.ActiveReports.Line
         Me.Line4 = New DataDynamics.ActiveReports.Line
-        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.Label5 = New DataDynamics.ActiveReports.Label
         Me.Label6 = New DataDynamics.ActiveReports.Label
+        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -97,7 +97,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; "
         Me.TextBox1.Text = "LISTADO DE IMPORTES GRAVADOS Y EXENTOS POR PERIODO"
-        Me.TextBox1.Top = 0.0!
+        Me.TextBox1.Top = 0.25!
         Me.TextBox1.Width = 5.375!
         '
         'TextBox6
@@ -116,7 +116,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Style = "ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; "
         Me.TextBox6.Text = "TextBox6"
-        Me.TextBox6.Top = 0.3125!
+        Me.TextBox6.Top = 0.0!
         Me.TextBox6.Width = 5.0!
         '
         'TextBox7
@@ -619,11 +619,6 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.Line4.Y1 = 3.0625!
         Me.Line4.Y2 = 3.0625!
         '
-        'PageFooter1
-        '
-        Me.PageFooter1.Height = 0.25!
-        Me.PageFooter1.Name = "PageFooter1"
-        '
         'Label5
         '
         Me.Label5.Border.BottomColor = System.Drawing.Color.Black
@@ -661,6 +656,11 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.Label6.Text = "$"
         Me.Label6.Top = 3.125!
         Me.Label6.Width = 0.125!
+        '
+        'PageFooter1
+        '
+        Me.PageFooter1.Height = 0.25!
+        Me.PageFooter1.Name = "PageFooter1"
         '
         'InfotecGravadosyExentosPeriodo
         '
