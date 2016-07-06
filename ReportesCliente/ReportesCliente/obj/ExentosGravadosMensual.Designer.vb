@@ -351,11 +351,11 @@ Partial Public Class ExentosGravadosMensual
         Me.SubReport1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.SubReport1.CloseBorder = False
         Me.SubReport1.Height = 1.0!
-        Me.SubReport1.Left = 0.0625!
+        Me.SubReport1.Left = 0.1875!
         Me.SubReport1.Name = "SubReport1"
         Me.SubReport1.Report = Nothing
         Me.SubReport1.ReportName = "SubReport1"
-        Me.SubReport1.Top = 0.0!
+        Me.SubReport1.Top = 0.0625!
         Me.SubReport1.Width = 5.9375!
         '
         'SubReport2
@@ -506,7 +506,7 @@ Partial Public Class ExentosGravadosMensual
         Me.MasterReport = False
         Me.PageSettings.PaperHeight = 11.0!
         Me.PageSettings.PaperWidth = 8.5!
-        Me.PrintWidth = 6.520833!
+        Me.PrintWidth = 6.708333!
         Me.Sections.Add(Me.PageHeader1)
         Me.Sections.Add(Me.Detail1)
         Me.Sections.Add(Me.PageFooter1)

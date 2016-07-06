@@ -104,7 +104,7 @@ Partial Public Class DeduccionesGravadosExentosPeriodo
         Me.PageFooter1.Height = 0.0!
         Me.PageFooter1.Name = "PageFooter1"
         '
-        'PercepcionesGravadosExentosPeriodo
+        'DeduccionesGravadosExentosPeriodo
         '
         Me.MasterReport = False
         Me.PageSettings.PaperHeight = 11.0!

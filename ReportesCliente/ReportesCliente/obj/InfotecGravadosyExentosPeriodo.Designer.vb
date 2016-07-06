@@ -97,7 +97,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; "
         Me.TextBox1.Text = "LISTADO DE IMPORTES GRAVADOS Y EXENTOS POR PERIODO"
-        Me.TextBox1.Top = 0.25!
+        Me.TextBox1.Top = 0.6875!
         Me.TextBox1.Width = 5.375!
         '
         'TextBox6
@@ -116,7 +116,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Style = "ddo-char-set: 0; text-align: center; font-weight: normal; font-size: 9.75pt; "
         Me.TextBox6.Text = "TextBox6"
-        Me.TextBox6.Top = 0.0!
+        Me.TextBox6.Top = 0.4375!
         Me.TextBox6.Width = 5.0!
         '
         'TextBox7
@@ -135,7 +135,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Style = ""
         Me.TextBox7.Text = "TextBox7"
-        Me.TextBox7.Top = 0.5625!
+        Me.TextBox7.Top = 0.9375!
         Me.TextBox7.Width = 1.4375!
         '
         'TextBox8
@@ -154,7 +154,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Style = "text-align: right; "
         Me.TextBox8.Text = "FechaInicio"
-        Me.TextBox8.Top = 0.5625!
+        Me.TextBox8.Top = 0.9375!
         Me.TextBox8.Width = 1.0!
         '
         'TextBox9
@@ -172,7 +172,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Style = "text-align: center; "
         Me.TextBox9.Text = "-"
-        Me.TextBox9.Top = 0.5625!
+        Me.TextBox9.Top = 0.9375!
         Me.TextBox9.Width = 0.125!
         '
         'TextBox10
@@ -191,7 +191,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Style = ""
         Me.TextBox10.Text = "FechaFin"
-        Me.TextBox10.Top = 0.5625!
+        Me.TextBox10.Top = 0.9375!
         Me.TextBox10.Width = 1.0!
         '
         'Label2
@@ -206,11 +206,11 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.Label2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label2.Height = 0.1875!
         Me.Label2.HyperLink = Nothing
-        Me.Label2.Left = 2.75!
+        Me.Label2.Left = 7.0625!
         Me.Label2.Name = "Label2"
-        Me.Label2.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
+        Me.Label2.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 8.25pt; "
         Me.Label2.Text = "Hora:"
-        Me.Label2.Top = 0.8125!
+        Me.Label2.Top = 0.1875!
         Me.Label2.Width = 0.75!
         '
         'Label3
@@ -225,11 +225,11 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.Label3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label3.Height = 0.1875!
         Me.Label3.HyperLink = Nothing
-        Me.Label3.Left = 4.5!
+        Me.Label3.Left = 7.0625!
         Me.Label3.Name = "Label3"
-        Me.Label3.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
+        Me.Label3.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 8.25pt; "
         Me.Label3.Text = "Fecha:"
-        Me.Label3.Top = 0.8125!
+        Me.Label3.Top = 0.0!
         Me.Label3.Width = 0.875!
         '
         'TextBox11
@@ -247,7 +247,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox11.Text = "Concepto"
-        Me.TextBox11.Top = 1.3125!
+        Me.TextBox11.Top = 1.375!
         Me.TextBox11.Width = 1.0!
         '
         'ReportInfo1
@@ -260,12 +260,12 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.ReportInfo1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.ReportInfo1.Border.TopColor = System.Drawing.Color.Black
         Me.ReportInfo1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo1.FormatString = "{RunDateTime:hh:mm tt}"
+        Me.ReportInfo1.FormatString = "{RunDateTime:hh:mm:ss tt}"
         Me.ReportInfo1.Height = 0.1979167!
-        Me.ReportInfo1.Left = 3.5!
+        Me.ReportInfo1.Left = 7.9375!
         Me.ReportInfo1.Name = "ReportInfo1"
-        Me.ReportInfo1.Style = ""
-        Me.ReportInfo1.Top = 0.8125!
+        Me.ReportInfo1.Style = "ddo-char-set: 0; font-size: 8.25pt; "
+        Me.ReportInfo1.Top = 0.1875!
         Me.ReportInfo1.Width = 1.0!
         '
         'ReportInfo2
@@ -280,10 +280,10 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.ReportInfo2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.ReportInfo2.FormatString = "{RunDateTime:dd/MM/yyyy}"
         Me.ReportInfo2.Height = 0.1979167!
-        Me.ReportInfo2.Left = 5.375!
+        Me.ReportInfo2.Left = 7.9375!
         Me.ReportInfo2.Name = "ReportInfo2"
-        Me.ReportInfo2.Style = ""
-        Me.ReportInfo2.Top = 0.8125!
+        Me.ReportInfo2.Style = "ddo-char-set: 0; font-size: 8.25pt; "
+        Me.ReportInfo2.Top = 0.0!
         Me.ReportInfo2.Width = 1.0!
         '
         'TextBox2
@@ -301,7 +301,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox2.Text = "Descripcion"
-        Me.TextBox2.Top = 1.3125!
+        Me.TextBox2.Top = 1.375!
         Me.TextBox2.Width = 1.0!
         '
         'TextBox3
@@ -319,7 +319,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox3.Text = "Importe Gravado"
-        Me.TextBox3.Top = 1.1875!
+        Me.TextBox3.Top = 1.25!
         Me.TextBox3.Width = 1.0!
         '
         'TextBox4
@@ -337,7 +337,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox4.Text = "Importe               Exento"
-        Me.TextBox4.Top = 1.1875!
+        Me.TextBox4.Top = 1.25!
         Me.TextBox4.Width = 1.0!
         '
         'Label1
@@ -356,7 +356,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.Label1.Name = "Label1"
         Me.Label1.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.Label1.Text = "Tipo Nomina:"
-        Me.Label1.Top = 0.5625!
+        Me.Label1.Top = 0.9375!
         Me.Label1.Width = 0.9375!
         '
         'Line1
@@ -373,12 +373,12 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.Line1.Left = 1.0!
         Me.Line1.LineWeight = 1.0!
         Me.Line1.Name = "Line1"
-        Me.Line1.Top = 1.125!
+        Me.Line1.Top = 1.1875!
         Me.Line1.Width = 7.0!
         Me.Line1.X1 = 1.0!
         Me.Line1.X2 = 8.0!
-        Me.Line1.Y1 = 1.125!
-        Me.Line1.Y2 = 1.125!
+        Me.Line1.Y1 = 1.1875!
+        Me.Line1.Y2 = 1.1875!
         '
         'Line2
         '
@@ -394,12 +394,12 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.Line2.Left = 1.0!
         Me.Line2.LineWeight = 1.0!
         Me.Line2.Name = "Line2"
-        Me.Line2.Top = 1.5625!
+        Me.Line2.Top = 1.625!
         Me.Line2.Width = 7.0!
         Me.Line2.X1 = 1.0!
         Me.Line2.X2 = 8.0!
-        Me.Line2.Y1 = 1.5625!
-        Me.Line2.Y2 = 1.5625!
+        Me.Line2.Y1 = 1.625!
+        Me.Line2.Y2 = 1.625!
         '
         'TextBox15
         '
@@ -416,7 +416,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox15.Text = "Fecha Periodo:"
-        Me.TextBox15.Top = 0.5625!
+        Me.TextBox15.Top = 0.9375!
         Me.TextBox15.Width = 1.0625!
         '
         'Detail1
@@ -667,7 +667,7 @@ Partial Public Class InfotecGravadosyExentosPeriodo
         Me.MasterReport = False
         Me.PageSettings.PaperHeight = 11.69!
         Me.PageSettings.PaperWidth = 8.27!
-        Me.PrintWidth = 8.979167!
+        Me.PrintWidth = 9.0!
         Me.Sections.Add(Me.PageHeader1)
         Me.Sections.Add(Me.Detail1)
         Me.Sections.Add(Me.PageFooter1)
