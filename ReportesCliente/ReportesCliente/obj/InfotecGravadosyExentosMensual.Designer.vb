@@ -37,6 +37,9 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.Line1 = New DataDynamics.ActiveReports.Line
         Me.Line2 = New DataDynamics.ActiveReports.Line
         Me.TextBox15 = New DataDynamics.ActiveReports.TextBox
+        Me.TextBox16 = New DataDynamics.ActiveReports.TextBox
+        Me.TextBox17 = New DataDynamics.ActiveReports.TextBox
+        Me.TextBox18 = New DataDynamics.ActiveReports.TextBox
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
         Me.SubReport1 = New DataDynamics.ActiveReports.SubReport
         Me.SubReport2 = New DataDynamics.ActiveReports.SubReport
@@ -49,9 +52,6 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox13 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox14 = New DataDynamics.ActiveReports.TextBox
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
-        Me.TextBox16 = New DataDynamics.ActiveReports.TextBox
-        Me.TextBox17 = New DataDynamics.ActiveReports.TextBox
-        Me.TextBox18 = New DataDynamics.ActiveReports.TextBox
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -68,14 +68,14 @@ Partial Public Class InfotecGravadosyExentosMensual
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox18, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox18, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'PageHeader1
@@ -421,6 +421,60 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox15.Top = 1.1875!
         Me.TextBox15.Width = 0.5625!
         '
+        'TextBox16
+        '
+        Me.TextBox16.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.Height = 0.1979167!
+        Me.TextBox16.Left = 1.0!
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
+        Me.TextBox16.Text = "Concepto"
+        Me.TextBox16.Top = 1.5625!
+        Me.TextBox16.Width = 1.0!
+        '
+        'TextBox17
+        '
+        Me.TextBox17.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Height = 0.1979167!
+        Me.TextBox17.Left = 2.0!
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
+        Me.TextBox17.Text = "Descripcion"
+        Me.TextBox17.Top = 1.5625!
+        Me.TextBox17.Width = 1.0!
+        '
+        'TextBox18
+        '
+        Me.TextBox18.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox18.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox18.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox18.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox18.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox18.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox18.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox18.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox18.Height = 0.3125!
+        Me.TextBox18.Left = 5.125!
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
+        Me.TextBox18.Text = "Importe Gravado"
+        Me.TextBox18.Top = 1.4375!
+        Me.TextBox18.Width = 1.0!
+        '
         'Detail1
         '
         Me.Detail1.ColumnSpacing = 0.0!
@@ -628,60 +682,6 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.PageFooter1.Height = 0.25!
         Me.PageFooter1.Name = "PageFooter1"
         '
-        'TextBox16
-        '
-        Me.TextBox16.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.Height = 0.1979167!
-        Me.TextBox16.Left = 1.0!
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
-        Me.TextBox16.Text = "Concepto"
-        Me.TextBox16.Top = 1.5625!
-        Me.TextBox16.Width = 1.0!
-        '
-        'TextBox17
-        '
-        Me.TextBox17.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox17.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox17.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox17.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox17.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox17.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox17.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox17.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox17.Height = 0.1979167!
-        Me.TextBox17.Left = 2.0!
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
-        Me.TextBox17.Text = "Descripcion"
-        Me.TextBox17.Top = 1.5625!
-        Me.TextBox17.Width = 1.0!
-        '
-        'TextBox18
-        '
-        Me.TextBox18.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox18.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox18.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox18.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox18.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox18.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox18.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox18.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox18.Height = 0.3125!
-        Me.TextBox18.Left = 5.125!
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
-        Me.TextBox18.Text = "Importe Gravado"
-        Me.TextBox18.Top = 1.4375!
-        Me.TextBox18.Width = 1.0!
-        '
         'InfotecGravadosyExentosMensual
         '
         Me.MasterReport = False
@@ -713,14 +713,14 @@ Partial Public Class InfotecGravadosyExentosMensual
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox18, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox18, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
