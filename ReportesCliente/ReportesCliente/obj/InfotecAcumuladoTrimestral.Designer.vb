@@ -49,9 +49,13 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.SubReport3 = New DataDynamics.ActiveReports.SubReport
         Me.SubReport2 = New DataDynamics.ActiveReports.SubReport
         Me.TextBox10 = New DataDynamics.ActiveReports.TextBox
-        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.Line10 = New DataDynamics.ActiveReports.Line
         Me.Label4 = New DataDynamics.ActiveReports.Label
+        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
+        Me.Label5 = New DataDynamics.ActiveReports.Label
+        Me.Label6 = New DataDynamics.ActiveReports.Label
+        Me.ReportInfo1 = New DataDynamics.ActiveReports.ReportInfo
+        Me.ReportInfo2 = New DataDynamics.ActiveReports.ReportInfo
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -70,6 +74,10 @@ Partial Public Class InfotecAcumuladoTrimestral
         CType(Me.Label9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ReportInfo2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'PageHeader1
@@ -100,8 +108,8 @@ Partial Public Class InfotecAcumuladoTrimestral
         'Detail1
         '
         Me.Detail1.ColumnSpacing = 0.0!
-        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.SubReport1, Me.TextBox5, Me.TextBox12, Me.TextBox6, Me.TextBox7, Me.Line5, Me.Line6, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.TextBox8, Me.TextBox9, Me.Line1, Me.Line2, Me.Line7, Me.Line8, Me.Line9, Me.Label1, Me.Label2, Me.Label3, Me.Label7, Me.Label8, Me.Label9, Me.Line3, Me.Line4, Me.SubReport3, Me.SubReport2, Me.TextBox10, Me.Line10, Me.Label4})
-        Me.Detail1.Height = 6.291667!
+        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.SubReport1, Me.TextBox5, Me.TextBox12, Me.TextBox6, Me.TextBox7, Me.Line5, Me.Line6, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.TextBox8, Me.TextBox9, Me.Line1, Me.Line2, Me.Line7, Me.Line8, Me.Line9, Me.Label1, Me.Label2, Me.Label3, Me.Label7, Me.Label8, Me.Label9, Me.Line3, Me.Line4, Me.SubReport3, Me.SubReport2, Me.TextBox10, Me.Line10, Me.Label4, Me.Label5, Me.Label6, Me.ReportInfo1, Me.ReportInfo2})
+        Me.Detail1.Height = 6.40625!
         Me.Detail1.Name = "Detail1"
         '
         'SubReport1
@@ -120,7 +128,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.SubReport1.Name = "SubReport1"
         Me.SubReport1.Report = Nothing
         Me.SubReport1.ReportName = "SubReport1"
-        Me.SubReport1.Top = 1.0625!
+        Me.SubReport1.Top = 1.375!
         Me.SubReport1.Width = 6.875!
         '
         'TextBox5
@@ -138,7 +146,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox5.Text = "GRAN TOTAL:"
-        Me.TextBox5.Top = 2.75!
+        Me.TextBox5.Top = 3.0625!
         Me.TextBox5.Width = 1.375!
         '
         'TextBox12
@@ -157,7 +165,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Style = "text-align: right; "
         Me.TextBox12.Text = "TOTAL"
-        Me.TextBox12.Top = 2.75!
+        Me.TextBox12.Top = 3.0625!
         Me.TextBox12.Width = 1.0625!
         '
         'TextBox6
@@ -175,7 +183,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Style = "ddo-char-set: 0; text-align: left; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox6.Text = "REPORTE TRIMESTRAL DE:"
-        Me.TextBox6.Top = 0.375!
+        Me.TextBox6.Top = 0.6875!
         Me.TextBox6.Width = 2.0625!
         '
         'TextBox7
@@ -193,7 +201,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox7.Text = "DE"
-        Me.TextBox7.Top = 0.375!
+        Me.TextBox7.Top = 0.6875!
         Me.TextBox7.Width = 0.375!
         '
         'Line5
@@ -210,12 +218,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line5.Left = 1.0!
         Me.Line5.LineWeight = 1.0!
         Me.Line5.Name = "Line5"
-        Me.Line5.Top = 0.3125!
+        Me.Line5.Top = 0.625!
         Me.Line5.Width = 7.0!
         Me.Line5.X1 = 1.0!
         Me.Line5.X2 = 8.0!
-        Me.Line5.Y1 = 0.3125!
-        Me.Line5.Y2 = 0.3125!
+        Me.Line5.Y1 = 0.625!
+        Me.Line5.Y2 = 0.625!
         '
         'Line6
         '
@@ -231,12 +239,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line6.Left = 1.0!
         Me.Line6.LineWeight = 1.0!
         Me.Line6.Name = "Line6"
-        Me.Line6.Top = 0.625!
+        Me.Line6.Top = 0.9375!
         Me.Line6.Width = 7.0!
         Me.Line6.X1 = 1.0!
         Me.Line6.X2 = 8.0!
-        Me.Line6.Y1 = 0.625!
-        Me.Line6.Y2 = 0.625!
+        Me.Line6.Y1 = 0.9375!
+        Me.Line6.Y2 = 0.9375!
         '
         'TextBox2
         '
@@ -254,7 +262,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox2.Text = "Trimestre"
-        Me.TextBox2.Top = 0.375!
+        Me.TextBox2.Top = 0.6875!
         Me.TextBox2.Width = 1.6875!
         '
         'TextBox3
@@ -273,7 +281,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox3.Text = "Año"
-        Me.TextBox3.Top = 0.375!
+        Me.TextBox3.Top = 0.6875!
         Me.TextBox3.Width = 0.5!
         '
         'TextBox4
@@ -292,7 +300,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox4.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; background-color: DarkGra" & _
             "y; font-size: 11.25pt; "
         Me.TextBox4.Text = "                                           PRESTACION"
-        Me.TextBox4.Top = 0.625!
+        Me.TextBox4.Top = 0.9375!
         Me.TextBox4.Width = 2.375!
         '
         'TextBox8
@@ -311,7 +319,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox8.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; background-color: DarkGra" & _
             "y; font-size: 11.25pt; "
         Me.TextBox8.Text = "                                                    NÚMERO DE CASOS"
-        Me.TextBox8.Top = 0.625!
+        Me.TextBox8.Top = 0.9375!
         Me.TextBox8.Width = 2.4375!
         '
         'TextBox9
@@ -330,7 +338,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox9.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; background-color: DarkGra" & _
             "y; font-size: 11.25pt; "
         Me.TextBox9.Text = "                                                COSTO TRIMESTRAL"
-        Me.TextBox9.Top = 0.625!
+        Me.TextBox9.Top = 0.9375!
         Me.TextBox9.Width = 2.1875!
         '
         'Line1
@@ -347,12 +355,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line1.Left = 1.0!
         Me.Line1.LineWeight = 1.0!
         Me.Line1.Name = "Line1"
-        Me.Line1.Top = 1.0!
+        Me.Line1.Top = 1.3125!
         Me.Line1.Width = 7.0!
         Me.Line1.X1 = 1.0!
         Me.Line1.X2 = 8.0!
-        Me.Line1.Y1 = 1.0!
-        Me.Line1.Y2 = 1.0!
+        Me.Line1.Y1 = 1.3125!
+        Me.Line1.Y2 = 1.3125!
         '
         'Line2
         '
@@ -368,12 +376,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line2.Left = 1.0!
         Me.Line2.LineWeight = 1.0!
         Me.Line2.Name = "Line2"
-        Me.Line2.Top = 2.6875!
+        Me.Line2.Top = 3.0!
         Me.Line2.Width = 7.0!
         Me.Line2.X1 = 1.0!
         Me.Line2.X2 = 8.0!
-        Me.Line2.Y1 = 2.6875!
-        Me.Line2.Y2 = 2.6875!
+        Me.Line2.Y1 = 3.0!
+        Me.Line2.Y2 = 3.0!
         '
         'Line7
         '
@@ -389,12 +397,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line7.Left = 1.0!
         Me.Line7.LineWeight = 1.0!
         Me.Line7.Name = "Line7"
-        Me.Line7.Top = 3.0!
+        Me.Line7.Top = 3.3125!
         Me.Line7.Width = 7.0!
         Me.Line7.X1 = 1.0!
         Me.Line7.X2 = 8.0!
-        Me.Line7.Y1 = 3.0!
-        Me.Line7.Y2 = 3.0!
+        Me.Line7.Y1 = 3.3125!
+        Me.Line7.Y2 = 3.3125!
         '
         'Line8
         '
@@ -410,12 +418,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line8.Left = 8.0!
         Me.Line8.LineWeight = 1.0!
         Me.Line8.Name = "Line8"
-        Me.Line8.Top = 0.3125!
+        Me.Line8.Top = 0.625!
         Me.Line8.Width = 0.0!
         Me.Line8.X1 = 8.0!
         Me.Line8.X2 = 8.0!
-        Me.Line8.Y1 = 0.3125!
-        Me.Line8.Y2 = 3.0!
+        Me.Line8.Y1 = 0.625!
+        Me.Line8.Y2 = 3.3125!
         '
         'Line9
         '
@@ -431,12 +439,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line9.Left = 1.0!
         Me.Line9.LineWeight = 1.0!
         Me.Line9.Name = "Line9"
-        Me.Line9.Top = 0.3125!
+        Me.Line9.Top = 0.625!
         Me.Line9.Width = 0.0!
         Me.Line9.X1 = 1.0!
         Me.Line9.X2 = 1.0!
-        Me.Line9.Y1 = 0.3125!
-        Me.Line9.Y2 = 3.0!
+        Me.Line9.Y1 = 0.625!
+        Me.Line9.Y2 = 3.3125!
         '
         'Label1
         '
@@ -454,7 +462,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Label1.Name = "Label1"
         Me.Label1.Style = "ddo-char-set: 0; text-align: left; font-weight: bold; font-size: 9.75pt; "
         Me.Label1.Text = "MES"
-        Me.Label1.Top = 3.375!
+        Me.Label1.Top = 3.5!
         Me.Label1.Width = 1.0!
         '
         'Label2
@@ -473,7 +481,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Label2.Name = "Label2"
         Me.Label2.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label2.Text = "IMSS"
-        Me.Label2.Top = 3.375!
+        Me.Label2.Top = 3.5!
         Me.Label2.Width = 1.0!
         '
         'Label3
@@ -492,7 +500,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Label3.Name = "Label3"
         Me.Label3.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label3.Text = "RCV"
-        Me.Label3.Top = 3.375!
+        Me.Label3.Top = 3.5!
         Me.Label3.Width = 1.0!
         '
         'Label7
@@ -511,7 +519,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Label7.Name = "Label7"
         Me.Label7.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label7.Text = "INFONAVIT"
-        Me.Label7.Top = 3.375!
+        Me.Label7.Top = 3.5!
         Me.Label7.Width = 1.0!
         '
         'Label8
@@ -530,7 +538,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Label8.Name = "Label8"
         Me.Label8.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.Label8.Text = "SEGURO DE VIDA"
-        Me.Label8.Top = 3.25!
+        Me.Label8.Top = 3.375!
         Me.Label8.Width = 1.0!
         '
         'Label9
@@ -549,7 +557,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Label9.Name = "Label9"
         Me.Label9.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label9.Text = "SGMM"
-        Me.Label9.Top = 3.375!
+        Me.Label9.Top = 3.5!
         Me.Label9.Width = 0.9375!
         '
         'Line3
@@ -566,12 +574,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line3.Left = 3.375!
         Me.Line3.LineWeight = 1.0!
         Me.Line3.Name = "Line3"
-        Me.Line3.Top = 0.625!
+        Me.Line3.Top = 0.9375!
         Me.Line3.Width = 0.0!
         Me.Line3.X1 = 3.375!
         Me.Line3.X2 = 3.375!
-        Me.Line3.Y1 = 0.625!
-        Me.Line3.Y2 = 3.0!
+        Me.Line3.Y1 = 0.9375!
+        Me.Line3.Y2 = 3.3125!
         '
         'Line4
         '
@@ -587,12 +595,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line4.Left = 5.8125!
         Me.Line4.LineWeight = 1.0!
         Me.Line4.Name = "Line4"
-        Me.Line4.Top = 0.625!
+        Me.Line4.Top = 0.9375!
         Me.Line4.Width = 0.0!
         Me.Line4.X1 = 5.8125!
         Me.Line4.X2 = 5.8125!
-        Me.Line4.Y1 = 0.625!
-        Me.Line4.Y2 = 3.0!
+        Me.Line4.Y1 = 0.9375!
+        Me.Line4.Y2 = 3.3125!
         '
         'SubReport3
         '
@@ -610,7 +618,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.SubReport3.Name = "SubReport3"
         Me.SubReport3.Report = Nothing
         Me.SubReport3.ReportName = "SubReport1"
-        Me.SubReport3.Top = 5.9375!
+        Me.SubReport3.Top = 6.0625!
         Me.SubReport3.Width = 7.0!
         '
         'SubReport2
@@ -629,7 +637,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.SubReport2.Name = "SubReport2"
         Me.SubReport2.Report = Nothing
         Me.SubReport2.ReportName = "SubReport2"
-        Me.SubReport2.Top = 3.6875!
+        Me.SubReport2.Top = 3.8125!
         Me.SubReport2.Width = 6.9375!
         '
         'TextBox10
@@ -647,13 +655,8 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Style = "ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9.75pt; "
         Me.TextBox10.Text = "$"
-        Me.TextBox10.Top = 2.75!
+        Me.TextBox10.Top = 3.0625!
         Me.TextBox10.Width = 0.375!
-        '
-        'PageFooter1
-        '
-        Me.PageFooter1.Height = 0.03125!
-        Me.PageFooter1.Name = "PageFooter1"
         '
         'Line10
         '
@@ -669,12 +672,12 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line10.Left = 1.0!
         Me.Line10.LineWeight = 1.0!
         Me.Line10.Name = "Line10"
-        Me.Line10.Top = 0.625!
+        Me.Line10.Top = 0.9375!
         Me.Line10.Width = 7.0!
         Me.Line10.X1 = 1.0!
         Me.Line10.X2 = 8.0!
-        Me.Line10.Y1 = 0.625!
-        Me.Line10.Y2 = 0.625!
+        Me.Line10.Y1 = 0.9375!
+        Me.Line10.Y2 = 0.9375!
         '
         'Label4
         '
@@ -694,6 +697,85 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Label4.Text = "REPORTE TRIMESTRAL"
         Me.Label4.Top = 0.0!
         Me.Label4.Width = 3.0!
+        '
+        'PageFooter1
+        '
+        Me.PageFooter1.Height = 0.03125!
+        Me.PageFooter1.Name = "PageFooter1"
+        '
+        'Label5
+        '
+        Me.Label5.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label5.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label5.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.RightColor = System.Drawing.Color.Black
+        Me.Label5.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.TopColor = System.Drawing.Color.Black
+        Me.Label5.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Height = 0.1875!
+        Me.Label5.HyperLink = Nothing
+        Me.Label5.Left = 2.75!
+        Me.Label5.Name = "Label5"
+        Me.Label5.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
+        Me.Label5.Text = "Hora:"
+        Me.Label5.Top = 0.3125!
+        Me.Label5.Width = 0.75!
+        '
+        'Label6
+        '
+        Me.Label6.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label6.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label6.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label6.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label6.Border.RightColor = System.Drawing.Color.Black
+        Me.Label6.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label6.Border.TopColor = System.Drawing.Color.Black
+        Me.Label6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label6.Height = 0.1875!
+        Me.Label6.HyperLink = Nothing
+        Me.Label6.Left = 4.375!
+        Me.Label6.Name = "Label6"
+        Me.Label6.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
+        Me.Label6.Text = "Fecha:"
+        Me.Label6.Top = 0.3125!
+        Me.Label6.Width = 0.875!
+        '
+        'ReportInfo1
+        '
+        Me.ReportInfo1.Border.BottomColor = System.Drawing.Color.Black
+        Me.ReportInfo1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo1.Border.LeftColor = System.Drawing.Color.Black
+        Me.ReportInfo1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo1.Border.RightColor = System.Drawing.Color.Black
+        Me.ReportInfo1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo1.Border.TopColor = System.Drawing.Color.Black
+        Me.ReportInfo1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo1.FormatString = "{RunDateTime:hh:mm tt}"
+        Me.ReportInfo1.Height = 0.1979167!
+        Me.ReportInfo1.Left = 3.375!
+        Me.ReportInfo1.Name = "ReportInfo1"
+        Me.ReportInfo1.Style = ""
+        Me.ReportInfo1.Top = 0.3125!
+        Me.ReportInfo1.Width = 1.0!
+        '
+        'ReportInfo2
+        '
+        Me.ReportInfo2.Border.BottomColor = System.Drawing.Color.Black
+        Me.ReportInfo2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo2.Border.LeftColor = System.Drawing.Color.Black
+        Me.ReportInfo2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo2.Border.RightColor = System.Drawing.Color.Black
+        Me.ReportInfo2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo2.Border.TopColor = System.Drawing.Color.Black
+        Me.ReportInfo2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo2.FormatString = "{RunDateTime:dd/MM/yyyy}"
+        Me.ReportInfo2.Height = 0.1979167!
+        Me.ReportInfo2.Left = 5.125!
+        Me.ReportInfo2.Name = "ReportInfo2"
+        Me.ReportInfo2.Style = ""
+        Me.ReportInfo2.Top = 0.3125!
+        Me.ReportInfo2.Width = 1.0!
         '
         'InfotecAcumuladoTrimestral
         '
@@ -728,6 +810,10 @@ Partial Public Class InfotecAcumuladoTrimestral
         CType(Me.Label9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ReportInfo2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -762,4 +848,8 @@ Partial Public Class InfotecAcumuladoTrimestral
     Friend WithEvents TextBox10 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents Line10 As DataDynamics.ActiveReports.Line
     Friend WithEvents Label4 As DataDynamics.ActiveReports.Label
+    Friend WithEvents Label5 As DataDynamics.ActiveReports.Label
+    Friend WithEvents Label6 As DataDynamics.ActiveReports.Label
+    Friend WithEvents ReportInfo1 As DataDynamics.ActiveReports.ReportInfo
+    Friend WithEvents ReportInfo2 As DataDynamics.ActiveReports.ReportInfo
 End Class

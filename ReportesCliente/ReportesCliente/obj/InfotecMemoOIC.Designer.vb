@@ -46,9 +46,9 @@ Partial Public Class InfotecMemoOIC
         Me.Label5 = New DataDynamics.ActiveReports.Label
         Me.TextBox12 = New DataDynamics.ActiveReports.TextBox
         Me.ReportHeader1 = New DataDynamics.ActiveReports.ReportHeader
-        Me.ReportFooter1 = New DataDynamics.ActiveReports.ReportFooter
         Me.Picture3 = New DataDynamics.ActiveReports.Picture
         Me.Line1 = New DataDynamics.ActiveReports.Line
+        Me.ReportFooter1 = New DataDynamics.ActiveReports.ReportFooter
         Me.TextBox17 = New DataDynamics.ActiveReports.TextBox
         Me.Picture1 = New DataDynamics.ActiveReports.Picture
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -531,14 +531,8 @@ Partial Public Class InfotecMemoOIC
         'ReportHeader1
         '
         Me.ReportHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Picture3, Me.Line1})
-        Me.ReportHeader1.Height = 1.291667!
+        Me.ReportHeader1.Height = 1.28125!
         Me.ReportHeader1.Name = "ReportHeader1"
-        '
-        'ReportFooter1
-        '
-        Me.ReportFooter1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox17, Me.Picture1})
-        Me.ReportFooter1.Height = 1.75!
-        Me.ReportFooter1.Name = "ReportFooter1"
         '
         'Picture3
         '
@@ -579,6 +573,12 @@ Partial Public Class InfotecMemoOIC
         Me.Line1.X2 = 7.0!
         Me.Line1.Y1 = 1.25!
         Me.Line1.Y2 = 1.25!
+        '
+        'ReportFooter1
+        '
+        Me.ReportFooter1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox17, Me.Picture1})
+        Me.ReportFooter1.Height = 1.75!
+        Me.ReportFooter1.Name = "ReportFooter1"
         '
         'TextBox17
         '
