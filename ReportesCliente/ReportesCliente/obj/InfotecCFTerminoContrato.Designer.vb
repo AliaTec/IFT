@@ -32,16 +32,17 @@ Partial Public Class InfotecCFTerminoContrato
         Me.Line2 = New DataDynamics.ActiveReports.Line
         Me.TextBox9 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox10 = New DataDynamics.ActiveReports.TextBox
-        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
-        Me.Line4 = New DataDynamics.ActiveReports.Line
-        Me.TextBox12 = New DataDynamics.ActiveReports.TextBox
-        Me.Label6 = New DataDynamics.ActiveReports.Label
         Me.TextBox11 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox5 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox7 = New DataDynamics.ActiveReports.TextBox
         Me.Label3 = New DataDynamics.ActiveReports.Label
         Me.Label4 = New DataDynamics.ActiveReports.Label
         Me.Label1 = New DataDynamics.ActiveReports.Label
+        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
+        Me.Line4 = New DataDynamics.ActiveReports.Line
+        Me.TextBox12 = New DataDynamics.ActiveReports.TextBox
+        Me.Label6 = New DataDynamics.ActiveReports.Label
+        Me.TextBox8 = New DataDynamics.ActiveReports.TextBox
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -50,20 +51,21 @@ Partial Public Class InfotecCFTerminoContrato
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Label6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'PageHeader1
         '
-        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1})
-        Me.PageHeader1.Height = 0.3645833!
+        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox8})
+        Me.PageHeader1.Height = 0.625!
         Me.PageHeader1.Name = "PageHeader1"
         '
         'TextBox1
@@ -77,12 +79,12 @@ Partial Public Class InfotecCFTerminoContrato
         Me.TextBox1.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox1.DataField = "FechaBaja"
-        Me.TextBox1.Height = 0.3125!
+        Me.TextBox1.Height = 0.25!
         Me.TextBox1.Left = 2.0!
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 12pt; "
         Me.TextBox1.Text = "TextBox1"
-        Me.TextBox1.Top = 0.0!
+        Me.TextBox1.Top = 0.3125!
         Me.TextBox1.Width = 5.0!
         '
         'Detail1
@@ -303,71 +305,6 @@ Partial Public Class InfotecCFTerminoContrato
         Me.TextBox10.Top = 5.125!
         Me.TextBox10.Width = 6.9375!
         '
-        'PageFooter1
-        '
-        Me.PageFooter1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Line4, Me.TextBox12, Me.Label6})
-        Me.PageFooter1.Height = 0.5416667!
-        Me.PageFooter1.Name = "PageFooter1"
-        '
-        'Line4
-        '
-        Me.Line4.Border.BottomColor = System.Drawing.Color.Black
-        Me.Line4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Line4.Border.LeftColor = System.Drawing.Color.Black
-        Me.Line4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Line4.Border.RightColor = System.Drawing.Color.Black
-        Me.Line4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Line4.Border.TopColor = System.Drawing.Color.Black
-        Me.Line4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Line4.Height = 0.0!
-        Me.Line4.Left = 2.0!
-        Me.Line4.LineWeight = 1.0!
-        Me.Line4.Name = "Line4"
-        Me.Line4.Top = 0.0!
-        Me.Line4.Width = 3.0!
-        Me.Line4.X1 = 2.0!
-        Me.Line4.X2 = 5.0!
-        Me.Line4.Y1 = 0.0!
-        Me.Line4.Y2 = 0.0!
-        '
-        'TextBox12
-        '
-        Me.TextBox12.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox12.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox12.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox12.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox12.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox12.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox12.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox12.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox12.DataField = "EMPLEADO"
-        Me.TextBox12.Height = 0.1875!
-        Me.TextBox12.Left = 2.0!
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Style = "text-align: center; "
-        Me.TextBox12.Text = "TextBox11"
-        Me.TextBox12.Top = 0.0625!
-        Me.TextBox12.Width = 3.0!
-        '
-        'Label6
-        '
-        Me.Label6.Border.BottomColor = System.Drawing.Color.Black
-        Me.Label6.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label6.Border.LeftColor = System.Drawing.Color.Black
-        Me.Label6.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label6.Border.RightColor = System.Drawing.Color.Black
-        Me.Label6.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label6.Border.TopColor = System.Drawing.Color.Black
-        Me.Label6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label6.Height = 0.1875!
-        Me.Label6.HyperLink = Nothing
-        Me.Label6.Left = 2.0!
-        Me.Label6.Name = "Label6"
-        Me.Label6.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; "
-        Me.Label6.Text = "El Trabajador"
-        Me.Label6.Top = 0.3125!
-        Me.Label6.Width = 3.0!
-        '
         'TextBox11
         '
         Me.TextBox11.Border.BottomColor = System.Drawing.Color.Black
@@ -485,6 +422,90 @@ Partial Public Class InfotecCFTerminoContrato
         Me.Label1.Top = 2.3125!
         Me.Label1.Width = 2.0!
         '
+        'PageFooter1
+        '
+        Me.PageFooter1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Line4, Me.TextBox12, Me.Label6})
+        Me.PageFooter1.Height = 0.5416667!
+        Me.PageFooter1.Name = "PageFooter1"
+        '
+        'Line4
+        '
+        Me.Line4.Border.BottomColor = System.Drawing.Color.Black
+        Me.Line4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line4.Border.LeftColor = System.Drawing.Color.Black
+        Me.Line4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line4.Border.RightColor = System.Drawing.Color.Black
+        Me.Line4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line4.Border.TopColor = System.Drawing.Color.Black
+        Me.Line4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line4.Height = 0.0!
+        Me.Line4.Left = 2.0!
+        Me.Line4.LineWeight = 1.0!
+        Me.Line4.Name = "Line4"
+        Me.Line4.Top = 0.0!
+        Me.Line4.Width = 3.0!
+        Me.Line4.X1 = 2.0!
+        Me.Line4.X2 = 5.0!
+        Me.Line4.Y1 = 0.0!
+        Me.Line4.Y2 = 0.0!
+        '
+        'TextBox12
+        '
+        Me.TextBox12.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox12.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox12.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox12.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox12.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox12.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox12.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox12.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox12.DataField = "EMPLEADO"
+        Me.TextBox12.Height = 0.1875!
+        Me.TextBox12.Left = 2.0!
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.Style = "text-align: center; "
+        Me.TextBox12.Text = "TextBox11"
+        Me.TextBox12.Top = 0.0625!
+        Me.TextBox12.Width = 3.0!
+        '
+        'Label6
+        '
+        Me.Label6.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label6.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label6.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label6.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label6.Border.RightColor = System.Drawing.Color.Black
+        Me.Label6.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label6.Border.TopColor = System.Drawing.Color.Black
+        Me.Label6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label6.Height = 0.1875!
+        Me.Label6.HyperLink = Nothing
+        Me.Label6.Left = 2.0!
+        Me.Label6.Name = "Label6"
+        Me.Label6.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; "
+        Me.Label6.Text = "El Trabajador"
+        Me.Label6.Top = 0.3125!
+        Me.Label6.Width = 3.0!
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox8.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox8.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox8.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox8.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox8.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox8.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox8.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox8.DataField = "Hora"
+        Me.TextBox8.Height = 0.1875!
+        Me.TextBox8.Left = 4.0!
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Style = "text-align: right; "
+        Me.TextBox8.Text = "TextBox8"
+        Me.TextBox8.Top = 0.0625!
+        Me.TextBox8.Width = 3.0!
+        '
         'InfotecCFTerminoContrato
         '
         Me.MasterReport = False
@@ -508,14 +529,15 @@ Partial Public Class InfotecCFTerminoContrato
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Label6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -540,4 +562,5 @@ Partial Public Class InfotecCFTerminoContrato
     Friend WithEvents Label3 As DataDynamics.ActiveReports.Label
     Friend WithEvents Label4 As DataDynamics.ActiveReports.Label
     Friend WithEvents Label1 As DataDynamics.ActiveReports.Label
+    Friend WithEvents TextBox8 As DataDynamics.ActiveReports.TextBox
 End Class
