@@ -48,7 +48,7 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox13 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox14 = New DataDynamics.ActiveReports.TextBox
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
-        Me.TextBox16 = New DataDynamics.ActiveReports.TextBox
+        '        Me.TextBox16 = New DataDynamics.ActiveReports.TextBox
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -74,11 +74,11 @@ Partial Public Class InfotecGravadosyExentosMensual
         '
         'PageHeader1
         '
-<<<<<<< HEAD
+        '<<<<<<< HEAD
         Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox6, Me.TextBox7, Me.TextBox8, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.Label1, Me.Line1, Me.Line2, Me.TextBox15, Me.TextBox16})
-=======
-        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox6, Me.TextBox7, Me.TextBox8, Me.TextBox9, Me.TextBox10, Me.Label2, Me.Label3, Me.TextBox11, Me.ReportInfo1, Me.ReportInfo2, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.Label1, Me.Line1, Me.Line2, Me.TextBox15, Me.TextBox16, Me.TextBox17, Me.TextBox18})
->>>>>>> origin/master
+        '=======
+        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox6, Me.TextBox7, Me.TextBox8, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.Label1, Me.Line1, Me.Line2, Me.TextBox15, Me.TextBox16, Me.TextBox17, Me.TextBox18})
+        '>>>>>>> origin/master
         Me.PageHeader1.Height = 1.84375!
         Me.PageHeader1.Name = "PageHeader1"
         '
@@ -194,47 +194,47 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox10.Top = 1.1875!
         Me.TextBox10.Width = 1.0!
         '
-<<<<<<< HEAD
-=======
+        '<<<<<<< HEAD
+        '=======
         'Label2
         '
-        Me.Label2.Border.BottomColor = System.Drawing.Color.Black
-        Me.Label2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label2.Border.LeftColor = System.Drawing.Color.Black
-        Me.Label2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label2.Border.RightColor = System.Drawing.Color.Black
-        Me.Label2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label2.Border.TopColor = System.Drawing.Color.Black
-        Me.Label2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label2.Height = 0.1875!
-        Me.Label2.HyperLink = Nothing
-        Me.Label2.Left = 7.25!
-        Me.Label2.Name = "Label2"
-        Me.Label2.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 8.25pt; "
-        Me.Label2.Text = "Hora:"
-        Me.Label2.Top = 0.1875!
-        Me.Label2.Width = 0.5!
+        'Me.Label2.Border.BottomColor = System.Drawing.Color.Black
+        'Me.Label2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.Label2.Border.LeftColor = System.Drawing.Color.Black
+        'Me.Label2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.Label2.Border.RightColor = System.Drawing.Color.Black
+        'Me.Label2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.Label2.Border.TopColor = System.Drawing.Color.Black
+        'Me.Label2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.Label2.Height = 0.1875!
+        'Me.Label2.HyperLink = Nothing
+        'Me.Label2.Left = 7.25!
+        'Me.Label2.Name = "Label2"
+        'Me.Label2.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 8.25pt; "
+        'Me.Label2.Text = "Hora:"
+        'Me.Label2.Top = 0.1875!
+        'Me.Label2.Width = 0.5!
         '
         'Label3
-        '
-        Me.Label3.Border.BottomColor = System.Drawing.Color.Black
-        Me.Label3.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label3.Border.LeftColor = System.Drawing.Color.Black
-        Me.Label3.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label3.Border.RightColor = System.Drawing.Color.Black
-        Me.Label3.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label3.Border.TopColor = System.Drawing.Color.Black
-        Me.Label3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label3.Height = 0.1875!
-        Me.Label3.HyperLink = Nothing
-        Me.Label3.Left = 7.25!
-        Me.Label3.Name = "Label3"
-        Me.Label3.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 8.25pt; "
-        Me.Label3.Text = "Fecha:"
-        Me.Label3.Top = 0.0!
-        Me.Label3.Width = 0.5!
-        '
->>>>>>> origin/master
+        ''
+        'Me.Label3.Border.BottomColor = System.Drawing.Color.Black
+        'Me.Label3.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.Label3.Border.LeftColor = System.Drawing.Color.Black
+        'Me.Label3.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.Label3.Border.RightColor = System.Drawing.Color.Black
+        'Me.Label3.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.Label3.Border.TopColor = System.Drawing.Color.Black
+        'Me.Label3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.Label3.Height = 0.1875!
+        'Me.Label3.HyperLink = Nothing
+        'Me.Label3.Left = 7.25!
+        'Me.Label3.Name = "Label3"
+        'Me.Label3.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 8.25pt; "
+        'Me.Label3.Text = "Fecha:"
+        'Me.Label3.Top = 0.0!
+        'Me.Label3.Width = 0.5!
+        ''
+        '>>>>>>> origin/master
         'TextBox11
         '
         Me.TextBox11.Border.BottomColor = System.Drawing.Color.Black
@@ -253,45 +253,45 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox11.Top = 1.5625!
         Me.TextBox11.Width = 1.0!
         '
-<<<<<<< HEAD
-=======
+        '<<<<<<< HEAD
+        '=======
         'ReportInfo1
         '
-        Me.ReportInfo1.Border.BottomColor = System.Drawing.Color.Black
-        Me.ReportInfo1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo1.Border.LeftColor = System.Drawing.Color.Black
-        Me.ReportInfo1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo1.Border.RightColor = System.Drawing.Color.Black
-        Me.ReportInfo1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo1.Border.TopColor = System.Drawing.Color.Black
-        Me.ReportInfo1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo1.FormatString = "{RunDateTime:hh:mm:ss tt}"
-        Me.ReportInfo1.Height = 0.1979167!
-        Me.ReportInfo1.Left = 7.75!
-        Me.ReportInfo1.Name = "ReportInfo1"
-        Me.ReportInfo1.Style = "ddo-char-set: 0; font-size: 8.25pt; "
-        Me.ReportInfo1.Top = 0.1875!
-        Me.ReportInfo1.Width = 1.0!
-        '
-        'ReportInfo2
-        '
-        Me.ReportInfo2.Border.BottomColor = System.Drawing.Color.Black
-        Me.ReportInfo2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo2.Border.LeftColor = System.Drawing.Color.Black
-        Me.ReportInfo2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo2.Border.RightColor = System.Drawing.Color.Black
-        Me.ReportInfo2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo2.Border.TopColor = System.Drawing.Color.Black
-        Me.ReportInfo2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo2.FormatString = "{RunDateTime:dd/MM/yyyy}"
-        Me.ReportInfo2.Height = 0.1979167!
-        Me.ReportInfo2.Left = 7.75!
-        Me.ReportInfo2.Name = "ReportInfo2"
-        Me.ReportInfo2.Style = "ddo-char-set: 0; font-size: 8.25pt; "
-        Me.ReportInfo2.Top = 0.0!
-        Me.ReportInfo2.Width = 1.0!
-        '
->>>>>>> origin/master
+        'Me.ReportInfo1.Border.BottomColor = System.Drawing.Color.Black
+        'Me.ReportInfo1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.ReportInfo1.Border.LeftColor = System.Drawing.Color.Black
+        'Me.ReportInfo1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.ReportInfo1.Border.RightColor = System.Drawing.Color.Black
+        'Me.ReportInfo1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.ReportInfo1.Border.TopColor = System.Drawing.Color.Black
+        'Me.ReportInfo1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.ReportInfo1.FormatString = "{RunDateTime:hh:mm:ss tt}"
+        'Me.ReportInfo1.Height = 0.1979167!
+        'Me.ReportInfo1.Left = 7.75!
+        'Me.ReportInfo1.Name = "ReportInfo1"
+        'Me.ReportInfo1.Style = "ddo-char-set: 0; font-size: 8.25pt; "
+        'Me.ReportInfo1.Top = 0.1875!
+        'Me.ReportInfo1.Width = 1.0!
+        ''
+        ''ReportInfo2
+        ''
+        'Me.ReportInfo2.Border.BottomColor = System.Drawing.Color.Black
+        'Me.ReportInfo2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.ReportInfo2.Border.LeftColor = System.Drawing.Color.Black
+        'Me.ReportInfo2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.ReportInfo2.Border.RightColor = System.Drawing.Color.Black
+        'Me.ReportInfo2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.ReportInfo2.Border.TopColor = System.Drawing.Color.Black
+        'Me.ReportInfo2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        'Me.ReportInfo2.FormatString = "{RunDateTime:dd/MM/yyyy}"
+        'Me.ReportInfo2.Height = 0.1979167!
+        'Me.ReportInfo2.Left = 7.75!
+        'Me.ReportInfo2.Name = "ReportInfo2"
+        'Me.ReportInfo2.Style = "ddo-char-set: 0; font-size: 8.25pt; "
+        'Me.ReportInfo2.Top = 0.0!
+        'Me.ReportInfo2.Width = 1.0!
+        ''
+        ''>>>>>>> origin/master
         'TextBox2
         '
         Me.TextBox2.Border.BottomColor = System.Drawing.Color.Black
@@ -769,9 +769,9 @@ Partial Public Class InfotecGravadosyExentosMensual
     Friend WithEvents TextBox13 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox14 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox16 As DataDynamics.ActiveReports.TextBox
-<<<<<<< HEAD
-=======
+    '<<<<<<< HEAD
+    '=======
     Friend WithEvents TextBox17 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox18 As DataDynamics.ActiveReports.TextBox
->>>>>>> origin/master
+    '>>>>>>> origin/master
 End Class
