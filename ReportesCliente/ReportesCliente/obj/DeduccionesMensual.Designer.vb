@@ -73,7 +73,7 @@ Partial Public Class DeduccionesMensual
         Me.TextBox2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox2.DataField = "ImporteExento"
         Me.TextBox2.Height = 0.1875!
-        Me.TextBox2.Left = 5.0!
+        Me.TextBox2.Left = 5.125!
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.OutputFormat = resources.GetString("TextBox2.OutputFormat")
         Me.TextBox2.Style = "text-align: right; font-size: 9pt; "

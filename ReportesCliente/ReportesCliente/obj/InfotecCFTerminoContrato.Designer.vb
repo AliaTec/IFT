@@ -66,7 +66,7 @@ Partial Public Class InfotecCFTerminoContrato
         'PageHeader1
         '
         Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1})
-        Me.PageHeader1.Height = 0.2291667!
+        Me.PageHeader1.Height = 0.21875!
         Me.PageHeader1.Name = "PageHeader1"
         '
         'TextBox1
@@ -499,7 +499,7 @@ Partial Public Class InfotecCFTerminoContrato
         Me.ReportInfo1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.ReportInfo1.Border.TopColor = System.Drawing.Color.Black
         Me.ReportInfo1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo1.FormatString = "Page {PageNumber} of {PageCount}"
+        Me.ReportInfo1.FormatString = "Pagina {PageNumber} de {PageCount}"
         Me.ReportInfo1.Height = 0.1979167!
         Me.ReportInfo1.Left = 6.0!
         Me.ReportInfo1.Name = "ReportInfo1"
