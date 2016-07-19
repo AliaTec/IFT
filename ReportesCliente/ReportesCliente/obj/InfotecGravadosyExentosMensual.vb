@@ -135,4 +135,7 @@ Public Class InfotecGravadosyExentosMensual
     End Sub
 
 
+    Private Sub PageFooter1_Format(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PageFooter1.Format
+
+    End Sub
 End Class

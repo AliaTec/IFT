@@ -19,6 +19,7 @@ Partial Public Class InfotecCFLiquidacion
     Private Sub InitializeComponent()
         Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(InfotecCFLiquidacion))
         Me.PageHeader1 = New DataDynamics.ActiveReports.PageHeader
+        Me.TextBox1 = New DataDynamics.ActiveReports.TextBox
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
         Me.Label2 = New DataDynamics.ActiveReports.Label
         Me.TextBox6 = New DataDynamics.ActiveReports.TextBox
@@ -44,8 +45,7 @@ Partial Public Class InfotecCFLiquidacion
         Me.Label6 = New DataDynamics.ActiveReports.Label
         Me.ReportInfo1 = New DataDynamics.ActiveReports.ReportInfo
         Me.PageBreak1 = New DataDynamics.ActiveReports.PageBreak
-        Me.TextBox1 = New DataDynamics.ActiveReports.TextBox
-        Me.TextBox8 = New DataDynamics.ActiveReports.TextBox
+        CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -63,15 +63,32 @@ Partial Public Class InfotecCFLiquidacion
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'PageHeader1
         '
-        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox8})
-        Me.PageHeader1.Height = 0.40625!
+        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1})
+        Me.PageHeader1.Height = 0.21875!
         Me.PageHeader1.Name = "PageHeader1"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox1.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox1.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox1.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox1.DataField = "FechaBaja"
+        Me.TextBox1.Height = 0.1875!
+        Me.TextBox1.Left = 2.0!
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 12pt; "
+        Me.TextBox1.Text = "TextBox1"
+        Me.TextBox1.Top = 0.0!
+        Me.TextBox1.Width = 5.0!
         '
         'Detail1
         '
@@ -524,47 +541,9 @@ Partial Public Class InfotecCFLiquidacion
         Me.PageBreak1.Height = 0.0625!
         Me.PageBreak1.Left = 0.0!
         Me.PageBreak1.Name = "PageBreak1"
-        Me.PageBreak1.Size = New System.Drawing.SizeF(7.0625!, 0.0625!)
+        Me.PageBreak1.Size = New System.Drawing.SizeF(6.5!, 0.0625!)
         Me.PageBreak1.Top = 0.875!
-        Me.PageBreak1.Width = 7.0625!
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox1.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox1.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox1.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox1.DataField = "FechaBaja"
-        Me.TextBox1.Height = 0.1875!
-        Me.TextBox1.Left = 2.0!
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 12pt; "
-        Me.TextBox1.Text = "TextBox1"
-        Me.TextBox1.Top = 0.1875!
-        Me.TextBox1.Width = 5.0!
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox8.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox8.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox8.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox8.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox8.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox8.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox8.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox8.DataField = "Hora"
-        Me.TextBox8.Height = 0.1875!
-        Me.TextBox8.Left = 4.0!
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Style = "text-align: right; "
-        Me.TextBox8.Text = "TextBox8"
-        Me.TextBox8.Top = 0.0!
-        Me.TextBox8.Width = 3.0!
+        Me.PageBreak1.Width = 6.5!
         '
         'InfotecCFLiquidacion
         '
@@ -581,6 +560,7 @@ Partial Public Class InfotecCFLiquidacion
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: ita" & _
                     "lic; ", "Heading2", "Normal"))
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-size: 13pt; font-weight: bold; ", "Heading3", "Normal"))
+        CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -598,8 +578,6 @@ Partial Public Class InfotecCFLiquidacion
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -627,5 +605,4 @@ Partial Public Class InfotecCFLiquidacion
     Friend WithEvents ReportInfo1 As DataDynamics.ActiveReports.ReportInfo
     Friend WithEvents PageBreak1 As DataDynamics.ActiveReports.PageBreak
     Friend WithEvents TextBox1 As DataDynamics.ActiveReports.TextBox
-    Friend WithEvents TextBox8 As DataDynamics.ActiveReports.TextBox
 End Class

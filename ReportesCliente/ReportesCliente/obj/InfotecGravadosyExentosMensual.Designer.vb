@@ -33,13 +33,11 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.Line1 = New DataDynamics.ActiveReports.Line
         Me.Line2 = New DataDynamics.ActiveReports.Line
         Me.TextBox15 = New DataDynamics.ActiveReports.TextBox
-        Me.TextBox16 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox17 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox18 = New DataDynamics.ActiveReports.TextBox
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
         Me.SubReport1 = New DataDynamics.ActiveReports.SubReport
         Me.SubReport2 = New DataDynamics.ActiveReports.SubReport
-        Me.SubReport3 = New DataDynamics.ActiveReports.SubReport
         Me.TextBox5 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox12 = New DataDynamics.ActiveReports.TextBox
         Me.Label4 = New DataDynamics.ActiveReports.Label
@@ -50,6 +48,10 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.ReportInfo1 = New DataDynamics.ActiveReports.ReportInfo
         Me.PageBreak1 = New DataDynamics.ActiveReports.PageBreak
+        Me.TextBox16 = New DataDynamics.ActiveReports.TextBox
+        Me.Label2 = New DataDynamics.ActiveReports.Label
+        Me.Label3 = New DataDynamics.ActiveReports.Label
+        Me.TextBox19 = New DataDynamics.ActiveReports.TextBox
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -62,7 +64,6 @@ Partial Public Class InfotecGravadosyExentosMensual
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox18, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -71,12 +72,16 @@ Partial Public Class InfotecGravadosyExentosMensual
         CType(Me.TextBox13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox19, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'PageHeader1
         '
-        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox6, Me.TextBox7, Me.TextBox8, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.Label1, Me.Line1, Me.Line2, Me.TextBox15, Me.TextBox16, Me.TextBox1, Me.TextBox6, Me.TextBox7, Me.TextBox8, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.Label1, Me.Line1, Me.Line2, Me.TextBox15, Me.TextBox16, Me.TextBox17, Me.TextBox18})
-        Me.PageHeader1.Height = 1.739583!
+        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox6, Me.TextBox7, Me.TextBox8, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.Label1, Me.Line1, Me.Line2, Me.TextBox15, Me.TextBox1, Me.TextBox6, Me.TextBox7, Me.TextBox8, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox2, Me.TextBox3, Me.TextBox4, Me.Label1, Me.Line1, Me.Line2, Me.TextBox15, Me.TextBox17, Me.TextBox18, Me.TextBox16, Me.Label2, Me.Label3, Me.TextBox19})
+        Me.PageHeader1.Height = 2.15625!
         Me.PageHeader1.Name = "PageHeader1"
         '
         'TextBox1
@@ -94,7 +99,7 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 11.25pt; "
         Me.TextBox1.Text = "LISTADO DE IMPORTES GRAVADOS Y EXENTOS MENSUAL"
-        Me.TextBox1.Top = 0.75!
+        Me.TextBox1.Top = 1.0625!
         Me.TextBox1.Width = 5.375!
         '
         'TextBox6
@@ -113,7 +118,7 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox6.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox6.Text = "INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y C" & _
             "OMUNICACIÓN"
-        Me.TextBox6.Top = 0.3125!
+        Me.TextBox6.Top = 0.625!
         Me.TextBox6.Width = 5.0!
         '
         'TextBox7
@@ -128,12 +133,12 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox7.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox7.DataField = "Tipo"
         Me.TextBox7.Height = 0.1875!
-        Me.TextBox7.Left = 3.4375!
+        Me.TextBox7.Left = 3.0625!
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Style = ""
         Me.TextBox7.Text = "Tiponomina"
-        Me.TextBox7.Top = 1.0625!
-        Me.TextBox7.Width = 0.6875!
+        Me.TextBox7.Top = 1.375!
+        Me.TextBox7.Width = 1.9375!
         '
         'TextBox8
         '
@@ -147,11 +152,11 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox8.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox8.DataField = "meses"
         Me.TextBox8.Height = 0.1875!
-        Me.TextBox8.Left = 4.5!
+        Me.TextBox8.Left = 5.3125!
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Style = "text-align: left; "
         Me.TextBox8.Text = "mes"
-        Me.TextBox8.Top = 1.0625!
+        Me.TextBox8.Top = 1.375!
         Me.TextBox8.Width = 0.9375!
         '
         'TextBox9
@@ -165,11 +170,11 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox9.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox9.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox9.Height = 0.1875!
-        Me.TextBox9.Left = 5.4375!
+        Me.TextBox9.Left = 6.25!
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox9.Text = "Año:"
-        Me.TextBox9.Top = 1.0625!
+        Me.TextBox9.Top = 1.375!
         Me.TextBox9.Width = 0.375!
         '
         'TextBox10
@@ -184,11 +189,11 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox10.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox10.DataField = "anio"
         Me.TextBox10.Height = 0.1979167!
-        Me.TextBox10.Left = 5.8125!
+        Me.TextBox10.Left = 6.625!
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Style = ""
         Me.TextBox10.Text = "año"
-        Me.TextBox10.Top = 1.0625!
+        Me.TextBox10.Top = 1.375!
         Me.TextBox10.Width = 1.0!
         '
         'TextBox11
@@ -206,7 +211,7 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox11.Text = "Concepto"
-        Me.TextBox11.Top = 1.4375!
+        Me.TextBox11.Top = 1.8125!
         Me.TextBox11.Width = 1.0!
         '
         'TextBox2
@@ -224,7 +229,7 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox2.Text = "Descripcion"
-        Me.TextBox2.Top = 1.4375!
+        Me.TextBox2.Top = 1.8125!
         Me.TextBox2.Width = 1.0!
         '
         'TextBox3
@@ -242,7 +247,7 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox3.Text = "Importe Gravado"
-        Me.TextBox3.Top = 1.3125!
+        Me.TextBox3.Top = 1.6875!
         Me.TextBox3.Width = 1.0!
         '
         'TextBox4
@@ -260,7 +265,7 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox4.Text = "Importe               Exento"
-        Me.TextBox4.Top = 1.3125!
+        Me.TextBox4.Top = 1.6875!
         Me.TextBox4.Width = 1.0!
         '
         'Label1
@@ -275,11 +280,11 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.Label1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label1.Height = 0.1875!
         Me.Label1.HyperLink = Nothing
-        Me.Label1.Left = 2.5!
+        Me.Label1.Left = 2.125!
         Me.Label1.Name = "Label1"
         Me.Label1.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.Label1.Text = "Tipo Nomina:"
-        Me.Label1.Top = 1.0625!
+        Me.Label1.Top = 1.375!
         Me.Label1.Width = 0.9375!
         '
         'Line1
@@ -296,12 +301,12 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.Line1.Left = 1.0!
         Me.Line1.LineWeight = 1.0!
         Me.Line1.Name = "Line1"
-        Me.Line1.Top = 1.25!
+        Me.Line1.Top = 1.625!
         Me.Line1.Width = 7.0!
         Me.Line1.X1 = 1.0!
         Me.Line1.X2 = 8.0!
-        Me.Line1.Y1 = 1.25!
-        Me.Line1.Y2 = 1.25!
+        Me.Line1.Y1 = 1.625!
+        Me.Line1.Y2 = 1.625!
         '
         'Line2
         '
@@ -317,12 +322,12 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.Line2.Left = 1.0!
         Me.Line2.LineWeight = 1.0!
         Me.Line2.Name = "Line2"
-        Me.Line2.Top = 1.6875!
+        Me.Line2.Top = 2.0625!
         Me.Line2.Width = 7.0!
         Me.Line2.X1 = 1.0!
         Me.Line2.X2 = 8.0!
-        Me.Line2.Y1 = 1.6875!
-        Me.Line2.Y2 = 1.6875!
+        Me.Line2.Y1 = 2.0625!
+        Me.Line2.Y2 = 2.0625!
         '
         'TextBox15
         '
@@ -335,31 +340,12 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox15.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox15.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox15.Height = 0.1875!
-        Me.TextBox15.Left = 4.125!
+        Me.TextBox15.Left = 4.9375!
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox15.Text = "Mes:"
-        Me.TextBox15.Top = 1.0625!
+        Me.TextBox15.Top = 1.375!
         Me.TextBox15.Width = 0.5625!
-        '
-        'TextBox16
-        '
-        Me.TextBox16.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.DataField = "Hora"
-        Me.TextBox16.Height = 0.1875!
-        Me.TextBox16.Left = 7.0!
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Style = ""
-        Me.TextBox16.Text = "TextBox16"
-        Me.TextBox16.Top = 0.0!
-        Me.TextBox16.Width = 2.0!
         '
         'TextBox17
         '
@@ -376,7 +362,7 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox17.Text = "Descripcion"
-        Me.TextBox17.Top = 1.4375!
+        Me.TextBox17.Top = 1.8125!
         Me.TextBox17.Width = 1.0!
         '
         'TextBox18
@@ -394,13 +380,13 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox18.Text = "Importe Gravado"
-        Me.TextBox18.Top = 1.3125!
+        Me.TextBox18.Top = 1.6875!
         Me.TextBox18.Width = 1.0!
         '
         'Detail1
         '
         Me.Detail1.ColumnSpacing = 0.0!
-        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.SubReport1, Me.SubReport2, Me.SubReport3, Me.TextBox5, Me.TextBox12, Me.Label4, Me.Line3, Me.Line4, Me.TextBox13, Me.TextBox14})
+        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.SubReport1, Me.SubReport2, Me.TextBox5, Me.TextBox12, Me.Label4, Me.Line3, Me.Line4, Me.TextBox13, Me.TextBox14})
         Me.Detail1.Height = 3.572917!
         Me.Detail1.Name = "Detail1"
         '
@@ -441,25 +427,6 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.SubReport2.ReportName = "SubReport1"
         Me.SubReport2.Top = 1.0625!
         Me.SubReport2.Width = 7.0!
-        '
-        'SubReport3
-        '
-        Me.SubReport3.Border.BottomColor = System.Drawing.Color.Black
-        Me.SubReport3.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.SubReport3.Border.LeftColor = System.Drawing.Color.Black
-        Me.SubReport3.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.SubReport3.Border.RightColor = System.Drawing.Color.Black
-        Me.SubReport3.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.SubReport3.Border.TopColor = System.Drawing.Color.Black
-        Me.SubReport3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.SubReport3.CloseBorder = False
-        Me.SubReport3.Height = 0.5!
-        Me.SubReport3.Left = 1.0!
-        Me.SubReport3.Name = "SubReport3"
-        Me.SubReport3.Report = Nothing
-        Me.SubReport3.ReportName = "SubReport1"
-        Me.SubReport3.Top = 2.0625!
-        Me.SubReport3.Width = 7.0!
         '
         'TextBox5
         '
@@ -636,9 +603,85 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.PageBreak1.Height = 0.0625!
         Me.PageBreak1.Left = 0.0!
         Me.PageBreak1.Name = "PageBreak1"
-        Me.PageBreak1.Size = New System.Drawing.SizeF(8.979167!, 0.0625!)
+        Me.PageBreak1.Size = New System.Drawing.SizeF(6.5!, 0.0625!)
         Me.PageBreak1.Top = 0.25!
-        Me.PageBreak1.Width = 8.979167!
+        Me.PageBreak1.Width = 6.5!
+        '
+        'TextBox16
+        '
+        Me.TextBox16.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.DataField = "Fecha"
+        Me.TextBox16.Height = 0.1875!
+        Me.TextBox16.Left = 6.0!
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Style = ""
+        Me.TextBox16.Text = "TextBox16"
+        Me.TextBox16.Top = 0.0625!
+        Me.TextBox16.Width = 2.0!
+        '
+        'Label2
+        '
+        Me.Label2.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label2.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label2.Border.RightColor = System.Drawing.Color.Black
+        Me.Label2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label2.Border.TopColor = System.Drawing.Color.Black
+        Me.Label2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label2.Height = 0.1979167!
+        Me.Label2.HyperLink = Nothing
+        Me.Label2.Left = 5.0!
+        Me.Label2.Name = "Label2"
+        Me.Label2.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
+        Me.Label2.Text = "Fecha:"
+        Me.Label2.Top = 0.0625!
+        Me.Label2.Width = 1.0!
+        '
+        'Label3
+        '
+        Me.Label3.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label3.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label3.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label3.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label3.Border.RightColor = System.Drawing.Color.Black
+        Me.Label3.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label3.Border.TopColor = System.Drawing.Color.Black
+        Me.Label3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label3.Height = 0.1979167!
+        Me.Label3.HyperLink = Nothing
+        Me.Label3.Left = 5.0!
+        Me.Label3.Name = "Label3"
+        Me.Label3.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
+        Me.Label3.Text = "Hora:"
+        Me.Label3.Top = 0.3125!
+        Me.Label3.Width = 1.0!
+        '
+        'TextBox19
+        '
+        Me.TextBox19.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox19.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox19.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox19.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox19.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox19.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox19.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox19.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox19.DataField = "Hora"
+        Me.TextBox19.Height = 0.198!
+        Me.TextBox19.Left = 6.0!
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Style = ""
+        Me.TextBox19.Text = "TextBox16"
+        Me.TextBox19.Top = 0.3125!
+        Me.TextBox19.Width = 1.0!
         '
         'InfotecGravadosyExentosMensual
         '
@@ -667,7 +710,6 @@ Partial Public Class InfotecGravadosyExentosMensual
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox18, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).EndInit()
@@ -676,6 +718,10 @@ Partial Public Class InfotecGravadosyExentosMensual
         CType(Me.TextBox13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox14, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox19, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -691,7 +737,6 @@ Partial Public Class InfotecGravadosyExentosMensual
     Friend WithEvents Line2 As DataDynamics.ActiveReports.Line
     Friend WithEvents SubReport1 As DataDynamics.ActiveReports.SubReport
     Friend WithEvents SubReport2 As DataDynamics.ActiveReports.SubReport
-    Friend WithEvents SubReport3 As DataDynamics.ActiveReports.SubReport
     Friend WithEvents TextBox5 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox12 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents Label4 As DataDynamics.ActiveReports.Label
@@ -703,12 +748,15 @@ Partial Public Class InfotecGravadosyExentosMensual
     Friend WithEvents TextBox15 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox13 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox14 As DataDynamics.ActiveReports.TextBox
-    Friend WithEvents TextBox16 As DataDynamics.ActiveReports.TextBox
     '<<<<<<< HEAD
     '=======
     Friend WithEvents TextBox17 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox18 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents ReportInfo1 As DataDynamics.ActiveReports.ReportInfo
     Friend WithEvents PageBreak1 As DataDynamics.ActiveReports.PageBreak
+    Friend WithEvents TextBox16 As DataDynamics.ActiveReports.TextBox
+    Friend WithEvents Label2 As DataDynamics.ActiveReports.Label
+    Friend WithEvents Label3 As DataDynamics.ActiveReports.Label
+    Friend WithEvents TextBox19 As DataDynamics.ActiveReports.TextBox
     '>>>>>>> origin/master
 End Class
