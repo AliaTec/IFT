@@ -51,11 +51,13 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox10 = New DataDynamics.ActiveReports.TextBox
         Me.Line10 = New DataDynamics.ActiveReports.Line
         Me.Label4 = New DataDynamics.ActiveReports.Label
-        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.Label5 = New DataDynamics.ActiveReports.Label
         Me.Label6 = New DataDynamics.ActiveReports.Label
         Me.ReportInfo1 = New DataDynamics.ActiveReports.ReportInfo
         Me.ReportInfo2 = New DataDynamics.ActiveReports.ReportInfo
+        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
+        Me.ReportInfo3 = New DataDynamics.ActiveReports.ReportInfo
+        Me.PageBreak1 = New DataDynamics.ActiveReports.PageBreak
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -78,12 +80,13 @@ Partial Public Class InfotecAcumuladoTrimestral
         CType(Me.Label6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ReportInfo2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ReportInfo3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'PageHeader1
         '
         Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1})
-        Me.PageHeader1.Height = 0.4791667!
+        Me.PageHeader1.Height = 0.7916667!
         Me.PageHeader1.Name = "PageHeader1"
         '
         'TextBox1
@@ -102,7 +105,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox1.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 12pt; "
         Me.TextBox1.Text = "INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y C" & _
             "OMUNICACIÓN"
-        Me.TextBox1.Top = 0.0!
+        Me.TextBox1.Top = 0.3125!
         Me.TextBox1.Width = 5.375!
         '
         'Detail1
@@ -698,11 +701,6 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Label4.Top = 0.0!
         Me.Label4.Width = 3.0!
         '
-        'PageFooter1
-        '
-        Me.PageFooter1.Height = 0.03125!
-        Me.PageFooter1.Name = "PageFooter1"
-        '
         'Label5
         '
         Me.Label5.Border.BottomColor = System.Drawing.Color.Black
@@ -777,12 +775,53 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.ReportInfo2.Top = 0.3125!
         Me.ReportInfo2.Width = 1.0!
         '
+        'PageFooter1
+        '
+        Me.PageFooter1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.ReportInfo3, Me.PageBreak1})
+        Me.PageFooter1.Height = 0.2916667!
+        Me.PageFooter1.Name = "PageFooter1"
+        '
+        'ReportInfo3
+        '
+        Me.ReportInfo3.Border.BottomColor = System.Drawing.Color.Black
+        Me.ReportInfo3.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo3.Border.LeftColor = System.Drawing.Color.Black
+        Me.ReportInfo3.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo3.Border.RightColor = System.Drawing.Color.Black
+        Me.ReportInfo3.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo3.Border.TopColor = System.Drawing.Color.Black
+        Me.ReportInfo3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.ReportInfo3.FormatString = "Pagina {PageNumber} de {PageCount}"
+        Me.ReportInfo3.Height = 0.1979167!
+        Me.ReportInfo3.Left = 8.0!
+        Me.ReportInfo3.Name = "ReportInfo3"
+        Me.ReportInfo3.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
+        Me.ReportInfo3.Top = 0.0!
+        Me.ReportInfo3.Width = 1.0!
+        '
+        'PageBreak1
+        '
+        Me.PageBreak1.Border.BottomColor = System.Drawing.Color.Black
+        Me.PageBreak1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.PageBreak1.Border.LeftColor = System.Drawing.Color.Black
+        Me.PageBreak1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.PageBreak1.Border.RightColor = System.Drawing.Color.Black
+        Me.PageBreak1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.PageBreak1.Border.TopColor = System.Drawing.Color.Black
+        Me.PageBreak1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.PageBreak1.Height = 0.03125!
+        Me.PageBreak1.Left = 0.0!
+        Me.PageBreak1.Name = "PageBreak1"
+        Me.PageBreak1.Size = New System.Drawing.SizeF(9.041667!, 0.03125!)
+        Me.PageBreak1.Top = 0.25!
+        Me.PageBreak1.Width = 9.041667!
+        '
         'InfotecAcumuladoTrimestral
         '
         Me.MasterReport = False
         Me.PageSettings.PaperHeight = 11.69!
         Me.PageSettings.PaperWidth = 8.27!
-        Me.PrintWidth = 8.979167!
+        Me.PrintWidth = 9.041667!
         Me.Sections.Add(Me.PageHeader1)
         Me.Sections.Add(Me.Detail1)
         Me.Sections.Add(Me.PageFooter1)
@@ -814,6 +853,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         CType(Me.Label6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ReportInfo2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ReportInfo3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -852,4 +892,6 @@ Partial Public Class InfotecAcumuladoTrimestral
     Friend WithEvents Label6 As DataDynamics.ActiveReports.Label
     Friend WithEvents ReportInfo1 As DataDynamics.ActiveReports.ReportInfo
     Friend WithEvents ReportInfo2 As DataDynamics.ActiveReports.ReportInfo
+    Friend WithEvents ReportInfo3 As DataDynamics.ActiveReports.ReportInfo
+    Friend WithEvents PageBreak1 As DataDynamics.ActiveReports.PageBreak
 End Class

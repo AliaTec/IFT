@@ -55,7 +55,7 @@ Partial Public Class PercepcionesGravadosExentosPeriodo
         Me.TextBox1.Height = 0.1875!
         Me.TextBox1.Left = 1.0!
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Style = ""
+        Me.TextBox1.Style = "ddo-char-set: 0; font-size: 11.25pt; "
         Me.TextBox1.Text = Nothing
         Me.TextBox1.Top = 0.0!
         Me.TextBox1.Width = 3.0!
@@ -72,13 +72,13 @@ Partial Public Class PercepcionesGravadosExentosPeriodo
         Me.TextBox2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox2.DataField = "ImporteGravable"
         Me.TextBox2.Height = 0.1875!
-        Me.TextBox2.Left = 4.0!
+        Me.TextBox2.Left = 4.875!
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.OutputFormat = resources.GetString("TextBox2.OutputFormat")
-        Me.TextBox2.Style = "text-align: right; "
+        Me.TextBox2.Style = "ddo-char-set: 0; text-align: right; font-size: 11.25pt; "
         Me.TextBox2.Text = Nothing
         Me.TextBox2.Top = 0.0!
-        Me.TextBox2.Width = 1.0!
+        Me.TextBox2.Width = 1.125!
         '
         'TextBox4
         '
@@ -94,7 +94,7 @@ Partial Public Class PercepcionesGravadosExentosPeriodo
         Me.TextBox4.Height = 0.1875!
         Me.TextBox4.Left = 0.0!
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Style = ""
+        Me.TextBox4.Style = "ddo-char-set: 0; font-size: 11.25pt; "
         Me.TextBox4.Text = Nothing
         Me.TextBox4.Top = 0.0!
         Me.TextBox4.Width = 1.0!

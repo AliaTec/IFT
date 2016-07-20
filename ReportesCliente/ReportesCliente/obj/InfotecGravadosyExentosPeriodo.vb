@@ -137,30 +137,30 @@ Public Class InfotecGravadosyExentosPeriodo
         '*************************************************************************
         ''******* SUBREPORTE DEDUCCIONES **************/
         '                                  nombre del subreporte
-        Dim SubReporteEmpresa As New EmpresaGravadosExentosPeriodo
-        SubReporteEmpresa.Parameters.Clear()
+        'Dim SubReporteEmpresa As New EmpresaGravadosExentosPeriodo
+        'SubReporteEmpresa.Parameters.Clear()
 
-        'aqui se agregan
-        SubReporteEmpresa.Parameters.Add(ParamIdRazonSocial)
-        SubReporteEmpresa.Parameters.Add(ParamIdTipoNominaAsig)
-        SubReporteEmpresa.Parameters.Add(ParamIdTipoNominaProc)
-        SubReporteEmpresa.Parameters.Add(ParamAnio)
-        SubReporteEmpresa.Parameters.Add(ParamPeriodo)
-        SubReporteEmpresa.Parameters.Add(ParamUID)
-        SubReporteEmpresa.Parameters.Add(ParamLID)
-        SubReporteEmpresa.Parameters.Add(ParamidAccion)
+        ''aqui se agregan
+        'SubReporteEmpresa.Parameters.Add(ParamIdRazonSocial)
+        'SubReporteEmpresa.Parameters.Add(ParamIdTipoNominaAsig)
+        'SubReporteEmpresa.Parameters.Add(ParamIdTipoNominaProc)
+        'SubReporteEmpresa.Parameters.Add(ParamAnio)
+        'SubReporteEmpresa.Parameters.Add(ParamPeriodo)
+        'SubReporteEmpresa.Parameters.Add(ParamUID)
+        'SubReporteEmpresa.Parameters.Add(ParamLID)
+        'SubReporteEmpresa.Parameters.Add(ParamidAccion)
 
 
-        'aqui se les asigna el valor
-        SubReporteEmpresa.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
-        SubReporteEmpresa.Parameters("IdTipoNominaAsig").Value = Me.Parameters("IdTipoNominaAsig").Value
-        SubReporteEmpresa.Parameters("IdTipoNominaProc").Value = Me.Parameters("IdTipoNominaProc").Value
-        SubReporteEmpresa.Parameters("Anio").Value = Me.Parameters("Anio").Value
-        SubReporteEmpresa.Parameters("Periodo").Value = Me.Parameters("Periodo").Value
-        SubReporteEmpresa.Parameters("UID").Value = Me.Parameters("UID").Value
-        SubReporteEmpresa.Parameters("LID").Value = Me.Parameters("LID").Value
-        SubReporteEmpresa.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
-        Me.SubReport3.Report = SubReporteEmpresa
+        ''aqui se les asigna el valor
+        'SubReporteEmpresa.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
+        'SubReporteEmpresa.Parameters("IdTipoNominaAsig").Value = Me.Parameters("IdTipoNominaAsig").Value
+        'SubReporteEmpresa.Parameters("IdTipoNominaProc").Value = Me.Parameters("IdTipoNominaProc").Value
+        'SubReporteEmpresa.Parameters("Anio").Value = Me.Parameters("Anio").Value
+        'SubReporteEmpresa.Parameters("Periodo").Value = Me.Parameters("Periodo").Value
+        'SubReporteEmpresa.Parameters("UID").Value = Me.Parameters("UID").Value
+        'SubReporteEmpresa.Parameters("LID").Value = Me.Parameters("LID").Value
+        'SubReporteEmpresa.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
+        'Me.SubReport3.Report = SubReporteEmpresa
 
     End Sub
 
