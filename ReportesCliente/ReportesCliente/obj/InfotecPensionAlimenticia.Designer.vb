@@ -242,7 +242,7 @@ Partial Public Class InfotecPensionAlimenticia
         Me.ReportInfo3.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.ReportInfo3.Border.TopColor = System.Drawing.Color.Black
         Me.ReportInfo3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo3.FormatString = "Page {PageNumber} of {PageCount}"
+        Me.ReportInfo3.FormatString = "Pagina {PageNumber} de {PageCount}"
         Me.ReportInfo3.Height = 0.1979167!
         Me.ReportInfo3.Left = 6.0!
         Me.ReportInfo3.Name = "ReportInfo3"
@@ -263,9 +263,9 @@ Partial Public Class InfotecPensionAlimenticia
         Me.PageBreak1.Height = 0.0625!
         Me.PageBreak1.Left = 0.0!
         Me.PageBreak1.Name = "PageBreak1"
-        Me.PageBreak1.Size = New System.Drawing.SizeF(7.041667!, 0.0625!)
+        Me.PageBreak1.Size = New System.Drawing.SizeF(6.5!, 0.0625!)
         Me.PageBreak1.Top = 0.25!
-        Me.PageBreak1.Width = 7.041667!
+        Me.PageBreak1.Width = 6.5!
         '
         'InfotecPensionAlimenticia
         '

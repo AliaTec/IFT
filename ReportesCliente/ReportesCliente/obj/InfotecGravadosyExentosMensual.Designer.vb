@@ -658,7 +658,7 @@ Partial Public Class InfotecGravadosyExentosMensual
         Me.ReportInfo1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.ReportInfo1.Border.TopColor = System.Drawing.Color.Black
         Me.ReportInfo1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.ReportInfo1.FormatString = "Page {PageNumber} of {PageCount}"
+        Me.ReportInfo1.FormatString = "Pagina {PageNumber} de {PageCount}"
         Me.ReportInfo1.Height = 0.1979167!
         Me.ReportInfo1.Left = 7.9375!
         Me.ReportInfo1.Name = "ReportInfo1"

@@ -42,11 +42,11 @@ Partial Public Class ISN
         Me.TextBox19 = New DataDynamics.ActiveReports.TextBox
         Me.Line4 = New DataDynamics.ActiveReports.Line
         Me.Label11 = New DataDynamics.ActiveReports.Label
-        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.Label5 = New DataDynamics.ActiveReports.Label
         Me.Label6 = New DataDynamics.ActiveReports.Label
         Me.ReportInfo1 = New DataDynamics.ActiveReports.ReportInfo
         Me.ReportInfo2 = New DataDynamics.ActiveReports.ReportInfo
+        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         CType(Me.TextBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -278,7 +278,7 @@ Partial Public Class ISN
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.TextBox7.Text = Nothing
-        Me.TextBox7.Top = 2.25!
+        Me.TextBox7.Top = 2.375!
         Me.TextBox7.Width = 1.0!
         '
         'Label3
@@ -343,7 +343,7 @@ Partial Public Class ISN
         'PageHeader1
         '
         Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Label2, Me.TextBox2, Me.Line3, Me.Label7, Me.TextBox10, Me.Label10, Me.TextBox15, Me.TextBox16, Me.TextBox19, Me.Line4, Me.Label11, Me.Label5, Me.Label6, Me.ReportInfo1, Me.ReportInfo2})
-        Me.PageHeader1.Height = 1.583333!
+        Me.PageHeader1.Height = 1.635417!
         Me.PageHeader1.Name = "PageHeader1"
         '
         'Label2
@@ -362,7 +362,7 @@ Partial Public Class ISN
         Me.Label2.Name = "Label2"
         Me.Label2.Style = "text-align: center; font-weight: bold; font-size: 11pt; "
         Me.Label2.Text = "IMPUESTO SOBRE NOMINA"
-        Me.Label2.Top = 0.5625!
+        Me.Label2.Top = 0.8125!
         Me.Label2.Width = 4.0625!
         '
         'TextBox2
@@ -420,7 +420,7 @@ Partial Public Class ISN
         Me.Label7.Name = "Label7"
         Me.Label7.Style = "font-weight: bold; "
         Me.Label7.Text = "Año:"
-        Me.Label7.Top = 0.8125!
+        Me.Label7.Top = 1.0625!
         Me.Label7.Width = 0.375!
         '
         'TextBox10
@@ -439,7 +439,7 @@ Partial Public Class ISN
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Style = "font-weight: bold; "
         Me.TextBox10.Text = Nothing
-        Me.TextBox10.Top = 0.8125!
+        Me.TextBox10.Top = 1.0625!
         Me.TextBox10.Width = 0.625!
         '
         'Label10
@@ -458,7 +458,7 @@ Partial Public Class ISN
         Me.Label10.Name = "Label10"
         Me.Label10.Style = "font-weight: bold; "
         Me.Label10.Text = "Mes:"
-        Me.Label10.Top = 0.8125!
+        Me.Label10.Top = 1.0625!
         Me.Label10.Width = 0.375!
         '
         'TextBox15
@@ -477,7 +477,7 @@ Partial Public Class ISN
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Style = "text-align: left; font-weight: bold; "
         Me.TextBox15.Text = Nothing
-        Me.TextBox15.Top = 0.8125!
+        Me.TextBox15.Top = 1.0625!
         Me.TextBox15.Width = 0.875!
         '
         'TextBox16
@@ -552,15 +552,10 @@ Partial Public Class ISN
         Me.Label11.HyperLink = Nothing
         Me.Label11.Left = 2.0!
         Me.Label11.Name = "Label11"
-        Me.Label11.Style = "text-align: center; font-weight: bold; font-size: 11pt; "
+        Me.Label11.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 12pt; "
         Me.Label11.Text = "INFOTEC"
-        Me.Label11.Top = 0.0625!
+        Me.Label11.Top = 0.3125!
         Me.Label11.Width = 5.0!
-        '
-        'PageFooter1
-        '
-        Me.PageFooter1.Height = 0.08333334!
-        Me.PageFooter1.Name = "PageFooter1"
         '
         'Label5
         '
@@ -574,12 +569,12 @@ Partial Public Class ISN
         Me.Label5.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label5.Height = 0.1875!
         Me.Label5.HyperLink = Nothing
-        Me.Label5.Left = 2.625!
+        Me.Label5.Left = 5.3125!
         Me.Label5.Name = "Label5"
         Me.Label5.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-f" & _
             "amily: Arial; "
         Me.Label5.Text = "Hora:"
-        Me.Label5.Top = 1.0625!
+        Me.Label5.Top = 0.0!
         Me.Label5.Width = 0.75!
         '
         'Label6
@@ -594,12 +589,12 @@ Partial Public Class ISN
         Me.Label6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label6.Height = 0.1875!
         Me.Label6.HyperLink = Nothing
-        Me.Label6.Left = 4.375!
+        Me.Label6.Left = 7.0625!
         Me.Label6.Name = "Label6"
         Me.Label6.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; font-f" & _
             "amily: Arial; "
         Me.Label6.Text = "Fecha:"
-        Me.Label6.Top = 1.0625!
+        Me.Label6.Top = 0.0!
         Me.Label6.Width = 0.875!
         '
         'ReportInfo1
@@ -614,10 +609,10 @@ Partial Public Class ISN
         Me.ReportInfo1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.ReportInfo1.FormatString = "{RunDateTime:hh:mm tt}"
         Me.ReportInfo1.Height = 0.1979167!
-        Me.ReportInfo1.Left = 3.375!
+        Me.ReportInfo1.Left = 6.0625!
         Me.ReportInfo1.Name = "ReportInfo1"
         Me.ReportInfo1.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; font-family: Arial; "
-        Me.ReportInfo1.Top = 1.0625!
+        Me.ReportInfo1.Top = 0.0!
         Me.ReportInfo1.Width = 1.0!
         '
         'ReportInfo2
@@ -632,11 +627,16 @@ Partial Public Class ISN
         Me.ReportInfo2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.ReportInfo2.FormatString = "{RunDateTime:dd/MM/yyyy}"
         Me.ReportInfo2.Height = 0.1979167!
-        Me.ReportInfo2.Left = 5.25!
+        Me.ReportInfo2.Left = 7.9375!
         Me.ReportInfo2.Name = "ReportInfo2"
         Me.ReportInfo2.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; font-family: Arial; "
-        Me.ReportInfo2.Top = 1.0625!
+        Me.ReportInfo2.Top = 0.0!
         Me.ReportInfo2.Width = 1.0!
+        '
+        'PageFooter1
+        '
+        Me.PageFooter1.Height = 0.08333334!
+        Me.PageFooter1.Name = "PageFooter1"
         '
         'ISN
         '
