@@ -34,7 +34,6 @@ Partial Public Class InfotecCFRenuncia
         Me.Label4 = New DataDynamics.ActiveReports.Label
         Me.Line2 = New DataDynamics.ActiveReports.Line
         Me.TextBox9 = New DataDynamics.ActiveReports.TextBox
-        Me.TextBox10 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox11 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox13 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox14 = New DataDynamics.ActiveReports.TextBox
@@ -48,6 +47,9 @@ Partial Public Class InfotecCFRenuncia
         Me.Label6 = New DataDynamics.ActiveReports.Label
         Me.ReportInfo1 = New DataDynamics.ActiveReports.ReportInfo
         Me.PageBreak1 = New DataDynamics.ActiveReports.PageBreak
+        Me.Label5 = New DataDynamics.ActiveReports.Label
+        Me.Label7 = New DataDynamics.ActiveReports.Label
+        Me.Label8 = New DataDynamics.ActiveReports.Label
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -58,7 +60,6 @@ Partial Public Class InfotecCFRenuncia
         CType(Me.Label3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox14, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -69,12 +70,15 @@ Partial Public Class InfotecCFRenuncia
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'PageHeader1
         '
         Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1})
-        Me.PageHeader1.Height = 0.2395833!
+        Me.PageHeader1.Height = 0.2083333!
         Me.PageHeader1.Name = "PageHeader1"
         '
         'TextBox1
@@ -99,8 +103,8 @@ Partial Public Class InfotecCFRenuncia
         'Detail1
         '
         Me.Detail1.ColumnSpacing = 0.0!
-        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Label2, Me.TextBox6, Me.TextBox2, Me.SubReport1, Me.TextBox3, Me.SubReport2, Me.TextBox4, Me.Label1, Me.Line1, Me.Label3, Me.Label4, Me.Line2, Me.TextBox9, Me.TextBox10, Me.TextBox11, Me.TextBox13, Me.TextBox14, Me.TextBox15, Me.TextBox16, Me.TextBox5, Me.TextBox17})
-        Me.Detail1.Height = 7.010417!
+        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Label2, Me.TextBox6, Me.TextBox2, Me.SubReport1, Me.TextBox3, Me.SubReport2, Me.TextBox4, Me.Label1, Me.Line1, Me.Label3, Me.Label4, Me.Line2, Me.TextBox9, Me.TextBox11, Me.TextBox13, Me.TextBox14, Me.TextBox15, Me.TextBox16, Me.TextBox5, Me.TextBox17, Me.Label5, Me.Label7, Me.Label8})
+        Me.Detail1.Height = 7.104167!
         Me.Detail1.Name = "Detail1"
         '
         'Label2
@@ -155,7 +159,7 @@ Partial Public Class InfotecCFRenuncia
         Me.TextBox2.Height = 0.5625!
         Me.TextBox2.Left = 0.0625!
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Style = "ddo-char-set: 0; text-align: justify; font-weight: bold; font-size: 9pt; "
+        Me.TextBox2.Style = "ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 9pt; "
         Me.TextBox2.Text = "TextBox2"
         Me.TextBox2.Top = 0.25!
         Me.TextBox2.Width = 6.9375!
@@ -192,7 +196,7 @@ Partial Public Class InfotecCFRenuncia
         Me.TextBox3.Height = 0.1875!
         Me.TextBox3.Left = 0.0!
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; "
+        Me.TextBox3.Style = "ddo-char-set: 0; text-align: left; font-weight: bold; font-size: 11.25pt; "
         Me.TextBox3.Text = "Percepciones:"
         Me.TextBox3.Top = 0.875!
         Me.TextBox3.Width = 1.125!
@@ -227,9 +231,9 @@ Partial Public Class InfotecCFRenuncia
         Me.TextBox4.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox4.Height = 0.1875!
-        Me.TextBox4.Left = 0.0625!
+        Me.TextBox4.Left = 0.0!
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; "
+        Me.TextBox4.Style = "ddo-char-set: 0; text-align: left; font-weight: bold; font-size: 11.25pt; "
         Me.TextBox4.Text = "Deducciones:"
         Me.TextBox4.Top = 2.375!
         Me.TextBox4.Width = 1.0625!
@@ -246,10 +250,10 @@ Partial Public Class InfotecCFRenuncia
         Me.Label1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label1.Height = 0.1875!
         Me.Label1.HyperLink = Nothing
-        Me.Label1.Left = 3.375!
+        Me.Label1.Left = 2.9375!
         Me.Label1.Name = "Label1"
         Me.Label1.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
-        Me.Label1.Text = "Total Percepciones:        $"
+        Me.Label1.Text = "Total Percepciones:"
         Me.Label1.Top = 2.1875!
         Me.Label1.Width = 2.0!
         '
@@ -286,12 +290,12 @@ Partial Public Class InfotecCFRenuncia
         Me.Label3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label3.Height = 0.1875!
         Me.Label3.HyperLink = Nothing
-        Me.Label3.Left = 3.375!
+        Me.Label3.Left = 3.25!
         Me.Label3.Name = "Label3"
         Me.Label3.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
-        Me.Label3.Text = "Total Deducciones:        $"
+        Me.Label3.Text = "Total Deducciones:"
         Me.Label3.Top = 3.6875!
-        Me.Label3.Width = 2.0!
+        Me.Label3.Width = 1.6875!
         '
         'Label4
         '
@@ -305,12 +309,12 @@ Partial Public Class InfotecCFRenuncia
         Me.Label4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label4.Height = 0.1875!
         Me.Label4.HyperLink = Nothing
-        Me.Label4.Left = 3.375!
+        Me.Label4.Left = 3.25!
         Me.Label4.Name = "Label4"
         Me.Label4.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
-        Me.Label4.Text = "Neto a Recibir:        $"
+        Me.Label4.Text = "Neto a Recibir:"
         Me.Label4.Top = 3.9375!
-        Me.Label4.Width = 2.0!
+        Me.Label4.Width = 1.6875!
         '
         'Line2
         '
@@ -352,25 +356,6 @@ Partial Public Class InfotecCFRenuncia
         Me.TextBox9.Top = 4.1875!
         Me.TextBox9.Width = 6.9375!
         '
-        'TextBox10
-        '
-        Me.TextBox10.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox10.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox10.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox10.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox10.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox10.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox10.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox10.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox10.DataField = "Texto03"
-        Me.TextBox10.Height = 0.5!
-        Me.TextBox10.Left = 0.0625!
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Style = "ddo-char-set: 0; text-align: justify; font-size: 9pt; "
-        Me.TextBox10.Text = "TextBox10"
-        Me.TextBox10.Top = 4.9375!
-        Me.TextBox10.Width = 6.9375!
-        '
         'TextBox11
         '
         Me.TextBox11.Border.BottomColor = System.Drawing.Color.Black
@@ -385,9 +370,9 @@ Partial Public Class InfotecCFRenuncia
         Me.TextBox11.Height = 0.5!
         Me.TextBox11.Left = 0.0625!
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Style = "ddo-char-set: 0; text-align: justify; font-weight: bold; font-size: 9pt; "
+        Me.TextBox11.Style = "ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 9pt; "
         Me.TextBox11.Text = "TextBox11"
-        Me.TextBox11.Top = 5.4375!
+        Me.TextBox11.Top = 5.5625!
         Me.TextBox11.Width = 6.9375!
         '
         'TextBox13
@@ -404,9 +389,9 @@ Partial Public Class InfotecCFRenuncia
         Me.TextBox13.Height = 0.5625!
         Me.TextBox13.Left = 0.0625!
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Style = "ddo-char-set: 0; text-align: justify; font-weight: bold; font-size: 9pt; "
+        Me.TextBox13.Style = "ddo-char-set: 0; text-align: justify; font-weight: normal; font-size: 9pt; "
         Me.TextBox13.Text = "TextBox13"
-        Me.TextBox13.Top = 5.9375!
+        Me.TextBox13.Top = 6.125!
         Me.TextBox13.Width = 6.9375!
         '
         'TextBox14
@@ -444,7 +429,7 @@ Partial Public Class InfotecCFRenuncia
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Style = "ddo-char-set: 0; text-align: justify; font-size: 9pt; "
         Me.TextBox15.Text = Nothing
-        Me.TextBox15.Top = 4.9375!
+        Me.TextBox15.Top = 5.0!
         Me.TextBox15.Width = 6.9375!
         '
         'TextBox16
@@ -510,7 +495,7 @@ Partial Public Class InfotecCFRenuncia
         'PageFooter1
         '
         Me.PageFooter1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Line4, Me.TextBox12, Me.Label6, Me.ReportInfo1, Me.PageBreak1})
-        Me.PageFooter1.Height = 1.03125!
+        Me.PageFooter1.Height = 1.125!
         Me.PageFooter1.Name = "PageFooter1"
         '
         'Line4
@@ -527,12 +512,12 @@ Partial Public Class InfotecCFRenuncia
         Me.Line4.Left = 2.0!
         Me.Line4.LineWeight = 1.0!
         Me.Line4.Name = "Line4"
-        Me.Line4.Top = 0.25!
+        Me.Line4.Top = 0.375!
         Me.Line4.Width = 3.0!
         Me.Line4.X1 = 2.0!
         Me.Line4.X2 = 5.0!
-        Me.Line4.Y1 = 0.25!
-        Me.Line4.Y2 = 0.25!
+        Me.Line4.Y1 = 0.375!
+        Me.Line4.Y2 = 0.375!
         '
         'TextBox12
         '
@@ -550,7 +535,7 @@ Partial Public Class InfotecCFRenuncia
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Style = "text-align: center; "
         Me.TextBox12.Text = "TextBox11"
-        Me.TextBox12.Top = 0.3125!
+        Me.TextBox12.Top = 0.4375!
         Me.TextBox12.Width = 3.0!
         '
         'Label6
@@ -570,7 +555,7 @@ Partial Public Class InfotecCFRenuncia
         Me.Label6.Name = "Label6"
         Me.Label6.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 9.75pt; "
         Me.Label6.Text = ""
-        Me.Label6.Top = 0.5!
+        Me.Label6.Top = 0.625!
         Me.Label6.Width = 3.0!
         '
         'ReportInfo1
@@ -588,7 +573,7 @@ Partial Public Class InfotecCFRenuncia
         Me.ReportInfo1.Left = 6.0!
         Me.ReportInfo1.Name = "ReportInfo1"
         Me.ReportInfo1.Style = ""
-        Me.ReportInfo1.Top = 0.75!
+        Me.ReportInfo1.Top = 0.8125!
         Me.ReportInfo1.Width = 1.0!
         '
         'PageBreak1
@@ -605,8 +590,65 @@ Partial Public Class InfotecCFRenuncia
         Me.PageBreak1.Left = 0.0!
         Me.PageBreak1.Name = "PageBreak1"
         Me.PageBreak1.Size = New System.Drawing.SizeF(6.5!, 0.0625!)
-        Me.PageBreak1.Top = 1.0!
+        Me.PageBreak1.Top = 1.0625!
         Me.PageBreak1.Width = 6.5!
+        '
+        'Label5
+        '
+        Me.Label5.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label5.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label5.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.RightColor = System.Drawing.Color.Black
+        Me.Label5.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.TopColor = System.Drawing.Color.Black
+        Me.Label5.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Height = 0.1875!
+        Me.Label5.HyperLink = Nothing
+        Me.Label5.Left = 5.25!
+        Me.Label5.Name = "Label5"
+        Me.Label5.Style = "ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9.75pt; "
+        Me.Label5.Text = "$"
+        Me.Label5.Top = 3.6875!
+        Me.Label5.Width = 0.125!
+        '
+        'Label7
+        '
+        Me.Label7.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label7.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label7.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label7.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label7.Border.RightColor = System.Drawing.Color.Black
+        Me.Label7.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label7.Border.TopColor = System.Drawing.Color.Black
+        Me.Label7.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label7.Height = 0.1875!
+        Me.Label7.HyperLink = Nothing
+        Me.Label7.Left = 5.25!
+        Me.Label7.Name = "Label7"
+        Me.Label7.Style = "ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9.75pt; "
+        Me.Label7.Text = "$"
+        Me.Label7.Top = 3.9375!
+        Me.Label7.Width = 0.125!
+        '
+        'Label8
+        '
+        Me.Label8.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label8.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label8.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label8.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label8.Border.RightColor = System.Drawing.Color.Black
+        Me.Label8.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label8.Border.TopColor = System.Drawing.Color.Black
+        Me.Label8.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label8.Height = 0.1875!
+        Me.Label8.HyperLink = Nothing
+        Me.Label8.Left = 5.25!
+        Me.Label8.Name = "Label8"
+        Me.Label8.Style = "ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9.75pt; "
+        Me.Label8.Text = "$"
+        Me.Label8.Top = 2.1875!
+        Me.Label8.Width = 0.125!
         '
         'InfotecCFRenuncia
         '
@@ -633,7 +675,6 @@ Partial Public Class InfotecCFRenuncia
         CType(Me.Label3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox14, System.ComponentModel.ISupportInitialize).EndInit()
@@ -644,6 +685,9 @@ Partial Public Class InfotecCFRenuncia
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -661,7 +705,6 @@ Partial Public Class InfotecCFRenuncia
     Friend WithEvents Label4 As DataDynamics.ActiveReports.Label
     Friend WithEvents Line2 As DataDynamics.ActiveReports.Line
     Friend WithEvents TextBox9 As DataDynamics.ActiveReports.TextBox
-    Friend WithEvents TextBox10 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox11 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox13 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents Line4 As DataDynamics.ActiveReports.Line
@@ -674,4 +717,7 @@ Partial Public Class InfotecCFRenuncia
     Friend WithEvents TextBox17 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents ReportInfo1 As DataDynamics.ActiveReports.ReportInfo
     Friend WithEvents PageBreak1 As DataDynamics.ActiveReports.PageBreak
+    Friend WithEvents Label5 As DataDynamics.ActiveReports.Label
+    Friend WithEvents Label7 As DataDynamics.ActiveReports.Label
+    Friend WithEvents Label8 As DataDynamics.ActiveReports.Label
 End Class

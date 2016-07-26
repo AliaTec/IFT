@@ -69,6 +69,10 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.ReportInfo1 = New DataDynamics.ActiveReports.ReportInfo
         Me.PageBreak1 = New DataDynamics.ActiveReports.PageBreak
+        Me.Line1 = New DataDynamics.ActiveReports.Line
+        Me.Line2 = New DataDynamics.ActiveReports.Line
+        Me.Line3 = New DataDynamics.ActiveReports.Line
+        Me.Line4 = New DataDynamics.ActiveReports.Line
         CType(Me.Label1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -251,10 +255,10 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox11.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox11.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox11.Height = 0.1875!
-        Me.TextBox11.Left = 6.3125!
+        Me.TextBox11.Left = 6.5!
         Me.TextBox11.MultiLine = False
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9pt; "
+        Me.TextBox11.Style = "ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Arial; "
         Me.TextBox11.Text = "Concepto"
         Me.TextBox11.Top = 1.625!
         Me.TextBox11.Width = 1.0!
@@ -270,10 +274,11 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox7.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox7.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox7.Height = 0.1875!
-        Me.TextBox7.Left = 9.25!
+        Me.TextBox7.Left = 9.4375!
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.OutputFormat = resources.GetString("TextBox7.OutputFormat")
-        Me.TextBox7.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox7.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox7.Text = "Enero"
         Me.TextBox7.Top = 1.625!
         Me.TextBox7.Width = 1.0!
@@ -289,10 +294,11 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox8.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox8.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox8.Height = 0.188!
-        Me.TextBox8.Left = 10.25!
+        Me.TextBox8.Left = 10.4375!
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.OutputFormat = resources.GetString("TextBox8.OutputFormat")
-        Me.TextBox8.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox8.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox8.Text = "Febrero"
         Me.TextBox8.Top = 1.625!
         Me.TextBox8.Width = 1.0!
@@ -308,10 +314,10 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox13.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox13.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox13.Height = 0.188!
-        Me.TextBox13.Left = 11.25!
+        Me.TextBox13.Left = 11.4375!
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.OutputFormat = resources.GetString("TextBox13.OutputFormat")
-        Me.TextBox13.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox13.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; "
         Me.TextBox13.Text = "Marzo"
         Me.TextBox13.Top = 1.625!
         Me.TextBox13.Width = 1.0!
@@ -327,10 +333,10 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox3.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox3.Height = 0.188!
-        Me.TextBox3.Left = 12.25!
+        Me.TextBox3.Left = 12.4375!
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.OutputFormat = resources.GetString("TextBox3.OutputFormat")
-        Me.TextBox3.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox3.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; "
         Me.TextBox3.Text = "Abril"
         Me.TextBox3.Top = 1.625!
         Me.TextBox3.Width = 1.0!
@@ -346,10 +352,11 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox15.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox15.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox15.Height = 0.188!
-        Me.TextBox15.Left = 13.25!
+        Me.TextBox15.Left = 13.4375!
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.OutputFormat = resources.GetString("TextBox15.OutputFormat")
-        Me.TextBox15.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox15.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox15.Text = "Mayo"
         Me.TextBox15.Top = 1.625!
         Me.TextBox15.Width = 1.0!
@@ -365,10 +372,11 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox14.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox14.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox14.Height = 0.188!
-        Me.TextBox14.Left = 14.25!
+        Me.TextBox14.Left = 14.4375!
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.OutputFormat = resources.GetString("TextBox14.OutputFormat")
-        Me.TextBox14.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox14.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox14.Text = "Junio"
         Me.TextBox14.Top = 1.625!
         Me.TextBox14.Width = 1.0!
@@ -384,10 +392,11 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox17.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox17.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox17.Height = 0.188!
-        Me.TextBox17.Left = 15.25!
+        Me.TextBox17.Left = 15.4375!
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.OutputFormat = resources.GetString("TextBox17.OutputFormat")
-        Me.TextBox17.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox17.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox17.Text = "Julio"
         Me.TextBox17.Top = 1.625!
         Me.TextBox17.Width = 1.0!
@@ -403,10 +412,11 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox18.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox18.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox18.Height = 0.188!
-        Me.TextBox18.Left = 16.25!
+        Me.TextBox18.Left = 16.4375!
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.OutputFormat = resources.GetString("TextBox18.OutputFormat")
-        Me.TextBox18.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox18.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox18.Text = "Agosto"
         Me.TextBox18.Top = 1.625!
         Me.TextBox18.Width = 1.0!
@@ -422,10 +432,11 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox19.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox19.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox19.Height = 0.188!
-        Me.TextBox19.Left = 17.25!
+        Me.TextBox19.Left = 17.4375!
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.OutputFormat = resources.GetString("TextBox19.OutputFormat")
-        Me.TextBox19.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox19.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox19.Text = "Septiembre"
         Me.TextBox19.Top = 1.625!
         Me.TextBox19.Width = 1.0!
@@ -441,10 +452,11 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox20.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox20.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox20.Height = 0.188!
-        Me.TextBox20.Left = 18.25!
+        Me.TextBox20.Left = 18.4375!
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.OutputFormat = resources.GetString("TextBox20.OutputFormat")
-        Me.TextBox20.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox20.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox20.Text = "Octubre"
         Me.TextBox20.Top = 1.625!
         Me.TextBox20.Width = 1.0!
@@ -460,10 +472,10 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox32.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox32.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox32.Height = 0.1875!
-        Me.TextBox32.Left = 7.3125!
+        Me.TextBox32.Left = 7.5!
         Me.TextBox32.MultiLine = False
         Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9pt; "
+        Me.TextBox32.Style = "ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Arial; "
         Me.TextBox32.Text = "Descipcion"
         Me.TextBox32.Top = 1.625!
         Me.TextBox32.Width = 1.9375!
@@ -479,10 +491,11 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox21.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox21.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox21.Height = 0.188!
-        Me.TextBox21.Left = 19.25!
+        Me.TextBox21.Left = 19.4375!
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.OutputFormat = resources.GetString("TextBox21.OutputFormat")
-        Me.TextBox21.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox21.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox21.Text = "Noviembre"
         Me.TextBox21.Top = 1.625!
         Me.TextBox21.Width = 1.0!
@@ -498,10 +511,11 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox22.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox22.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox22.Height = 0.188!
-        Me.TextBox22.Left = 20.25!
+        Me.TextBox22.Left = 20.4375!
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.OutputFormat = resources.GetString("TextBox22.OutputFormat")
-        Me.TextBox22.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox22.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox22.Text = "Diciembre"
         Me.TextBox22.Top = 1.625!
         Me.TextBox22.Width = 1.0!
@@ -516,13 +530,14 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox23.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox23.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox23.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox23.Height = 0.188!
-        Me.TextBox23.Left = 21.25!
+        Me.TextBox23.Height = 0.375!
+        Me.TextBox23.Left = 21.4375!
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.OutputFormat = resources.GetString("TextBox23.OutputFormat")
-        Me.TextBox23.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
+        Me.TextBox23.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 11.25pt; font-f" & _
+            "amily: Arial; "
         Me.TextBox23.Text = "Importe Total"
-        Me.TextBox23.Top = 1.625!
+        Me.TextBox23.Top = 1.4375!
         Me.TextBox23.Width = 1.0!
         '
         'TextBox9
@@ -539,10 +554,10 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox9.Left = 0.0!
         Me.TextBox9.MultiLine = False
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9pt; "
+        Me.TextBox9.Style = "ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Arial; "
         Me.TextBox9.Text = "IdEmpleado"
         Me.TextBox9.Top = 1.625!
-        Me.TextBox9.Width = 0.8125!
+        Me.TextBox9.Width = 1.0!
         '
         'TextBox10
         '
@@ -555,10 +570,10 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox10.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox10.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox10.Height = 0.1875!
-        Me.TextBox10.Left = 0.8125!
+        Me.TextBox10.Left = 1.0!
         Me.TextBox10.MultiLine = False
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9pt; "
+        Me.TextBox10.Style = "ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Arial; "
         Me.TextBox10.Text = "Nombre Empleado"
         Me.TextBox10.Top = 1.625!
         Me.TextBox10.Width = 4.0!
@@ -574,10 +589,10 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox38.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox38.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox38.Height = 0.1875!
-        Me.TextBox38.Left = 4.8125!
+        Me.TextBox38.Left = 5.0!
         Me.TextBox38.MultiLine = False
         Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9pt; "
+        Me.TextBox38.Style = "ddo-char-set: 0; font-weight: bold; font-size: 11.25pt; font-family: Arial; "
         Me.TextBox38.Text = "Centro Costos"
         Me.TextBox38.Top = 1.625!
         Me.TextBox38.Width = 1.5!
@@ -661,8 +676,8 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         'Detail1
         '
         Me.Detail1.ColumnSpacing = 0.0!
-        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox26, Me.TextBox16, Me.TextBox1, Me.TextBox2, Me.TextBox4, Me.TextBox12, Me.TextBox24, Me.TextBox25, Me.TextBox27, Me.TextBox28, Me.TextBox29, Me.TextBox31, Me.TextBox30, Me.TextBox34, Me.TextBox35, Me.TextBox36, Me.TextBox37, Me.TextBox39})
-        Me.Detail1.Height = 0.2291667!
+        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox26, Me.TextBox16, Me.TextBox1, Me.TextBox2, Me.TextBox4, Me.TextBox12, Me.TextBox24, Me.TextBox25, Me.TextBox27, Me.TextBox28, Me.TextBox29, Me.TextBox31, Me.TextBox30, Me.TextBox34, Me.TextBox35, Me.TextBox36, Me.TextBox37, Me.TextBox39, Me.Line1, Me.Line2, Me.Line3, Me.Line4})
+        Me.Detail1.Height = 0.2083333!
         Me.Detail1.Name = "Detail1"
         '
         'TextBox26
@@ -677,7 +692,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox26.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox26.DataField = "Enero"
         Me.TextBox26.Height = 0.1875!
-        Me.TextBox26.Left = 9.25!
+        Me.TextBox26.Left = 9.4375!
         Me.TextBox26.Name = "TextBox26"
         Me.TextBox26.OutputFormat = resources.GetString("TextBox26.OutputFormat")
         Me.TextBox26.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -697,7 +712,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox16.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox16.DataField = "Febrero"
         Me.TextBox16.Height = 0.188!
-        Me.TextBox16.Left = 10.25!
+        Me.TextBox16.Left = 10.4375!
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.OutputFormat = resources.GetString("TextBox16.OutputFormat")
         Me.TextBox16.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -717,7 +732,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox1.DataField = "Marzo"
         Me.TextBox1.Height = 0.188!
-        Me.TextBox1.Left = 11.25!
+        Me.TextBox1.Left = 11.4375!
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.OutputFormat = resources.GetString("TextBox1.OutputFormat")
         Me.TextBox1.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -737,7 +752,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox2.DataField = "Abril"
         Me.TextBox2.Height = 0.188!
-        Me.TextBox2.Left = 12.25!
+        Me.TextBox2.Left = 12.4375!
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.OutputFormat = resources.GetString("TextBox2.OutputFormat")
         Me.TextBox2.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -757,7 +772,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox4.DataField = "Mayo"
         Me.TextBox4.Height = 0.188!
-        Me.TextBox4.Left = 13.25!
+        Me.TextBox4.Left = 13.4375!
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.OutputFormat = resources.GetString("TextBox4.OutputFormat")
         Me.TextBox4.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -777,7 +792,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox12.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox12.DataField = "Junio"
         Me.TextBox12.Height = 0.188!
-        Me.TextBox12.Left = 14.25!
+        Me.TextBox12.Left = 14.4375!
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.OutputFormat = resources.GetString("TextBox12.OutputFormat")
         Me.TextBox12.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -797,7 +812,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox24.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox24.DataField = "Julio"
         Me.TextBox24.Height = 0.188!
-        Me.TextBox24.Left = 15.25!
+        Me.TextBox24.Left = 15.4375!
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.OutputFormat = resources.GetString("TextBox24.OutputFormat")
         Me.TextBox24.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -817,7 +832,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox25.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox25.DataField = "Agosto"
         Me.TextBox25.Height = 0.188!
-        Me.TextBox25.Left = 16.25!
+        Me.TextBox25.Left = 16.4375!
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.OutputFormat = resources.GetString("TextBox25.OutputFormat")
         Me.TextBox25.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -837,7 +852,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox27.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox27.DataField = "Septiembre"
         Me.TextBox27.Height = 0.188!
-        Me.TextBox27.Left = 17.25!
+        Me.TextBox27.Left = 17.4375!
         Me.TextBox27.Name = "TextBox27"
         Me.TextBox27.OutputFormat = resources.GetString("TextBox27.OutputFormat")
         Me.TextBox27.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -857,7 +872,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox28.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox28.DataField = "Octubre"
         Me.TextBox28.Height = 0.188!
-        Me.TextBox28.Left = 18.25!
+        Me.TextBox28.Left = 18.4375!
         Me.TextBox28.Name = "TextBox28"
         Me.TextBox28.OutputFormat = resources.GetString("TextBox28.OutputFormat")
         Me.TextBox28.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -877,10 +892,10 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox29.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox29.DataField = "Descripcion"
         Me.TextBox29.Height = 0.1875!
-        Me.TextBox29.Left = 7.3125!
+        Me.TextBox29.Left = 7.5!
         Me.TextBox29.MultiLine = False
         Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Style = "font-size: 9pt; "
+        Me.TextBox29.Style = "ddo-char-set: 0; font-size: 9.75pt; "
         Me.TextBox29.Text = "Descripcion"
         Me.TextBox29.Top = 0.0!
         Me.TextBox29.Width = 1.9375!
@@ -897,7 +912,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox31.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox31.DataField = "Concepto"
         Me.TextBox31.Height = 0.1875!
-        Me.TextBox31.Left = 6.3125!
+        Me.TextBox31.Left = 6.5!
         Me.TextBox31.Name = "TextBox31"
         Me.TextBox31.Style = ""
         Me.TextBox31.Text = Nothing
@@ -916,7 +931,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox30.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox30.DataField = "Noviembre"
         Me.TextBox30.Height = 0.188!
-        Me.TextBox30.Left = 19.25!
+        Me.TextBox30.Left = 19.4375!
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.OutputFormat = resources.GetString("TextBox30.OutputFormat")
         Me.TextBox30.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -936,7 +951,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox34.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox34.DataField = "Diciembre"
         Me.TextBox34.Height = 0.188!
-        Me.TextBox34.Left = 20.25!
+        Me.TextBox34.Left = 20.4375!
         Me.TextBox34.Name = "TextBox34"
         Me.TextBox34.OutputFormat = resources.GetString("TextBox34.OutputFormat")
         Me.TextBox34.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -956,7 +971,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox35.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox35.DataField = "Importe_Total"
         Me.TextBox35.Height = 0.188!
-        Me.TextBox35.Left = 21.25!
+        Me.TextBox35.Left = 21.4375!
         Me.TextBox35.Name = "TextBox35"
         Me.TextBox35.OutputFormat = resources.GetString("TextBox35.OutputFormat")
         Me.TextBox35.Style = "text-align: right; font-weight: normal; font-size: 10pt; "
@@ -982,7 +997,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox36.Style = "text-align: left; font-weight: normal; font-size: 10pt; "
         Me.TextBox36.Text = Nothing
         Me.TextBox36.Top = 0.0!
-        Me.TextBox36.Width = 0.8125!
+        Me.TextBox36.Width = 1.0!
         '
         'TextBox37
         '
@@ -996,7 +1011,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox37.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox37.DataField = "NombreEmpleado"
         Me.TextBox37.Height = 0.1875!
-        Me.TextBox37.Left = 0.8125!
+        Me.TextBox37.Left = 1.0!
         Me.TextBox37.Name = "TextBox37"
         Me.TextBox37.OutputFormat = resources.GetString("TextBox37.OutputFormat")
         Me.TextBox37.Style = "text-align: left; font-weight: normal; font-size: 10pt; "
@@ -1016,7 +1031,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.TextBox39.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox39.DataField = "CentroCostos"
         Me.TextBox39.Height = 0.1875!
-        Me.TextBox39.Left = 4.8125!
+        Me.TextBox39.Left = 5.0!
         Me.TextBox39.Name = "TextBox39"
         Me.TextBox39.Style = ""
         Me.TextBox39.Text = Nothing
@@ -1041,7 +1056,7 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.ReportInfo1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.ReportInfo1.FormatString = "Pagina {PageNumber} de {PageCount}"
         Me.ReportInfo1.Height = 0.1979167!
-        Me.ReportInfo1.Left = 21.25!
+        Me.ReportInfo1.Left = 21.4375!
         Me.ReportInfo1.Name = "ReportInfo1"
         Me.ReportInfo1.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.ReportInfo1.Top = 0.0!
@@ -1064,12 +1079,96 @@ Partial Public Class InfotecAcumuladoConceptosPersona
         Me.PageBreak1.Top = 0.25!
         Me.PageBreak1.Width = 6.5!
         '
+        'Line1
+        '
+        Me.Line1.Border.BottomColor = System.Drawing.Color.Black
+        Me.Line1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Border.LeftColor = System.Drawing.Color.Black
+        Me.Line1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Border.RightColor = System.Drawing.Color.Black
+        Me.Line1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Border.TopColor = System.Drawing.Color.Black
+        Me.Line1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Height = 0.0!
+        Me.Line1.Left = 0.0!
+        Me.Line1.LineWeight = 1.0!
+        Me.Line1.Name = "Line1"
+        Me.Line1.Top = 0.0!
+        Me.Line1.Width = 22.4375!
+        Me.Line1.X1 = 0.0!
+        Me.Line1.X2 = 22.4375!
+        Me.Line1.Y1 = 0.0!
+        Me.Line1.Y2 = 0.0!
+        '
+        'Line2
+        '
+        Me.Line2.Border.BottomColor = System.Drawing.Color.Black
+        Me.Line2.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line2.Border.LeftColor = System.Drawing.Color.Black
+        Me.Line2.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line2.Border.RightColor = System.Drawing.Color.Black
+        Me.Line2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line2.Border.TopColor = System.Drawing.Color.Black
+        Me.Line2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line2.Height = 0.0!
+        Me.Line2.Left = 0.0!
+        Me.Line2.LineWeight = 1.0!
+        Me.Line2.Name = "Line2"
+        Me.Line2.Top = 0.1875!
+        Me.Line2.Width = 22.4375!
+        Me.Line2.X1 = 0.0!
+        Me.Line2.X2 = 22.4375!
+        Me.Line2.Y1 = 0.1875!
+        Me.Line2.Y2 = 0.1875!
+        '
+        'Line3
+        '
+        Me.Line3.Border.BottomColor = System.Drawing.Color.Black
+        Me.Line3.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line3.Border.LeftColor = System.Drawing.Color.Black
+        Me.Line3.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line3.Border.RightColor = System.Drawing.Color.Black
+        Me.Line3.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line3.Border.TopColor = System.Drawing.Color.Black
+        Me.Line3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line3.Height = 0.1875!
+        Me.Line3.Left = 0.0!
+        Me.Line3.LineWeight = 1.0!
+        Me.Line3.Name = "Line3"
+        Me.Line3.Top = 0.0!
+        Me.Line3.Width = 0.0!
+        Me.Line3.X1 = 0.0!
+        Me.Line3.X2 = 0.0!
+        Me.Line3.Y1 = 0.0!
+        Me.Line3.Y2 = 0.1875!
+        '
+        'Line4
+        '
+        Me.Line4.Border.BottomColor = System.Drawing.Color.Black
+        Me.Line4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line4.Border.LeftColor = System.Drawing.Color.Black
+        Me.Line4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line4.Border.RightColor = System.Drawing.Color.Black
+        Me.Line4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line4.Border.TopColor = System.Drawing.Color.Black
+        Me.Line4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line4.Height = 0.1875!
+        Me.Line4.Left = 22.4375!
+        Me.Line4.LineWeight = 1.0!
+        Me.Line4.Name = "Line4"
+        Me.Line4.Top = 0.0!
+        Me.Line4.Width = 0.0!
+        Me.Line4.X1 = 22.4375!
+        Me.Line4.X2 = 22.4375!
+        Me.Line4.Y1 = 0.0!
+        Me.Line4.Y2 = 0.1875!
+        '
         'InfotecAcumuladoConceptosPersona
         '
         Me.MasterReport = False
         Me.PageSettings.PaperHeight = 11.0!
         Me.PageSettings.PaperWidth = 8.5!
-        Me.PrintWidth = 22.29125!
+        Me.PrintWidth = 22.52042!
         Me.Sections.Add(Me.PageHeader1)
         Me.Sections.Add(Me.Detail1)
         Me.Sections.Add(Me.PageFooter1)
@@ -1177,4 +1276,8 @@ Partial Public Class InfotecAcumuladoConceptosPersona
     Friend WithEvents TextBox41 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents ReportInfo1 As DataDynamics.ActiveReports.ReportInfo
     Friend WithEvents PageBreak1 As DataDynamics.ActiveReports.PageBreak
+    Friend WithEvents Line1 As DataDynamics.ActiveReports.Line
+    Friend WithEvents Line2 As DataDynamics.ActiveReports.Line
+    Friend WithEvents Line3 As DataDynamics.ActiveReports.Line
+    Friend WithEvents Line4 As DataDynamics.ActiveReports.Line
 End Class
