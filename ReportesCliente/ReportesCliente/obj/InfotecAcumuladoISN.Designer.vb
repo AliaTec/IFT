@@ -113,10 +113,10 @@ Partial Public Class InfotecAcumuladoISN
         Me.Label1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label1.Height = 0.25!
         Me.Label1.HyperLink = Nothing
-        Me.Label1.Left = 0.0!
+        Me.Label1.Left = 6.1875!
         Me.Label1.Name = "Label1"
-        Me.Label1.Style = "color: Black; ddo-char-set: 1; text-align: left; font-weight: bold; font-size: 11" & _
-            "pt; "
+        Me.Label1.Style = "color: Black; ddo-char-set: 1; text-align: center; font-weight: bold; font-size: " & _
+            "11pt; "
         Me.Label1.Text = "ACUMULADO IMPUESTO SOBRE NOMINA"
         Me.Label1.Top = 0.4375!
         Me.Label1.Width = 4.0!
@@ -133,9 +133,9 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox5.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox5.DataField = "nombre"
         Me.TextBox5.Height = 0.25!
-        Me.TextBox5.Left = 0.0!
+        Me.TextBox5.Left = 3.75!
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Style = "ddo-char-set: 1; text-align: left; font-weight: bold; font-size: 11pt; "
+        Me.TextBox5.Style = "ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 11pt; "
         Me.TextBox5.Text = "INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y C" & _
             "OMUNICACIÓN"
         Me.TextBox5.Top = 0.125!
@@ -153,7 +153,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.Label2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label2.Height = 0.1875!
         Me.Label2.HyperLink = Nothing
-        Me.Label2.Left = 0.0!
+        Me.Label2.Left = 7.6875!
         Me.Label2.Name = "Label2"
         Me.Label2.Style = "font-weight: bold; "
         Me.Label2.Text = "Año:"
@@ -172,7 +172,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox6.DataField = "Anio"
         Me.TextBox6.Height = 0.1875!
-        Me.TextBox6.Left = 0.4375!
+        Me.TextBox6.Left = 8.125!
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Style = ""
         Me.TextBox6.Text = Nothing
@@ -476,7 +476,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.Label3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label3.Height = 0.1979167!
         Me.Label3.HyperLink = Nothing
-        Me.Label3.Left = 0.0!
+        Me.Label3.Left = 6.8125!
         Me.Label3.Name = "Label3"
         Me.Label3.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.Label3.Text = "Tipo Nomina:"
@@ -495,7 +495,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox33.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox33.DataField = "TipoN"
         Me.TextBox33.Height = 0.1875!
-        Me.TextBox33.Left = 1.0!
+        Me.TextBox33.Left = 7.8125!
         Me.TextBox33.Name = "TextBox33"
         Me.TextBox33.Style = ""
         Me.TextBox33.Text = "Nomina"
@@ -818,7 +818,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.MasterReport = False
         Me.PageSettings.PaperHeight = 11.0!
         Me.PageSettings.PaperWidth = 8.5!
-        Me.PrintWidth = 16.48917!
+        Me.PrintWidth = 16.55167!
         Me.Sections.Add(Me.PageHeader1)
         Me.Sections.Add(Me.Detail1)
         Me.Sections.Add(Me.PageFooter1)
