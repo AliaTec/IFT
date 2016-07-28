@@ -28,6 +28,7 @@ Public Class DAO
     Private Const spPolizaContable As String = "spq_PolizaContableSuntory '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
     Private Const spReportePropinas As String = "sp_Reporte_Propinas '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
     'Private Const LayoutDispersionHSBC As String = "sp_Reporte_LayoutDispersionHSBC_ALI '@IdRazonSocial','@IdEmpleado','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
+    Private Const ReporteCentroCostosporProyectos As String = "sp_CentroCostosCategoria2 '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
 
 
 
@@ -70,6 +71,12 @@ Public Class DAO
                     '    resultado = Me.ExecuteQuery(comandstr, ds, ReportesProceso)
                     '    Return ds
 
+
+
+                Case "ReporteCentroCostosporProyectos"
+                    comandstr = ReporteCentroCostosporProyectos
+                    resultado = Me.ExecuteQuery(comandstr, ds, ReportesProceso)
+                    Return ds
 
             End Select
         Catch e As Exception

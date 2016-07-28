@@ -40,7 +40,7 @@ Public Class InfotecPensionSP
         Dim archivo As New FileInfo(System.Web.HttpContext.Current.Server.MapPath(Path) + picRazonSocial)
 
         Me.DataSource = New DataDynamics.ActiveReports.DataSources.OleDBDataSource("Provider=SQLOLEDB.1;" & _
-                 sConnection, "sp_Reporte_PensionAlimenticiaInfotec_MSP @IdRazonSocial = " + Me.Parameters("IdRazonSocial").Value + "," & _
+                 sConnection, "sp_Reporte_PensionInfotecMSP @IdRazonSocial = " + Me.Parameters("IdRazonSocial").Value + "," & _
                  "@IdTipoNominaAsig = " + Me.Parameters("IdTipoNominaAsig").Value + "," & _
                  "@IdTipoNominaProc = " + Me.Parameters("IdTipoNominaProc").Value + "," & _
                  "@Anio = " + Me.Parameters("Anio").Value + "," & _

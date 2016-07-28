@@ -43,7 +43,7 @@ Partial Class PensionSP
 
 
 
-        RPT.DataSource = New DataDynamics.ActiveReports.DataSources.OleDBDataSource("Provider=SQLOLEDB.1;" + sConnection, "sp_Reporte_PensionAlimenticiaInfotec_MSP @IdRazonSocial = <%IdRazonSocial%>,@IdTipoNominaAsig=<" & _
+        RPT.DataSource = New DataDynamics.ActiveReports.DataSources.OleDBDataSource("Provider=SQLOLEDB.1;" + sConnection, "sp_Reporte_PensionInfotecMSP @IdRazonSocial = <%IdRazonSocial%>,@IdTipoNominaAsig=<" & _
                 "%IdTipoNominaAsig%>,@IdTipoNominaProc = <%IdTipoNominaProc%>,@Anio = <%Anio%>,@Periodo = <%Periodo%>,@IdEmpleado = <%IdEmpleado%>,@UID = <%UID%>, @LID = <%LID%>, @idAccion = <%idAccion%>", 90)
 
 
