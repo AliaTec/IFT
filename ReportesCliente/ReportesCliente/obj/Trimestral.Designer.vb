@@ -97,7 +97,7 @@ Partial Public Class Trimestral
         Me.TextBox4.Style = ""
         Me.TextBox4.Text = Nothing
         Me.TextBox4.Top = 0.0!
-        Me.TextBox4.Width = 2.0!
+        Me.TextBox4.Width = 3.125!
         '
         'PageFooter1
         '
