@@ -57,6 +57,10 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox12 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox31 = New DataDynamics.ActiveReports.TextBox
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
+        Me.TextBox34 = New DataDynamics.ActiveReports.TextBox
+        Me.Label4 = New DataDynamics.ActiveReports.Label
+        Me.Label5 = New DataDynamics.ActiveReports.Label
+        Me.TextBox35 = New DataDynamics.ActiveReports.TextBox
         CType(Me.Label1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,12 +97,16 @@ Partial Public Class InfotecAcumuladoISN
         CType(Me.TextBox30, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox31, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox34, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox35, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'PageHeader1
         '
-        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Label1, Me.TextBox5, Me.Label2, Me.TextBox6, Me.TextBox11, Me.TextBox7, Me.TextBox8, Me.TextBox13, Me.TextBox3, Me.TextBox15, Me.TextBox14, Me.TextBox17, Me.TextBox18, Me.TextBox19, Me.TextBox20, Me.TextBox21, Me.TextBox22, Me.TextBox23, Me.TextBox32, Me.Label3, Me.TextBox33})
-        Me.PageHeader1.Height = 1.572917!
+        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Label1, Me.TextBox5, Me.Label2, Me.TextBox6, Me.TextBox11, Me.TextBox7, Me.TextBox8, Me.TextBox13, Me.TextBox3, Me.TextBox15, Me.TextBox14, Me.TextBox17, Me.TextBox18, Me.TextBox19, Me.TextBox20, Me.TextBox21, Me.TextBox22, Me.TextBox23, Me.TextBox32, Me.Label3, Me.TextBox33, Me.TextBox34, Me.Label4, Me.Label5, Me.TextBox35})
+        Me.PageHeader1.Height = 1.71875!
         Me.PageHeader1.Name = "PageHeader1"
         '
         'Label1
@@ -118,7 +126,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.Label1.Style = "color: Black; ddo-char-set: 1; text-align: center; font-weight: bold; font-size: " & _
             "11pt; "
         Me.Label1.Text = "ACUMULADO IMPUESTO SOBRE NOMINA"
-        Me.Label1.Top = 0.4375!
+        Me.Label1.Top = 0.6875!
         Me.Label1.Width = 4.0!
         '
         'TextBox5
@@ -138,7 +146,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox5.Style = "ddo-char-set: 1; text-align: center; font-weight: bold; font-size: 11pt; "
         Me.TextBox5.Text = "INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN TECNOLOGIAS DE LA INFORMACION Y C" & _
             "OMUNICACIÓN"
-        Me.TextBox5.Top = 0.125!
+        Me.TextBox5.Top = 0.375!
         Me.TextBox5.Width = 9.0!
         '
         'Label2
@@ -157,7 +165,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.Label2.Name = "Label2"
         Me.Label2.Style = "font-weight: bold; "
         Me.Label2.Text = "Año:"
-        Me.Label2.Top = 0.75!
+        Me.Label2.Top = 1.0!
         Me.Label2.Width = 0.4375!
         '
         'TextBox6
@@ -176,7 +184,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Style = ""
         Me.TextBox6.Text = Nothing
-        Me.TextBox6.Top = 0.75!
+        Me.TextBox6.Top = 1.0!
         Me.TextBox6.Width = 1.0!
         '
         'TextBox11
@@ -195,7 +203,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9pt; "
         Me.TextBox11.Text = "Concepto"
-        Me.TextBox11.Top = 1.3125!
+        Me.TextBox11.Top = 1.5!
         Me.TextBox11.Width = 1.0!
         '
         'TextBox7
@@ -214,7 +222,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox7.OutputFormat = resources.GetString("TextBox7.OutputFormat")
         Me.TextBox7.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox7.Text = "Enero"
-        Me.TextBox7.Top = 1.3125!
+        Me.TextBox7.Top = 1.5!
         Me.TextBox7.Width = 1.0!
         '
         'TextBox8
@@ -233,7 +241,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox8.OutputFormat = resources.GetString("TextBox8.OutputFormat")
         Me.TextBox8.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox8.Text = "Febrero"
-        Me.TextBox8.Top = 1.3125!
+        Me.TextBox8.Top = 1.5!
         Me.TextBox8.Width = 1.0!
         '
         'TextBox13
@@ -252,7 +260,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox13.OutputFormat = resources.GetString("TextBox13.OutputFormat")
         Me.TextBox13.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox13.Text = "Marzo"
-        Me.TextBox13.Top = 1.3125!
+        Me.TextBox13.Top = 1.5!
         Me.TextBox13.Width = 1.0!
         '
         'TextBox3
@@ -271,7 +279,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox3.OutputFormat = resources.GetString("TextBox3.OutputFormat")
         Me.TextBox3.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox3.Text = "Abril"
-        Me.TextBox3.Top = 1.3125!
+        Me.TextBox3.Top = 1.5!
         Me.TextBox3.Width = 1.0!
         '
         'TextBox15
@@ -290,7 +298,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox15.OutputFormat = resources.GetString("TextBox15.OutputFormat")
         Me.TextBox15.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox15.Text = "Mayo"
-        Me.TextBox15.Top = 1.3125!
+        Me.TextBox15.Top = 1.5!
         Me.TextBox15.Width = 1.0!
         '
         'TextBox14
@@ -309,7 +317,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox14.OutputFormat = resources.GetString("TextBox14.OutputFormat")
         Me.TextBox14.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox14.Text = "Junio"
-        Me.TextBox14.Top = 1.3125!
+        Me.TextBox14.Top = 1.5!
         Me.TextBox14.Width = 1.0!
         '
         'TextBox17
@@ -328,7 +336,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox17.OutputFormat = resources.GetString("TextBox17.OutputFormat")
         Me.TextBox17.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox17.Text = "Julio"
-        Me.TextBox17.Top = 1.3125!
+        Me.TextBox17.Top = 1.5!
         Me.TextBox17.Width = 1.0!
         '
         'TextBox18
@@ -347,7 +355,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox18.OutputFormat = resources.GetString("TextBox18.OutputFormat")
         Me.TextBox18.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox18.Text = "Agosto"
-        Me.TextBox18.Top = 1.3125!
+        Me.TextBox18.Top = 1.5!
         Me.TextBox18.Width = 1.0!
         '
         'TextBox19
@@ -366,7 +374,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox19.OutputFormat = resources.GetString("TextBox19.OutputFormat")
         Me.TextBox19.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox19.Text = "Septiembre"
-        Me.TextBox19.Top = 1.3125!
+        Me.TextBox19.Top = 1.5!
         Me.TextBox19.Width = 1.0!
         '
         'TextBox20
@@ -385,7 +393,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox20.OutputFormat = resources.GetString("TextBox20.OutputFormat")
         Me.TextBox20.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox20.Text = "Octubre"
-        Me.TextBox20.Top = 1.3125!
+        Me.TextBox20.Top = 1.5!
         Me.TextBox20.Width = 1.0!
         '
         'TextBox21
@@ -404,7 +412,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox21.OutputFormat = resources.GetString("TextBox21.OutputFormat")
         Me.TextBox21.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox21.Text = "Noviembre"
-        Me.TextBox21.Top = 1.3125!
+        Me.TextBox21.Top = 1.5!
         Me.TextBox21.Width = 1.0!
         '
         'TextBox22
@@ -423,7 +431,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox22.OutputFormat = resources.GetString("TextBox22.OutputFormat")
         Me.TextBox22.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox22.Text = "Diciembre"
-        Me.TextBox22.Top = 1.3125!
+        Me.TextBox22.Top = 1.5!
         Me.TextBox22.Width = 1.0!
         '
         'TextBox23
@@ -442,7 +450,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox23.OutputFormat = resources.GetString("TextBox23.OutputFormat")
         Me.TextBox23.Style = "text-align: right; font-weight: bold; font-size: 10pt; "
         Me.TextBox23.Text = "Importe Total"
-        Me.TextBox23.Top = 1.3125!
+        Me.TextBox23.Top = 1.5!
         Me.TextBox23.Width = 1.0!
         '
         'TextBox32
@@ -461,7 +469,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox32.Name = "TextBox32"
         Me.TextBox32.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9pt; "
         Me.TextBox32.Text = "Descipcion"
-        Me.TextBox32.Top = 1.3125!
+        Me.TextBox32.Top = 1.5!
         Me.TextBox32.Width = 2.0!
         '
         'Label3
@@ -480,7 +488,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.Label3.Name = "Label3"
         Me.Label3.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.Label3.Text = "Tipo Nomina:"
-        Me.Label3.Top = 1.0!
+        Me.Label3.Top = 1.25!
         Me.Label3.Width = 1.0!
         '
         'TextBox33
@@ -499,7 +507,7 @@ Partial Public Class InfotecAcumuladoISN
         Me.TextBox33.Name = "TextBox33"
         Me.TextBox33.Style = ""
         Me.TextBox33.Text = "Nomina"
-        Me.TextBox33.Top = 1.0!
+        Me.TextBox33.Top = 1.25!
         Me.TextBox33.Width = 3.0!
         '
         'Detail1
@@ -813,6 +821,82 @@ Partial Public Class InfotecAcumuladoISN
         Me.PageFooter1.Height = 0.09375!
         Me.PageFooter1.Name = "PageFooter1"
         '
+        'TextBox34
+        '
+        Me.TextBox34.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox34.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox34.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox34.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox34.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox34.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox34.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox34.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox34.DataField = "Fecha"
+        Me.TextBox34.Height = 0.1875!
+        Me.TextBox34.Left = 14.4375!
+        Me.TextBox34.Name = "TextBox34"
+        Me.TextBox34.Style = ""
+        Me.TextBox34.Text = "TextBox16"
+        Me.TextBox34.Top = 0.0!
+        Me.TextBox34.Width = 2.0!
+        '
+        'Label4
+        '
+        Me.Label4.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label4.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label4.Border.RightColor = System.Drawing.Color.Black
+        Me.Label4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label4.Border.TopColor = System.Drawing.Color.Black
+        Me.Label4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label4.Height = 0.1979167!
+        Me.Label4.HyperLink = Nothing
+        Me.Label4.Left = 13.4375!
+        Me.Label4.Name = "Label4"
+        Me.Label4.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
+        Me.Label4.Text = "Fecha:"
+        Me.Label4.Top = 0.0!
+        Me.Label4.Width = 1.0!
+        '
+        'Label5
+        '
+        Me.Label5.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label5.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label5.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.RightColor = System.Drawing.Color.Black
+        Me.Label5.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.TopColor = System.Drawing.Color.Black
+        Me.Label5.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Height = 0.1979167!
+        Me.Label5.HyperLink = Nothing
+        Me.Label5.Left = 13.4375!
+        Me.Label5.Name = "Label5"
+        Me.Label5.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
+        Me.Label5.Text = "Hora:"
+        Me.Label5.Top = 0.25!
+        Me.Label5.Width = 1.0!
+        '
+        'TextBox35
+        '
+        Me.TextBox35.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox35.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox35.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox35.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox35.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox35.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox35.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox35.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox35.DataField = "Hora"
+        Me.TextBox35.Height = 0.198!
+        Me.TextBox35.Left = 14.4375!
+        Me.TextBox35.Name = "TextBox35"
+        Me.TextBox35.Style = ""
+        Me.TextBox35.Text = "TextBox16"
+        Me.TextBox35.Top = 0.25!
+        Me.TextBox35.Width = 1.0!
+        '
         'InfotecAcumuladoISN
         '
         Me.MasterReport = False
@@ -864,6 +948,10 @@ Partial Public Class InfotecAcumuladoISN
         CType(Me.TextBox30, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox31, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox34, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox35, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -903,4 +991,8 @@ Partial Public Class InfotecAcumuladoISN
     Friend WithEvents TextBox32 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents Label3 As DataDynamics.ActiveReports.Label
     Friend WithEvents TextBox33 As DataDynamics.ActiveReports.TextBox
+    Friend WithEvents TextBox34 As DataDynamics.ActiveReports.TextBox
+    Friend WithEvents Label4 As DataDynamics.ActiveReports.Label
+    Friend WithEvents Label5 As DataDynamics.ActiveReports.Label
+    Friend WithEvents TextBox35 As DataDynamics.ActiveReports.TextBox
 End Class

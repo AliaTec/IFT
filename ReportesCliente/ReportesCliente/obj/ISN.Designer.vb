@@ -146,12 +146,12 @@ Partial Public Class ISN
         Me.Label9.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label9.Height = 0.1875!
         Me.Label9.HyperLink = Nothing
-        Me.Label9.Left = 5.6875!
+        Me.Label9.Left = 5.0!
         Me.Label9.Name = "Label9"
         Me.Label9.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label9.Text = "Impuesto Sobre Nomina:"
         Me.Label9.Top = 2.9375!
-        Me.Label9.Width = 1.625!
+        Me.Label9.Width = 2.3125!
         '
         'TextBox11
         '
