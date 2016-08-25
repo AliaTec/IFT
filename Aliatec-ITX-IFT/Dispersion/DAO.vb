@@ -30,6 +30,9 @@ Public Class DAO
     'Private Const LayoutDispersionHSBC As String = "sp_Reporte_LayoutDispersionHSBC_ALI '@IdRazonSocial','@IdEmpleado','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
     Private Const ReporteCentroCostosporProyectos As String = "sp_CentroCostosCategoria2 '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
 
+    Private Const LayoutDispersionBANCOMER_108Tradicional_Liberados As String = "sp_Reporte_LayoutDispersionBANCOMER_108Tradicional_Liberados '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
+    Private Const LayoutDispersionBANCOMER_108TradicionalInter_Liberados As String = "sp_Reporte_LayoutDispersionBANCOMER_108TradicionalInter_Liberados '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
+
 
 
     Public Sub New(ByVal DataConnection As SQLDataConnection)
@@ -469,7 +472,97 @@ Public Class DAO
                     Return sPathApp + sPathArchivosTemp + sFile
 
 
+                Case "LayoutDispersionBANCOMER_108Tradicional_Liberados"
+                    Dim results As ResultCollection
+                    Dim objLayoutDispersion As Entities.LayoutDispersion
+                    Dim dTotalImporte As Decimal
+                    Dim sCadena As String
+                    Dim i As Integer
+                    results = New ResultCollection
+                    ReportesProceso.tipoArchivo = 0
+                    objLayoutDispersion = New Entities.LayoutDispersion
+                    objLayoutDispersion.IdRazonSocial = context.Session("IdRazonSocial")
+                    objLayoutDispersion.UID = context.Session("UID")
+                    objLayoutDispersion.LID = context.Session("LID")
+                    objLayoutDispersion.idAccion = context.Items.Item("idAccion")
+                    Dim UserId As String
+                    UserId = ReportesProceso.UID.ToString
+                    UserId = UserId.Replace("/", "")
+                    UserId = UserId.Replace("\", "")
+                    UserId = UserId.Replace("%", "")
+                    UserId = UserId.Replace("_", "")
+                    UserId = UserId.Replace("-", "")
+                    sFile = "\LayoutDispersionBANCOMER_108Tradicional_Lib" + ReportesProceso.IdRazonSocial.ToString + UserId + Date.Now.Second.ToString + ".txt"
 
+                    results.getEntitiesFromDataReader(objLayoutDispersion, Me.ReporteDispersionBANCOMERTradicional_Liberados(ReportesProceso))
+                    dTotalImporte = 0
+                    If results.Count > 0 Then
+                        Dim sb As New FileStream(context.Server.MapPath(sPathApp + sPathArchivosTemp) + sFile, FileMode.Create)
+                        Dim sw As New StreamWriter(sb)
+
+                        For i = 0 To results.Count - 1
+                            sCadena = results(i).centroCosto
+                            sw.WriteLine(sCadena)
+                        Next i
+
+                        sw.Close()
+                    Else
+                        Dim sb As New FileStream(context.Server.MapPath(sPathApp + sPathArchivosTemp) + sFile, FileMode.Create)
+                        Dim sw As New StreamWriter(sb)
+
+                        sCadena = "No se genero información con los datos recibidos."
+                        sw.WriteLine(sCadena)
+                        sw.Close()
+
+                    End If
+
+                    Return sPathApp + sPathArchivosTemp + sFile
+
+                Case "LayoutDispersionBANCOMER_108TradicionalInter_Liberados"
+                    Dim results As ResultCollection
+                    Dim objLayoutDispersion As Entities.LayoutDispersion
+                    Dim dTotalImporte As Decimal
+                    Dim sCadena As String
+                    Dim i As Integer
+                    results = New ResultCollection
+                    ReportesProceso.tipoArchivo = 0
+                    objLayoutDispersion = New Entities.LayoutDispersion
+                    objLayoutDispersion.IdRazonSocial = context.Session("IdRazonSocial")
+                    objLayoutDispersion.UID = context.Session("UID")
+                    objLayoutDispersion.LID = context.Session("LID")
+                    objLayoutDispersion.idAccion = context.Items.Item("idAccion")
+                    Dim UserId As String
+                    UserId = ReportesProceso.UID.ToString
+                    UserId = UserId.Replace("/", "")
+                    UserId = UserId.Replace("\", "")
+                    UserId = UserId.Replace("%", "")
+                    UserId = UserId.Replace("_", "")
+                    UserId = UserId.Replace("-", "")
+                    sFile = "\LayoutDispersionBANCOMER_108TradicionalInter_Lib" + ReportesProceso.IdRazonSocial.ToString + UserId + Date.Now.Second.ToString + ".txt"
+
+                    results.getEntitiesFromDataReader(objLayoutDispersion, Me.ReporteDispersionBANCOMERTradicionalInter_Liberados(ReportesProceso))
+                    dTotalImporte = 0
+                    If results.Count > 0 Then
+                        Dim sb As New FileStream(context.Server.MapPath(sPathApp + sPathArchivosTemp) + sFile, FileMode.Create)
+                        Dim sw As New StreamWriter(sb)
+
+                        For i = 0 To results.Count - 1
+                            sCadena = results(i).centroCosto
+                            sw.WriteLine(sCadena)
+                        Next i
+
+                        sw.Close()
+                    Else
+                        Dim sb As New FileStream(context.Server.MapPath(sPathApp + sPathArchivosTemp) + sFile, FileMode.Create)
+                        Dim sw As New StreamWriter(sb)
+
+                        sCadena = "No se genero información con los datos recibidos."
+                        sw.WriteLine(sCadena)
+                        sw.Close()
+
+                    End If
+
+                    Return sPathApp + sPathArchivosTemp + sFile
             End Select
         Catch e As Exception
         End Try
@@ -580,6 +673,31 @@ Public Class DAO
         Return data
     End Function
 
+    Public Function ReporteDispersionBANCOMERTradicional_Liberados(ByVal ReportesProceso As EntitiesITX.ReportesProceso) As SqlDataReader
+        Dim data As SqlDataReader = Nothing
+        Dim resultado As Boolean
+        Dim comandstr As String
+        Try
+            comandstr = LayoutDispersionBANCOMER_108Tradicional_Liberados
+            resultado = Me.ExecuteQuery(comandstr, data, ReportesProceso)
+            Return data
+        Catch e As Exception
+        End Try
+        Return data
+    End Function
+
+    Public Function ReporteDispersionBANCOMERTradicionalInter_Liberados(ByVal ReportesProceso As EntitiesITX.ReportesProceso) As SqlDataReader
+        Dim data As SqlDataReader = Nothing
+        Dim resultado As Boolean
+        Dim comandstr As String
+        Try
+            comandstr = LayoutDispersionBANCOMER_108TradicionalInter_Liberados
+            resultado = Me.ExecuteQuery(comandstr, data, ReportesProceso)
+            Return data
+        Catch e As Exception
+        End Try
+        Return data
+    End Function
 
 
 End Class
