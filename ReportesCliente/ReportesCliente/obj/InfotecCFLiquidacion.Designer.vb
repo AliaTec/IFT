@@ -166,12 +166,12 @@ Partial Public Class InfotecCFLiquidacion
         Me.SubReport1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.SubReport1.CloseBorder = False
         Me.SubReport1.Height = 1.0!
-        Me.SubReport1.Left = 0.5625!
+        Me.SubReport1.Left = 0.5!
         Me.SubReport1.Name = "SubReport1"
         Me.SubReport1.Report = Nothing
         Me.SubReport1.ReportName = "SubReport1"
         Me.SubReport1.Top = 1.125!
-        Me.SubReport1.Width = 5.4375!
+        Me.SubReport1.Width = 5.5!
         '
         'TextBox3
         '
