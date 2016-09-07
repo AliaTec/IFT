@@ -291,6 +291,36 @@
       <DependentUpon>IntotecPensionAlimenticia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="obj\InfotecMemoOIC.Designer.vb">
+      <DependentUpon>InfotecMemoOIC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\InfotecMemoOIC.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubMemoOIC1.Designer.vb">
+      <DependentUpon>SubMemoOIC1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubMemoOIC1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC6.Designer.vb">
+      <DependentUpon>SubResumenOIC6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC6.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC5.Designer.vb">
+      <DependentUpon>SubResumenOIC5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC5.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC4.Designer.vb">
+      <DependentUpon>SubResumenOIC4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC4.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="obj\InfotecPensionSP.Designer.vb">
       <DependentUpon>InfotecPensionSP.vb</DependentUpon>
     </Compile>
@@ -337,12 +367,6 @@
       <DependentUpon>Trimestral.vb</DependentUpon>
     </Compile>
     <Compile Include="obj\Trimestral.vb">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="obj\InfotecMemoOIC.Designer.vb">
-      <DependentUpon>InfotecMemoOIC.vb</DependentUpon>
-    </Compile>
-    <Compile Include="obj\InfotecMemoOIC.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="obj\TrimestralMesTotal.Designer.vb">
@@ -1091,6 +1115,26 @@
       <DependentUpon>AcumuladodeConceptos.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\InfotecMemoOIC.resx">
+      <DependentUpon>InfotecMemoOIC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubMemoOIC1.resx">
+      <DependentUpon>SubMemoOIC1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubResumenOIC6.resx">
+      <DependentUpon>SubResumenOIC6.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubResumenOIC5.resx">
+      <DependentUpon>SubResumenOIC5.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubResumenOIC4.resx">
+      <DependentUpon>SubResumenOIC4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="obj\InfotecPensionSP.resx">
       <DependentUpon>InfotecPensionSP.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -1121,10 +1165,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="obj\Trimestral.resx">
       <DependentUpon>Trimestral.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="obj\InfotecMemoOIC.resx">
-      <DependentUpon>InfotecMemoOIC.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\TrimestralMesTotal.resx">

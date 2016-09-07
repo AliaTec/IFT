@@ -1,5 +1,5 @@
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Public Class SubResumenOIC2
+Partial Public Class SubResumenOIC6
     Inherits DataDynamics.ActiveReports.ActiveReport3
 
     'Form overrides dispose to clean up the component list.
@@ -17,7 +17,7 @@ Partial Public Class SubResumenOIC2
     Private WithEvents PageFooter1 As DataDynamics.ActiveReports.PageFooter
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(SubResumenOIC2))
+        Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(SubResumenOIC6))
         Me.PageHeader1 = New DataDynamics.ActiveReports.PageHeader
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
         Me.TextBox2 = New DataDynamics.ActiveReports.TextBox

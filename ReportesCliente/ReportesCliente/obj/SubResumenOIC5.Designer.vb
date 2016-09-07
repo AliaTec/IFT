@@ -1,5 +1,5 @@
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Public Class SubResumenOIC2
+Partial Public Class SubResumenOIC5
     Inherits DataDynamics.ActiveReports.ActiveReport3
 
     'Form overrides dispose to clean up the component list.
@@ -17,15 +17,15 @@ Partial Public Class SubResumenOIC2
     Private WithEvents PageFooter1 As DataDynamics.ActiveReports.PageFooter
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(SubResumenOIC2))
+        Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(SubResumenOIC5))
         Me.PageHeader1 = New DataDynamics.ActiveReports.PageHeader
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
         Me.TextBox2 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox4 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox1 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox3 = New DataDynamics.ActiveReports.TextBox
-        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.Line1 = New DataDynamics.ActiveReports.Line
+        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -41,7 +41,7 @@ Partial Public Class SubResumenOIC2
         '
         Me.Detail1.ColumnSpacing = 0.0!
         Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox2, Me.TextBox4, Me.TextBox1, Me.TextBox3, Me.Line1})
-        Me.Detail1.Height = 0.1875!
+        Me.Detail1.Height = 0.1979167!
         Me.Detail1.Name = "Detail1"
         '
         'TextBox2
@@ -54,7 +54,7 @@ Partial Public Class SubResumenOIC2
         Me.TextBox2.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox2.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox2.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox2.DataField = "TotalPatronales"
+        Me.TextBox2.DataField = "TotalRemuneracion"
         Me.TextBox2.Height = 0.1875!
         Me.TextBox2.Left = 6.0!
         Me.TextBox2.Name = "TextBox2"
@@ -123,11 +123,6 @@ Partial Public Class SubResumenOIC2
         Me.TextBox3.Top = 0.0!
         Me.TextBox3.Width = 1.0!
         '
-        'PageFooter1
-        '
-        Me.PageFooter1.Height = 0.0!
-        Me.PageFooter1.Name = "PageFooter1"
-        '
         'Line1
         '
         Me.Line1.Border.BottomColor = System.Drawing.Color.Black
@@ -149,7 +144,12 @@ Partial Public Class SubResumenOIC2
         Me.Line1.Y1 = 0.0!
         Me.Line1.Y2 = 0.1875!
         '
-        'SubResumenOIC2
+        'PageFooter1
+        '
+        Me.PageFooter1.Height = 0.0!
+        Me.PageFooter1.Name = "PageFooter1"
+        '
+        'SubResumenOIC5
         '
         Me.MasterReport = False
         Me.PageSettings.PaperHeight = 11.0!

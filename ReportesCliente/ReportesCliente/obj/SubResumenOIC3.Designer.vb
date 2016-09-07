@@ -25,6 +25,7 @@ Partial Public Class SubResumenOIC3
         Me.TextBox1 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox3 = New DataDynamics.ActiveReports.TextBox
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
+        Me.Line1 = New DataDynamics.ActiveReports.Line
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -39,7 +40,7 @@ Partial Public Class SubResumenOIC3
         'Detail1
         '
         Me.Detail1.ColumnSpacing = 0.0!
-        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox2, Me.TextBox4, Me.TextBox1, Me.TextBox3})
+        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox2, Me.TextBox4, Me.TextBox1, Me.TextBox3, Me.Line1})
         Me.Detail1.Height = 0.1875!
         Me.Detail1.Name = "Detail1"
         '
@@ -97,7 +98,7 @@ Partial Public Class SubResumenOIC3
         Me.TextBox1.Left = 4.0!
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.OutputFormat = resources.GetString("TextBox1.OutputFormat")
-        Me.TextBox1.Style = "ddo-char-set: 0; text-align: right; font-size: 8.25pt; "
+        Me.TextBox1.Style = "ddo-char-set: 0; text-align: right; background-color: White; font-size: 8.25pt; "
         Me.TextBox1.Text = Nothing
         Me.TextBox1.Top = 0.0!
         Me.TextBox1.Width = 1.0!
@@ -117,7 +118,7 @@ Partial Public Class SubResumenOIC3
         Me.TextBox3.Left = 3.0!
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.OutputFormat = resources.GetString("TextBox3.OutputFormat")
-        Me.TextBox3.Style = "ddo-char-set: 0; text-align: right; font-size: 8.25pt; "
+        Me.TextBox3.Style = "ddo-char-set: 0; text-align: right; background-color: White; font-size: 8.25pt; "
         Me.TextBox3.Text = Nothing
         Me.TextBox3.Top = 0.0!
         Me.TextBox3.Width = 1.0!
@@ -126,6 +127,27 @@ Partial Public Class SubResumenOIC3
         '
         Me.PageFooter1.Height = 0.0!
         Me.PageFooter1.Name = "PageFooter1"
+        '
+        'Line1
+        '
+        Me.Line1.Border.BottomColor = System.Drawing.Color.Black
+        Me.Line1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Border.LeftColor = System.Drawing.Color.Black
+        Me.Line1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Border.RightColor = System.Drawing.Color.Black
+        Me.Line1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Border.TopColor = System.Drawing.Color.Black
+        Me.Line1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Line1.Height = 0.1875!
+        Me.Line1.Left = 4.0625!
+        Me.Line1.LineWeight = 1.0!
+        Me.Line1.Name = "Line1"
+        Me.Line1.Top = 0.0!
+        Me.Line1.Width = 0.0!
+        Me.Line1.X1 = 4.0625!
+        Me.Line1.X2 = 4.0625!
+        Me.Line1.Y1 = 0.0!
+        Me.Line1.Y2 = 0.1875!
         '
         'SubResumenOIC3
         '
@@ -153,4 +175,5 @@ Partial Public Class SubResumenOIC3
     Friend WithEvents TextBox4 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox1 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox3 As DataDynamics.ActiveReports.TextBox
+    Friend WithEvents Line1 As DataDynamics.ActiveReports.Line
 End Class

@@ -30,10 +30,10 @@ Public Class DAO
     'Private Const LayoutDispersionHSBC As String = "sp_Reporte_LayoutDispersionHSBC_ALI '@IdRazonSocial','@IdEmpleado','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
     Private Const ReporteCentroCostosporProyectos As String = "sp_CentroCostosCategoria2 '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
 
+    Private Const ReporteAuditoria As String = "sp_Reporte_Auditoria '@IdRazonSocial','@IdTipoNominaAsig', '@Anio','@Mes','@UID','@LID','@idAccion'"
+
     Private Const LayoutDispersionBANCOMER_108Tradicional_Liberados As String = "sp_Reporte_LayoutDispersionBANCOMER_108Tradicional_Liberados '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
     Private Const LayoutDispersionBANCOMER_108TradicionalInter_Liberados As String = "sp_Reporte_LayoutDispersionBANCOMER_108TradicionalInter_Liberados '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
-
-
 
     Public Sub New(ByVal DataConnection As SQLDataConnection)
         MyBase.New(DataConnection)
@@ -74,9 +74,12 @@ Public Class DAO
                     '    resultado = Me.ExecuteQuery(comandstr, ds, ReportesProceso)
                     '    Return ds
 
-
-
                 Case "ReporteCentroCostosporProyectos"
+                    comandstr = ReporteCentroCostosporProyectos
+                    resultado = Me.ExecuteQuery(comandstr, ds, ReportesProceso)
+                    Return ds
+
+                Case "ReporteAuditoria"
                     comandstr = ReporteCentroCostosporProyectos
                     resultado = Me.ExecuteQuery(comandstr, ds, ReportesProceso)
                     Return ds

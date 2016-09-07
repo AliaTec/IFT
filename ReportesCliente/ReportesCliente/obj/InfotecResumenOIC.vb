@@ -140,6 +140,55 @@ Public Class InfotecResumenOIC
         SubReporteEmpresa.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
         Me.SubReport3.Report = SubReporteEmpresa
 
+
+        '*************************************************************************
+        '******* SUBREPORTE DEDUCCIONES **************/
+        'nombre del subreporte
+        Dim SubReporteEmpresa5 As New SubResumenOIC5
+        SubReporteEmpresa5.Parameters.Clear()
+
+        'aqui se agregan
+        SubReporteEmpresa5.Parameters.Add(ParamIdRazonSocial)
+        SubReporteEmpresa5.Parameters.Add(ParamAnio)
+        SubReporteEmpresa5.Parameters.Add(ParamMes)
+        SubReporteEmpresa5.Parameters.Add(ParamUID)
+        SubReporteEmpresa5.Parameters.Add(ParamLID)
+        SubReporteEmpresa5.Parameters.Add(ParamidAccion)
+
+
+        'aqui se les asigna el valor
+        SubReporteEmpresa5.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
+        SubReporteEmpresa5.Parameters("Anio").Value = Me.Parameters("Anio").Value
+        SubReporteEmpresa5.Parameters("Mes").Value = Me.Parameters("Mes").Value
+        SubReporteEmpresa5.Parameters("UID").Value = Me.Parameters("UID").Value
+        SubReporteEmpresa5.Parameters("LID").Value = Me.Parameters("LID").Value
+        SubReporteEmpresa5.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
+        Me.SubReport4.Report = SubReporteEmpresa5
+
+        '*************************************************************************
+        '******* SUBREPORTE DEDUCCIONES **************/
+        'nombre del subreporte
+        Dim SubReporteEmpresa6 As New SubResumenOIC6
+        SubReporteEmpresa6.Parameters.Clear()
+
+        'aqui se agregan
+        SubReporteEmpresa6.Parameters.Add(ParamIdRazonSocial)
+        SubReporteEmpresa6.Parameters.Add(ParamAnio)
+        SubReporteEmpresa6.Parameters.Add(ParamMes)
+        SubReporteEmpresa6.Parameters.Add(ParamUID)
+        SubReporteEmpresa6.Parameters.Add(ParamLID)
+        SubReporteEmpresa6.Parameters.Add(ParamidAccion)
+
+
+        'aqui se les asigna el valor
+        SubReporteEmpresa6.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
+        SubReporteEmpresa6.Parameters("Anio").Value = Me.Parameters("Anio").Value
+        SubReporteEmpresa6.Parameters("Mes").Value = Me.Parameters("Mes").Value
+        SubReporteEmpresa6.Parameters("UID").Value = Me.Parameters("UID").Value
+        SubReporteEmpresa6.Parameters("LID").Value = Me.Parameters("LID").Value
+        SubReporteEmpresa6.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
+        Me.SubReport5.Report = SubReporteEmpresa6
+
     End Sub
 
     Private Sub Detail1_Format(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Detail1.Format
