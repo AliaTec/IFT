@@ -98,7 +98,6 @@ Partial Public Class InfotecResumenOIC
         Me.Line20 = New DataDynamics.ActiveReports.Line
         Me.Line21 = New DataDynamics.ActiveReports.Line
         Me.TextBox48 = New DataDynamics.ActiveReports.TextBox
-        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.SubReport4 = New DataDynamics.ActiveReports.SubReport
         Me.SubReport5 = New DataDynamics.ActiveReports.SubReport
         Me.TextBox49 = New DataDynamics.ActiveReports.TextBox
@@ -106,6 +105,7 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox43 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox42 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox45 = New DataDynamics.ActiveReports.TextBox
+        Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         CType(Me.Label7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -926,7 +926,7 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Style = "ddo-char-set: 0; font-size: 8.25pt; "
         Me.TextBox2.Text = "Seguro de Separación Indiv."
-        Me.TextBox2.Top = 4.9375!
+        Me.TextBox2.Top = 5.0!
         Me.TextBox2.Width = 2.0!
         '
         'TextBox3
@@ -944,7 +944,7 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Style = "ddo-char-set: 0; font-size: 8.25pt; "
         Me.TextBox3.Text = "Seguro Colectivo de Retiro"
-        Me.TextBox3.Top = 5.125!
+        Me.TextBox3.Top = 5.1875!
         Me.TextBox3.Width = 2.0!
         '
         'TextBox15
@@ -962,7 +962,7 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Style = "ddo-char-set: 0; font-size: 8.25pt; "
         Me.TextBox15.Text = "SAR/RCV"
-        Me.TextBox15.Top = 5.3125!
+        Me.TextBox15.Top = 5.375!
         Me.TextBox15.Width = 2.0!
         '
         'TextBox17
@@ -980,7 +980,7 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Style = "ddo-char-set: 0; text-align: right; font-size: 8.25pt; "
         Me.TextBox17.Text = "$0.00"
-        Me.TextBox17.Top = 4.9375!
+        Me.TextBox17.Top = 5.0!
         Me.TextBox17.Width = 1.0!
         '
         'TextBox18
@@ -998,7 +998,7 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Style = "ddo-char-set: 0; text-align: right; font-size: 8.25pt; "
         Me.TextBox18.Text = "$0.00"
-        Me.TextBox18.Top = 5.125!
+        Me.TextBox18.Top = 5.1875!
         Me.TextBox18.Width = 1.0!
         '
         'TextBox19
@@ -1016,7 +1016,7 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Style = "ddo-char-set: 0; text-align: right; font-size: 8.25pt; "
         Me.TextBox19.Text = "$0.00"
-        Me.TextBox19.Top = 5.3125!
+        Me.TextBox19.Top = 5.375!
         Me.TextBox19.Width = 1.0!
         '
         'Line10
@@ -1033,12 +1033,12 @@ Partial Public Class InfotecResumenOIC
         Me.Line10.Left = 6.9375!
         Me.Line10.LineWeight = 1.0!
         Me.Line10.Name = "Line10"
-        Me.Line10.Top = 0.875!
+        Me.Line10.Top = 0.9375!
         Me.Line10.Width = 0.0!
         Me.Line10.X1 = 6.9375!
         Me.Line10.X2 = 6.9375!
-        Me.Line10.Y1 = 0.875!
-        Me.Line10.Y2 = 7.125!
+        Me.Line10.Y1 = 0.9375!
+        Me.Line10.Y2 = 7.1875!
         '
         'Line11
         '
@@ -1054,12 +1054,12 @@ Partial Public Class InfotecResumenOIC
         Me.Line11.Left = 6.125!
         Me.Line11.LineWeight = 1.0!
         Me.Line11.Name = "Line11"
-        Me.Line11.Top = 0.875!
+        Me.Line11.Top = 0.9375!
         Me.Line11.Width = 0.0!
         Me.Line11.X1 = 6.125!
         Me.Line11.X2 = 6.125!
-        Me.Line11.Y1 = 0.875!
-        Me.Line11.Y2 = 7.125!
+        Me.Line11.Y1 = 0.9375!
+        Me.Line11.Y2 = 7.1875!
         '
         'Line12
         '
@@ -1075,12 +1075,12 @@ Partial Public Class InfotecResumenOIC
         Me.Line12.Left = 5.0625!
         Me.Line12.LineWeight = 1.0!
         Me.Line12.Name = "Line12"
-        Me.Line12.Top = 1.0!
+        Me.Line12.Top = 1.0625!
         Me.Line12.Width = 0.0!
         Me.Line12.X1 = 5.0625!
         Me.Line12.X2 = 5.0625!
-        Me.Line12.Y1 = 1.0!
-        Me.Line12.Y2 = 7.125!
+        Me.Line12.Y1 = 1.0625!
+        Me.Line12.Y2 = 7.1875!
         '
         'Line13
         '
@@ -1096,12 +1096,12 @@ Partial Public Class InfotecResumenOIC
         Me.Line13.Left = 3.875!
         Me.Line13.LineWeight = 1.0!
         Me.Line13.Name = "Line13"
-        Me.Line13.Top = 1.0!
+        Me.Line13.Top = 1.0625!
         Me.Line13.Width = 0.0!
         Me.Line13.X1 = 3.875!
         Me.Line13.X2 = 3.875!
-        Me.Line13.Y1 = 1.0!
-        Me.Line13.Y2 = 7.125!
+        Me.Line13.Y1 = 1.0625!
+        Me.Line13.Y2 = 7.1875!
         '
         'Line14
         '
@@ -1201,12 +1201,12 @@ Partial Public Class InfotecResumenOIC
         Me.Line18.Left = 3.875!
         Me.Line18.LineWeight = 1.0!
         Me.Line18.Name = "Line18"
-        Me.Line18.Top = 0.875!
+        Me.Line18.Top = 0.9375!
         Me.Line18.Width = 0.0!
         Me.Line18.X1 = 3.875!
         Me.Line18.X2 = 3.875!
-        Me.Line18.Y1 = 0.875!
-        Me.Line18.Y2 = 7.125!
+        Me.Line18.Y1 = 0.9375!
+        Me.Line18.Y2 = 7.1875!
         '
         'Line19
         '
@@ -1222,12 +1222,12 @@ Partial Public Class InfotecResumenOIC
         Me.Line19.Left = 5.0625!
         Me.Line19.LineWeight = 1.0!
         Me.Line19.Name = "Line19"
-        Me.Line19.Top = 0.875!
+        Me.Line19.Top = 0.9375!
         Me.Line19.Width = 0.0!
         Me.Line19.X1 = 5.0625!
         Me.Line19.X2 = 5.0625!
-        Me.Line19.Y1 = 0.875!
-        Me.Line19.Y2 = 7.125!
+        Me.Line19.Y1 = 0.9375!
+        Me.Line19.Y2 = 7.1875!
         '
         'TextBox20
         '
@@ -1692,11 +1692,6 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox48.Top = 4.4375!
         Me.TextBox48.Width = 2.0!
         '
-        'PageFooter1
-        '
-        Me.PageFooter1.Height = 0.0!
-        Me.PageFooter1.Name = "PageFooter1"
-        '
         'SubReport4
         '
         Me.SubReport4.Border.BottomColor = System.Drawing.Color.Black
@@ -1768,7 +1763,7 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox40.Left = 3.0!
         Me.TextBox40.Name = "TextBox40"
         Me.TextBox40.OutputFormat = resources.GetString("TextBox40.OutputFormat")
-        Me.TextBox40.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9pt; "
+        Me.TextBox40.Style = "ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9pt; "
         Me.TextBox40.Text = Nothing
         Me.TextBox40.Top = 7.9375!
         Me.TextBox40.Width = 1.0!
@@ -1788,7 +1783,7 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox43.Left = 4.0!
         Me.TextBox43.Name = "TextBox43"
         Me.TextBox43.OutputFormat = resources.GetString("TextBox43.OutputFormat")
-        Me.TextBox43.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9pt; "
+        Me.TextBox43.Style = "ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9pt; "
         Me.TextBox43.Text = Nothing
         Me.TextBox43.Top = 7.9375!
         Me.TextBox43.Width = 1.0!
@@ -1808,7 +1803,7 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox42.Left = 3.0!
         Me.TextBox42.Name = "TextBox42"
         Me.TextBox42.OutputFormat = resources.GetString("TextBox42.OutputFormat")
-        Me.TextBox42.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9pt; "
+        Me.TextBox42.Style = "ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9pt; "
         Me.TextBox42.Text = Nothing
         Me.TextBox42.Top = 8.3125!
         Me.TextBox42.Width = 1.0!
@@ -1828,10 +1823,15 @@ Partial Public Class InfotecResumenOIC
         Me.TextBox45.Left = 4.0!
         Me.TextBox45.Name = "TextBox45"
         Me.TextBox45.OutputFormat = resources.GetString("TextBox45.OutputFormat")
-        Me.TextBox45.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9pt; "
+        Me.TextBox45.Style = "ddo-char-set: 0; text-align: right; font-weight: normal; font-size: 9pt; "
         Me.TextBox45.Text = Nothing
         Me.TextBox45.Top = 8.3125!
         Me.TextBox45.Width = 1.0!
+        '
+        'PageFooter1
+        '
+        Me.PageFooter1.Height = 0.0!
+        Me.PageFooter1.Name = "PageFooter1"
         '
         'InfotecResumenOIC
         '

@@ -29,7 +29,7 @@ Partial Public Class SubMemoOIC1
         '
         Me.Detail1.ColumnSpacing = 0.0!
         Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox2, Me.TextBox4})
-        Me.Detail1.Height = 0.8645833!
+        Me.Detail1.Height = 0.1979167!
         Me.Detail1.Name = "Detail1"
         '
         'TextBox1
