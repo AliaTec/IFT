@@ -40,7 +40,7 @@ Public Class InfotecMemoOIC
         Dim archivo As New FileInfo(System.Web.HttpContext.Current.Server.MapPath(Path) + picRazonSocial)
 
         Me.DataSource = New DataDynamics.ActiveReports.DataSources.OleDBDataSource("Provider=SQLOLEDB.1;" & _
-                 sConnection, "sp_Reporte_OIC_Memo_Totales2 @IdRazonSocial = " + Me.Parameters("IdRazonSocial").Value + "," & _
+                 sConnection, "sp_Reporte_OIC_Memo_Totales @IdRazonSocial = " + Me.Parameters("IdRazonSocial").Value + "," & _
                  "@Anio = " + Me.Parameters("Anio").Value + "," & _
                  "@Mes = " + Me.Parameters("Mes").Value + "," & _
                  "@UID = " + Me.Parameters("UID").Value + "," & _
@@ -69,26 +69,26 @@ Public Class InfotecMemoOIC
         Dim ParamidAccion As New Parameter
         ParamidAccion.Key = "idAccion"
 
-        'Dim SubReportePercepciones1 As New SubMemoOIC1
-        'SubReportePercepciones1.Parameters.Clear()
+        Dim SubReportePercepciones1 As New SubMemoOIC1
+        SubReportePercepciones1.Parameters.Clear()
 
-        ' ''aqui se agregan
-        'SubReportePercepciones1.Parameters.Add(ParamIdRazonSocial)
-        'SubReportePercepciones1.Parameters.Add(ParamAnio)
-        'SubReportePercepciones1.Parameters.Add(ParamMes)
-        'SubReportePercepciones1.Parameters.Add(ParamUID)
-        'SubReportePercepciones1.Parameters.Add(ParamLID)
-        'SubReportePercepciones1.Parameters.Add(ParamidAccion)
+        ''aqui se agregan
+        SubReportePercepciones1.Parameters.Add(ParamIdRazonSocial)
+        SubReportePercepciones1.Parameters.Add(ParamAnio)
+        SubReportePercepciones1.Parameters.Add(ParamMes)
+        SubReportePercepciones1.Parameters.Add(ParamUID)
+        SubReportePercepciones1.Parameters.Add(ParamLID)
+        SubReportePercepciones1.Parameters.Add(ParamidAccion)
 
 
-        ''aqui se les asigna el valor
-        'SubReportePercepciones1.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
-        'SubReportePercepciones1.Parameters("Anio").Value = Me.Parameters("Anio").Value
-        'SubReportePercepciones1.Parameters("Mes").Value = Me.Parameters("Mes").Value
-        'SubReportePercepciones1.Parameters("UID").Value = Me.Parameters("UID").Value
-        'SubReportePercepciones1.Parameters("LID").Value = Me.Parameters("LID").Value
-        'SubReportePercepciones1.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
-        'Me.SubReport1.Report = SubReportePercepciones1
+        'aqui se les asigna el valor
+        SubReportePercepciones1.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
+        SubReportePercepciones1.Parameters("Anio").Value = Me.Parameters("Anio").Value
+        SubReportePercepciones1.Parameters("Mes").Value = Me.Parameters("Mes").Value
+        SubReportePercepciones1.Parameters("UID").Value = Me.Parameters("UID").Value
+        SubReportePercepciones1.Parameters("LID").Value = Me.Parameters("LID").Value
+        SubReportePercepciones1.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
+        Me.SubReport5.Report = SubReportePercepciones1
 
 
         '*************************************************************************
