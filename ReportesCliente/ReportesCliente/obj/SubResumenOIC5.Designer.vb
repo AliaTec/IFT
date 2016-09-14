@@ -21,13 +21,11 @@ Partial Public Class SubResumenOIC5
         Me.PageHeader1 = New DataDynamics.ActiveReports.PageHeader
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
         Me.TextBox2 = New DataDynamics.ActiveReports.TextBox
-        Me.TextBox4 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox1 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox3 = New DataDynamics.ActiveReports.TextBox
         Me.Line1 = New DataDynamics.ActiveReports.Line
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -40,7 +38,7 @@ Partial Public Class SubResumenOIC5
         'Detail1
         '
         Me.Detail1.ColumnSpacing = 0.0!
-        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox2, Me.TextBox4, Me.TextBox1, Me.TextBox3, Me.Line1})
+        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox2, Me.TextBox1, Me.TextBox3, Me.Line1})
         Me.Detail1.Height = 0.1979167!
         Me.Detail1.Name = "Detail1"
         '
@@ -63,25 +61,6 @@ Partial Public Class SubResumenOIC5
         Me.TextBox2.Text = Nothing
         Me.TextBox2.Top = 0.0!
         Me.TextBox2.Width = 1.0!
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox4.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox4.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox4.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox4.DataField = "Descripcion"
-        Me.TextBox4.Height = 0.1875!
-        Me.TextBox4.Left = 0.0!
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Style = "ddo-char-set: 0; font-size: 8.25pt; "
-        Me.TextBox4.Text = Nothing
-        Me.TextBox4.Top = 0.0!
-        Me.TextBox4.Width = 3.0!
         '
         'TextBox1
         '
@@ -165,14 +144,12 @@ Partial Public Class SubResumenOIC5
                     "lic; ", "Heading2", "Normal"))
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-size: 13pt; font-weight: bold; ", "Heading3", "Normal"))
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
     Friend WithEvents TextBox2 As DataDynamics.ActiveReports.TextBox
-    Friend WithEvents TextBox4 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox1 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox3 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents Line1 As DataDynamics.ActiveReports.Line

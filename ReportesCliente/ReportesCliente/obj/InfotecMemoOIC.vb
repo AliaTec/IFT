@@ -88,7 +88,70 @@ Public Class InfotecMemoOIC
         SubReportePercepciones1.Parameters("UID").Value = Me.Parameters("UID").Value
         SubReportePercepciones1.Parameters("LID").Value = Me.Parameters("LID").Value
         SubReportePercepciones1.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
-        Me.SubReport5.Report = SubReportePercepciones1
+        Me.SubReport1.Report = SubReportePercepciones1
+
+        Dim SubReportePercepciones2 As New SubMemoOIC2
+        SubReportePercepciones2.Parameters.Clear()
+
+        ''aqui se agregan
+        SubReportePercepciones2.Parameters.Add(ParamIdRazonSocial)
+        SubReportePercepciones2.Parameters.Add(ParamAnio)
+        SubReportePercepciones2.Parameters.Add(ParamMes)
+        SubReportePercepciones2.Parameters.Add(ParamUID)
+        SubReportePercepciones2.Parameters.Add(ParamLID)
+        SubReportePercepciones2.Parameters.Add(ParamidAccion)
+
+
+        'aqui se les asigna el valor
+        SubReportePercepciones2.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
+        SubReportePercepciones2.Parameters("Anio").Value = Me.Parameters("Anio").Value
+        SubReportePercepciones2.Parameters("Mes").Value = Me.Parameters("Mes").Value
+        SubReportePercepciones2.Parameters("UID").Value = Me.Parameters("UID").Value
+        SubReportePercepciones2.Parameters("LID").Value = Me.Parameters("LID").Value
+        SubReportePercepciones2.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
+        Me.SubReport2.Report = SubReportePercepciones2
+
+        Dim SubReportePercepciones3 As New SubMemoOIC3
+        SubReportePercepciones3.Parameters.Clear()
+
+        ''aqui se agregan
+        SubReportePercepciones3.Parameters.Add(ParamIdRazonSocial)
+        SubReportePercepciones3.Parameters.Add(ParamAnio)
+        SubReportePercepciones3.Parameters.Add(ParamMes)
+        SubReportePercepciones3.Parameters.Add(ParamUID)
+        SubReportePercepciones3.Parameters.Add(ParamLID)
+        SubReportePercepciones3.Parameters.Add(ParamidAccion)
+
+
+        'aqui se les asigna el valor
+        SubReportePercepciones3.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
+        SubReportePercepciones3.Parameters("Anio").Value = Me.Parameters("Anio").Value
+        SubReportePercepciones3.Parameters("Mes").Value = Me.Parameters("Mes").Value
+        SubReportePercepciones3.Parameters("UID").Value = Me.Parameters("UID").Value
+        SubReportePercepciones3.Parameters("LID").Value = Me.Parameters("LID").Value
+        SubReportePercepciones3.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
+        Me.SubReport3.Report = SubReportePercepciones3
+
+        Dim SubReportePercepciones4 As New SubMemoOIC4
+        SubReportePercepciones4.Parameters.Clear()
+
+        ''aqui se agregan
+        SubReportePercepciones4.Parameters.Add(ParamIdRazonSocial)
+        SubReportePercepciones4.Parameters.Add(ParamAnio)
+        SubReportePercepciones4.Parameters.Add(ParamMes)
+        SubReportePercepciones4.Parameters.Add(ParamUID)
+        SubReportePercepciones4.Parameters.Add(ParamLID)
+        SubReportePercepciones4.Parameters.Add(ParamidAccion)
+
+
+        'aqui se les asigna el valor
+        SubReportePercepciones4.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
+        SubReportePercepciones4.Parameters("Anio").Value = Me.Parameters("Anio").Value
+        SubReportePercepciones4.Parameters("Mes").Value = Me.Parameters("Mes").Value
+        SubReportePercepciones4.Parameters("UID").Value = Me.Parameters("UID").Value
+        SubReportePercepciones4.Parameters("LID").Value = Me.Parameters("LID").Value
+        SubReportePercepciones4.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
+        Me.SubReport4.Report = SubReportePercepciones4
 
 
     End Sub
@@ -98,6 +161,10 @@ Public Class InfotecMemoOIC
     End Sub
 
     Private Sub PageHeader1_Format(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PageHeader1.Format
+
+    End Sub
+
+    Private Sub Detail1_Format(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Detail1.Format
 
     End Sub
 End Class

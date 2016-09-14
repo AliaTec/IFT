@@ -1,5 +1,5 @@
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Public Class SubMemoOIC1
+Partial Public Class SubMemoOIC3
     Inherits DataDynamics.ActiveReports.ActiveReport3
 
     'Form overrides dispose to clean up the component list.
@@ -15,22 +15,39 @@ Partial Public Class SubMemoOIC1
     Private WithEvents Detail1 As DataDynamics.ActiveReports.Detail
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(SubMemoOIC1))
+        Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(SubMemoOIC3))
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
-        Me.TextBox2 = New DataDynamics.ActiveReports.TextBox
-        Me.TextBox4 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox1 = New DataDynamics.ActiveReports.TextBox
-        CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TextBox2 = New DataDynamics.ActiveReports.TextBox
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'Detail1
         '
         Me.Detail1.ColumnSpacing = 0.0!
-        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox2, Me.TextBox4})
-        Me.Detail1.Height = 0.1979167!
+        Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox1, Me.TextBox2})
+        Me.Detail1.Height = 0.1770833!
         Me.Detail1.Name = "Detail1"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox1.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox1.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox1.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox1.DataField = "Descripcion"
+        Me.TextBox1.Height = 0.1875!
+        Me.TextBox1.Left = 1.0!
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Style = "ddo-char-set: 0; font-size: 9pt; "
+        Me.TextBox1.Text = Nothing
+        Me.TextBox1.Top = 0.0!
+        Me.TextBox1.Width = 4.0!
         '
         'TextBox2
         '
@@ -52,45 +69,7 @@ Partial Public Class SubMemoOIC1
         Me.TextBox2.Top = 0.0!
         Me.TextBox2.Width = 1.0!
         '
-        'TextBox4
-        '
-        Me.TextBox4.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox4.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox4.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox4.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox4.DataField = "Consecutivo"
-        Me.TextBox4.Height = 0.1875!
-        Me.TextBox4.Left = 0.0!
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Style = "ddo-char-set: 0; font-size: 9pt; "
-        Me.TextBox4.Text = Nothing
-        Me.TextBox4.Top = 0.0!
-        Me.TextBox4.Width = 1.0!
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox1.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox1.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox1.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox1.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox1.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox1.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox1.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox1.DataField = "Descripcion"
-        Me.TextBox1.Height = 0.1875!
-        Me.TextBox1.Left = 1.0!
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Style = "ddo-char-set: 0; font-size: 9pt; "
-        Me.TextBox1.Text = Nothing
-        Me.TextBox1.Top = 0.0!
-        Me.TextBox1.Width = 4.0!
-        '
-        'SubMemoOIC1
+        'SubMemoOIC3
         '
         Me.MasterReport = False
         Me.PageSettings.PaperHeight = 11.0!
@@ -103,13 +82,11 @@ Partial Public Class SubMemoOIC1
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: ita" & _
                     "lic; ", "Heading2", "Normal"))
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-size: 13pt; font-weight: bold; ", "Heading3", "Normal"))
-        CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
-    Friend WithEvents TextBox2 As DataDynamics.ActiveReports.TextBox
-    Friend WithEvents TextBox4 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox1 As DataDynamics.ActiveReports.TextBox
+    Friend WithEvents TextBox2 As DataDynamics.ActiveReports.TextBox
 End Class

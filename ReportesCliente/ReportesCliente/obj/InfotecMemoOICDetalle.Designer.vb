@@ -33,6 +33,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label13 = New DataDynamics.ActiveReports.Label
         Me.Label14 = New DataDynamics.ActiveReports.Label
         Me.Label15 = New DataDynamics.ActiveReports.Label
+        Me.Label5 = New DataDynamics.ActiveReports.Label
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
         Me.Label16 = New DataDynamics.ActiveReports.Label
         Me.Label17 = New DataDynamics.ActiveReports.Label
@@ -48,15 +49,14 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label27 = New DataDynamics.ActiveReports.Label
         Me.Label28 = New DataDynamics.ActiveReports.Label
         Me.Label29 = New DataDynamics.ActiveReports.Label
+        Me.Label30 = New DataDynamics.ActiveReports.Label
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.ReportHeader1 = New DataDynamics.ActiveReports.ReportHeader
         Me.Picture3 = New DataDynamics.ActiveReports.Picture
         Me.Line1 = New DataDynamics.ActiveReports.Line
-        Me.ReportFooter1 = New DataDynamics.ActiveReports.ReportFooter
-        Me.Label5 = New DataDynamics.ActiveReports.Label
-        Me.Label30 = New DataDynamics.ActiveReports.Label
         Me.TextBox2 = New DataDynamics.ActiveReports.TextBox
         Me.TextBox3 = New DataDynamics.ActiveReports.TextBox
+        Me.ReportFooter1 = New DataDynamics.ActiveReports.ReportFooter
         CType(Me.Label1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -71,6 +71,7 @@ Partial Public Class InfotecMemoOICDetalle
         CType(Me.Label13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label16, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label17, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label18, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,9 +86,8 @@ Partial Public Class InfotecMemoOICDetalle
         CType(Me.Label27, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label28, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label29, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Picture3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Label5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label30, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Picture3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -134,7 +134,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label2.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.Label2.Text = "NOMBRE DEL EMPLEADO"
         Me.Label2.Top = 0.125!
-        Me.Label2.Width = 2.0!
+        Me.Label2.Width = 3.0!
         '
         'Label3
         '
@@ -148,7 +148,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label3.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label3.Height = 0.3125!
         Me.Label3.HyperLink = Nothing
-        Me.Label3.Left = 5.0!
+        Me.Label3.Left = 6.0!
         Me.Label3.Name = "Label3"
         Me.Label3.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label3.Text = "FONDO DE AHORRO"
@@ -167,7 +167,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label4.Height = 0.1979167!
         Me.Label4.HyperLink = Nothing
-        Me.Label4.Left = 3.0!
+        Me.Label4.Left = 4.0!
         Me.Label4.Name = "Label4"
         Me.Label4.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label4.Text = "SUELDO"
@@ -186,7 +186,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label6.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label6.Height = 0.1875!
         Me.Label6.HyperLink = Nothing
-        Me.Label6.Left = 4.0!
+        Me.Label6.Left = 5.0!
         Me.Label6.Name = "Label6"
         Me.Label6.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 8.25pt; "
         Me.Label6.Text = "COMPENSACIÓN"
@@ -205,7 +205,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label7.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label7.Height = 0.3125!
         Me.Label7.HyperLink = Nothing
-        Me.Label7.Left = 6.0!
+        Me.Label7.Left = 7.0!
         Me.Label7.Name = "Label7"
         Me.Label7.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label7.Text = "VALES DE DESPENSA"
@@ -224,7 +224,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label8.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label8.Height = 0.1979167!
         Me.Label8.HyperLink = Nothing
-        Me.Label8.Left = 7.0!
+        Me.Label8.Left = 8.0!
         Me.Label8.Name = "Label8"
         Me.Label8.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label8.Text = "IMSS"
@@ -243,7 +243,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label9.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label9.Height = 0.1979167!
         Me.Label9.HyperLink = Nothing
-        Me.Label9.Left = 8.0!
+        Me.Label9.Left = 9.0!
         Me.Label9.Name = "Label9"
         Me.Label9.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label9.Text = "R.C.V."
@@ -262,7 +262,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label10.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label10.Height = 0.1979167!
         Me.Label10.HyperLink = Nothing
-        Me.Label10.Left = 9.0!
+        Me.Label10.Left = 10.0!
         Me.Label10.Name = "Label10"
         Me.Label10.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label10.Text = "INFONAVIT"
@@ -281,7 +281,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label11.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label11.Height = 0.3125!
         Me.Label11.HyperLink = Nothing
-        Me.Label11.Left = 10.0!
+        Me.Label11.Left = 11.0!
         Me.Label11.Name = "Label11"
         Me.Label11.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label11.Text = "PRIMA VACACIONAL"
@@ -300,7 +300,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label12.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label12.Height = 0.1979167!
         Me.Label12.HyperLink = Nothing
-        Me.Label12.Left = 11.0!
+        Me.Label12.Left = 12.0!
         Me.Label12.Name = "Label12"
         Me.Label12.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label12.Text = "AGUINALDO"
@@ -319,7 +319,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label13.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label13.Height = 0.3125!
         Me.Label13.HyperLink = Nothing
-        Me.Label13.Left = 12.0!
+        Me.Label13.Left = 13.0!
         Me.Label13.Name = "Label13"
         Me.Label13.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label13.Text = "GASTOS MEDICOS"
@@ -338,7 +338,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label14.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label14.Height = 0.1875!
         Me.Label14.HyperLink = Nothing
-        Me.Label14.Left = 13.0!
+        Me.Label14.Left = 14.0!
         Me.Label14.Name = "Label14"
         Me.Label14.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label14.Text = "VACACIONES"
@@ -357,18 +357,37 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label15.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.Label15.Height = 0.3125!
         Me.Label15.HyperLink = Nothing
-        Me.Label15.Left = 14.0!
+        Me.Label15.Left = 15.0!
         Me.Label15.Name = "Label15"
         Me.Label15.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label15.Text = "SEGURO DE VIDA"
         Me.Label15.Top = 0.0!
         Me.Label15.Width = 1.0!
         '
+        'Label5
+        '
+        Me.Label5.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label5.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label5.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.RightColor = System.Drawing.Color.Black
+        Me.Label5.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Border.TopColor = System.Drawing.Color.Black
+        Me.Label5.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label5.Height = 0.1875!
+        Me.Label5.HyperLink = Nothing
+        Me.Label5.Left = 16.0!
+        Me.Label5.Name = "Label5"
+        Me.Label5.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
+        Me.Label5.Text = "TOTAL"
+        Me.Label5.Top = 0.125!
+        Me.Label5.Width = 1.0!
+        '
         'Detail1
         '
         Me.Detail1.ColumnSpacing = 0.0!
         Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Label16, Me.Label17, Me.Label18, Me.Label19, Me.Label20, Me.Label21, Me.Label22, Me.Label23, Me.Label24, Me.Label25, Me.Label26, Me.Label27, Me.Label28, Me.Label29, Me.Label30})
-        Me.Detail1.Height = 0.2291667!
+        Me.Detail1.Height = 0.2083333!
         Me.Detail1.Name = "Detail1"
         '
         'Label16
@@ -409,7 +428,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label17.Style = "ddo-char-set: 0; font-weight: bold; font-size: 9.75pt; "
         Me.Label17.Text = "NOMBRE DEL EMPLEADO"
         Me.Label17.Top = 0.0!
-        Me.Label17.Width = 2.0!
+        Me.Label17.Width = 3.0!
         '
         'Label18
         '
@@ -424,7 +443,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label18.DataField = "Fondo_Ahorro"
         Me.Label18.Height = 0.1875!
         Me.Label18.HyperLink = Nothing
-        Me.Label18.Left = 5.0!
+        Me.Label18.Left = 6.0!
         Me.Label18.Name = "Label18"
         Me.Label18.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label18.Text = "FONDO DE AHORRO"
@@ -444,7 +463,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label19.DataField = "Sueldo"
         Me.Label19.Height = 0.1979167!
         Me.Label19.HyperLink = Nothing
-        Me.Label19.Left = 3.0!
+        Me.Label19.Left = 4.0!
         Me.Label19.Name = "Label19"
         Me.Label19.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label19.Text = "SUELDO"
@@ -464,7 +483,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label20.DataField = "Compensacion"
         Me.Label20.Height = 0.1875!
         Me.Label20.HyperLink = Nothing
-        Me.Label20.Left = 4.0!
+        Me.Label20.Left = 5.0!
         Me.Label20.Name = "Label20"
         Me.Label20.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label20.Text = "COMPENSACIÓN"
@@ -484,7 +503,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label21.DataField = "Vales_Despensa"
         Me.Label21.Height = 0.1875!
         Me.Label21.HyperLink = Nothing
-        Me.Label21.Left = 6.0!
+        Me.Label21.Left = 7.0!
         Me.Label21.Name = "Label21"
         Me.Label21.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label21.Text = "VALES DE DESPENSA"
@@ -504,7 +523,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label22.DataField = "IMSS"
         Me.Label22.Height = 0.1979167!
         Me.Label22.HyperLink = Nothing
-        Me.Label22.Left = 7.0!
+        Me.Label22.Left = 8.0!
         Me.Label22.Name = "Label22"
         Me.Label22.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label22.Text = "IMSS"
@@ -524,7 +543,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label23.DataField = "RCV"
         Me.Label23.Height = 0.1979167!
         Me.Label23.HyperLink = Nothing
-        Me.Label23.Left = 8.0!
+        Me.Label23.Left = 9.0!
         Me.Label23.Name = "Label23"
         Me.Label23.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label23.Text = "R.C.V."
@@ -544,7 +563,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label24.DataField = "Infonavit"
         Me.Label24.Height = 0.1979167!
         Me.Label24.HyperLink = Nothing
-        Me.Label24.Left = 9.0!
+        Me.Label24.Left = 10.0!
         Me.Label24.Name = "Label24"
         Me.Label24.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label24.Text = "INFONAVIT"
@@ -564,7 +583,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label25.DataField = "Prima_Vacacional"
         Me.Label25.Height = 0.1875!
         Me.Label25.HyperLink = Nothing
-        Me.Label25.Left = 10.0!
+        Me.Label25.Left = 11.0!
         Me.Label25.Name = "Label25"
         Me.Label25.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label25.Text = "PRIMA VACACIONAL"
@@ -584,7 +603,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label26.DataField = "Aguinaldo"
         Me.Label26.Height = 0.1979167!
         Me.Label26.HyperLink = Nothing
-        Me.Label26.Left = 11.0!
+        Me.Label26.Left = 12.0!
         Me.Label26.Name = "Label26"
         Me.Label26.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label26.Text = "AGUINALDO"
@@ -604,7 +623,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label27.DataField = "Gastos_Medicos"
         Me.Label27.Height = 0.1875!
         Me.Label27.HyperLink = Nothing
-        Me.Label27.Left = 12.0!
+        Me.Label27.Left = 13.0!
         Me.Label27.Name = "Label27"
         Me.Label27.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label27.Text = "GASTOS MEDICOS"
@@ -624,7 +643,7 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label28.DataField = "Vacaciones"
         Me.Label28.Height = 0.1875!
         Me.Label28.HyperLink = Nothing
-        Me.Label28.Left = 13.0!
+        Me.Label28.Left = 14.0!
         Me.Label28.Name = "Label28"
         Me.Label28.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label28.Text = "VACACIONES"
@@ -644,12 +663,32 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Label29.DataField = "Seguro_Vida"
         Me.Label29.Height = 0.1875!
         Me.Label29.HyperLink = Nothing
-        Me.Label29.Left = 14.0!
+        Me.Label29.Left = 15.0!
         Me.Label29.Name = "Label29"
         Me.Label29.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
         Me.Label29.Text = "SEGURO DE VIDA"
         Me.Label29.Top = 0.0!
         Me.Label29.Width = 1.0!
+        '
+        'Label30
+        '
+        Me.Label30.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label30.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label30.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label30.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label30.Border.RightColor = System.Drawing.Color.Black
+        Me.Label30.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label30.Border.TopColor = System.Drawing.Color.Black
+        Me.Label30.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label30.DataField = "Total"
+        Me.Label30.Height = 0.1875!
+        Me.Label30.HyperLink = Nothing
+        Me.Label30.Left = 16.0!
+        Me.Label30.Name = "Label30"
+        Me.Label30.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
+        Me.Label30.Text = ""
+        Me.Label30.Top = 0.0!
+        Me.Label30.Width = 1.0!
         '
         'PageFooter1
         '
@@ -702,50 +741,6 @@ Partial Public Class InfotecMemoOICDetalle
         Me.Line1.Y1 = 1.25!
         Me.Line1.Y2 = 1.25!
         '
-        'ReportFooter1
-        '
-        Me.ReportFooter1.Height = 0.02083333!
-        Me.ReportFooter1.Name = "ReportFooter1"
-        '
-        'Label5
-        '
-        Me.Label5.Border.BottomColor = System.Drawing.Color.Black
-        Me.Label5.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label5.Border.LeftColor = System.Drawing.Color.Black
-        Me.Label5.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label5.Border.RightColor = System.Drawing.Color.Black
-        Me.Label5.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label5.Border.TopColor = System.Drawing.Color.Black
-        Me.Label5.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label5.Height = 0.1875!
-        Me.Label5.HyperLink = Nothing
-        Me.Label5.Left = 15.0!
-        Me.Label5.Name = "Label5"
-        Me.Label5.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
-        Me.Label5.Text = "TOTAL"
-        Me.Label5.Top = 0.125!
-        Me.Label5.Width = 1.0!
-        '
-        'Label30
-        '
-        Me.Label30.Border.BottomColor = System.Drawing.Color.Black
-        Me.Label30.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label30.Border.LeftColor = System.Drawing.Color.Black
-        Me.Label30.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label30.Border.RightColor = System.Drawing.Color.Black
-        Me.Label30.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label30.Border.TopColor = System.Drawing.Color.Black
-        Me.Label30.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label30.DataField = "Total"
-        Me.Label30.Height = 0.1875!
-        Me.Label30.HyperLink = Nothing
-        Me.Label30.Left = 15.0!
-        Me.Label30.Name = "Label30"
-        Me.Label30.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
-        Me.Label30.Text = ""
-        Me.Label30.Top = 0.0!
-        Me.Label30.Width = 1.0!
-        '
         'TextBox2
         '
         Me.TextBox2.Border.BottomColor = System.Drawing.Color.Black
@@ -783,12 +778,17 @@ Partial Public Class InfotecMemoOICDetalle
         Me.TextBox3.Top = 1.3125!
         Me.TextBox3.Width = 12.0!
         '
+        'ReportFooter1
+        '
+        Me.ReportFooter1.Height = 0.02083333!
+        Me.ReportFooter1.Name = "ReportFooter1"
+        '
         'InfotecMemoOICDetalle
         '
         Me.MasterReport = False
         Me.PageSettings.PaperHeight = 11.0!
         Me.PageSettings.PaperWidth = 8.5!
-        Me.PrintWidth = 16.04125!
+        Me.PrintWidth = 17.30167!
         Me.Sections.Add(Me.ReportHeader1)
         Me.Sections.Add(Me.PageHeader1)
         Me.Sections.Add(Me.Detail1)
@@ -814,6 +814,7 @@ Partial Public Class InfotecMemoOICDetalle
         CType(Me.Label13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label14, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label16, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label17, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label18, System.ComponentModel.ISupportInitialize).EndInit()
@@ -828,9 +829,8 @@ Partial Public Class InfotecMemoOICDetalle
         CType(Me.Label27, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label28, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label29, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Picture3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Label5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label30, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Picture3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()

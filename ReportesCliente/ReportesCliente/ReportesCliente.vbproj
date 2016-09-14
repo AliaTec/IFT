@@ -291,6 +291,24 @@
       <DependentUpon>IntotecPensionAlimenticia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="obj\SubMemoOIC4.Designer.vb">
+      <DependentUpon>SubMemoOIC4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubMemoOIC4.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubMemoOIC3.Designer.vb">
+      <DependentUpon>SubMemoOIC3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubMemoOIC3.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubMemoOIC2.Designer.vb">
+      <DependentUpon>SubMemoOIC2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubMemoOIC2.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="obj\InfotecMemoOIC.Designer.vb">
       <DependentUpon>InfotecMemoOIC.vb</DependentUpon>
     </Compile>
@@ -1113,6 +1131,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="obj\AcumuladodeConceptos.resx">
       <DependentUpon>AcumuladodeConceptos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubMemoOIC4.resx">
+      <DependentUpon>SubMemoOIC4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubMemoOIC3.resx">
+      <DependentUpon>SubMemoOIC3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubMemoOIC2.resx">
+      <DependentUpon>SubMemoOIC2.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\InfotecMemoOIC.resx">

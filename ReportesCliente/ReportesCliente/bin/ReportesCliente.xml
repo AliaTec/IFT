@@ -6,7 +6,7 @@ ReportesCliente
 </name>
 </assembly>
 <members>
-<member name="F:ReportesCliente.ICFLiquida.Form1">
+<member name="F:ReportesCliente.ICFTerminoContrato.Form1">
 	<summary>
 Control Form1.
 </summary>
@@ -14,7 +14,7 @@ Control Form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.ICFLiquida.ligaExcel">
+</member><member name="F:ReportesCliente.ICFTerminoContrato.ligaExcel">
 	<summary>
 Control ligaExcel.
 </summary>
@@ -22,288 +22,7 @@ Control ligaExcel.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.ICFLiquida.WebViewer3">
-	<summary>
-Control WebViewer3.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.PensionAlimenticia.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.PensionAlimenticia.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.PensionAlimenticia.WebViewer1">
-	<summary>
-Control WebViewer1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte28.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte28.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte28.WebViewer28">
-	<summary>
-Control WebViewer28.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte9.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte9.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte9.WebViewer9">
-	<summary>
-Control WebViewer9.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.PensionSP.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.PensionSP.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.PensionSP.WebViewer1">
-	<summary>
-Control WebViewer1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.ISNREPORTE.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.ISNREPORTE.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.ISNREPORTE.WebViewer10">
-	<summary>
-Control WebViewer10.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte22.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte22.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte22.WebViewer22">
-	<summary>
-Control WebViewer22.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte3.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte3.WebViewer3">
-	<summary>
-Control WebViewer3.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte17.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte17.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte17.WebViewer17">
-	<summary>
-Control WebViewer17.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte27.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte27.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte27.WebViewer27">
-	<summary>
-Control WebViewer27.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte8.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte8.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte8.WebViewer8">
-	<summary>
-Control WebViewer5.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="P:ReportesCliente.My.MyWebExtension.Computer">
-	<summary>
- Returns information about the host computer.
- </summary>
-</member><member name="P:ReportesCliente.My.MyWebExtension.User">
-	<summary>
- Returns information for the current Web user.
- </summary>
-</member><member name="P:ReportesCliente.My.MyWebExtension.Request">
-	<summary>
- Returns Request object.
- </summary>
-</member><member name="P:ReportesCliente.My.MyWebExtension.Response">
-	<summary>
- Returns Response object.
- </summary>
-</member><member name="P:ReportesCliente.My.MyWebExtension.Log">
-	<summary>
- Returns the Asp log object.
- </summary>
-</member><member name="T:ReportesCliente.My.MyWebExtension">
-	<summary>
- Module used to define the properties that are available in the My Namespace for Web projects.
- </summary>
-	<remarks></remarks>
-</member><member name="F:ReportesCliente.GraExePeriodo.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.GraExePeriodo.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.GraExePeriodo.WebViewer1">
+</member><member name="F:ReportesCliente.ICFTerminoContrato.WebViewer1">
 	<summary>
 Control WebViewer1.
 </summary>
@@ -359,7 +78,7 @@ Control WebViewer11.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.AcumuladoTrimestral.Form1">
+</member><member name="F:ReportesCliente.Reporte16.Form1">
 	<summary>
 Control Form1.
 </summary>
@@ -367,7 +86,7 @@ Control Form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.AcumuladoTrimestral.ligaExcel">
+</member><member name="F:ReportesCliente.Reporte16.ligaExcel">
 	<summary>
 Control ligaExcel.
 </summary>
@@ -375,7 +94,79 @@ Control ligaExcel.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.AcumuladoTrimestral.WebViewer1">
+</member><member name="F:ReportesCliente.Reporte16.WebViewer16">
+	<summary>
+Control WebViewer16.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte7.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte7.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte7.WebViewer7">
+	<summary>
+Control WebViewer7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.AcumuladoConceptosPersona.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.AcumuladoConceptosPersona.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.AcumuladoConceptosPersona.WebViewer1">
+	<summary>
+Control WebViewer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.GraExePeriodo.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.GraExePeriodo.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.GraExePeriodo.WebViewer1">
 	<summary>
 Control WebViewer1.
 </summary>
@@ -407,7 +198,7 @@ Control WebViewer1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte16.Form1">
+</member><member name="F:ReportesCliente.ReportePoliza.Form1">
 	<summary>
 Control Form1.
 </summary>
@@ -415,7 +206,7 @@ Control Form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte16.ligaExcel">
+</member><member name="F:ReportesCliente.ReportePoliza.ligaExcel">
 	<summary>
 Control ligaExcel.
 </summary>
@@ -423,79 +214,7 @@ Control ligaExcel.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte16.WebViewer16">
-	<summary>
-Control WebViewer16.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte2.Form1">
-	<summary>
-Form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte2.ligaExcel1">
-	<summary>
-ligaExcel1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte2.WebViewer2">
-	<summary>
-WebViewer2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ReportesCliente.MemorandumDetalle.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.MemorandumDetalle.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.MemorandumDetalle.WebViewer1">
-	<summary>
-Control WebViewer1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.MemorandumOIC.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.MemorandumOIC.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.MemorandumOIC.WebViewer1">
+</member><member name="F:ReportesCliente.ReportePoliza.WebViewer1">
 	<summary>
 Control WebViewer1.
 </summary>
@@ -527,7 +246,7 @@ Control WebViewer26.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte7.Form1">
+</member><member name="F:ReportesCliente.Reporte1.Form1">
 	<summary>
 Control Form1.
 </summary>
@@ -535,7 +254,7 @@ Control Form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte7.ligaExcel">
+</member><member name="F:ReportesCliente.Reporte1.ligaExcel">
 	<summary>
 Control ligaExcel.
 </summary>
@@ -543,9 +262,9 @@ Control ligaExcel.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte7.WebViewer7">
+</member><member name="F:ReportesCliente.Reporte1.WebViewer1">
 	<summary>
-Control WebViewer7.
+Control WebViewer1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -575,78 +294,6 @@ Control WebViewer20.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte15.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte15.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte15.WebViewer15">
-	<summary>
-Control WebViewer15.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte1.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte1.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte1.WebViewer1">
-	<summary>
-Control WebViewer1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte25.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte25.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte25.WebViewer25">
-	<summary>
-Control WebViewer25.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member><member name="F:ReportesCliente.Reporte6.Form1">
 	<summary>
 Control Form1.
@@ -671,6 +318,79 @@ Control WebViewer6.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="P:ReportesCliente.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:ReportesCliente.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:ReportesCliente.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:ReportesCliente.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:ReportesCliente.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:ReportesCliente.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:ReportesCliente.Reporte25.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte25.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte25.WebViewer25">
+	<summary>
+Control WebViewer25.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte15.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte15.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte15.WebViewer15">
+	<summary>
+Control WebViewer15.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ReportesCliente.GraExeMensual.Form1">
 	<summary>
 Control Form1.
@@ -688,6 +408,142 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member><member name="F:ReportesCliente.GraExeMensual.WebViewer1">
+	<summary>
+Control WebViewer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ICFLiquida.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ICFLiquida.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ICFLiquida.WebViewer3">
+	<summary>
+Control WebViewer3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte5.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte5.WebViewer5">
+	<summary>
+Control WebViewer4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ReporteConcentradoAnualAR_Visor.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ReportesCliente.ReporteConcentradoAnualAR_Visor.LigaExcel">
+	<summary>
+LigaExcel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ReportesCliente.ReporteConcentradoAnualAR_Visor.WebViewer1">
+	<summary>
+WebViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte24.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte24.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte24.WebViewer24">
+	<summary>
+Control WebViewer24.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte14.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte14.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte14.WebViewer14">
+	<summary>
+Control WebViewer14.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.AcumISN.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.AcumISN.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.AcumISN.WebViewer1">
 	<summary>
 Control WebViewer1.
 </summary>
@@ -719,203 +575,6 @@ Control WebViewer2.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.ReportePoliza.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.ReportePoliza.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.ReportePoliza.WebViewer1">
-	<summary>
-Control WebViewer1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte14.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte14.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte14.WebViewer14">
-	<summary>
-Control WebViewer14.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="P:ReportesCliente.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:ReportesCliente.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:ReportesCliente.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="F:ReportesCliente.ReporteConcentradoAnualAR_Visor.Form1">
-	<summary>
-Form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ReportesCliente.ReporteConcentradoAnualAR_Visor.LigaExcel">
-	<summary>
-LigaExcel control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ReportesCliente.ReporteConcentradoAnualAR_Visor.WebViewer1">
-	<summary>
-WebViewer1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:ReportesCliente.AcumuladoConceptosPersona.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.AcumuladoConceptosPersona.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.AcumuladoConceptosPersona.WebViewer1">
-	<summary>
-Control WebViewer1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.ResumenOIC.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.ResumenOIC.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.ResumenOIC.WebViewer1">
-	<summary>
-Control WebViewer1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte24.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte24.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte24.WebViewer24">
-	<summary>
-Control WebViewer24.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte5.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.Reporte5.WebViewer5">
-	<summary>
-Control WebViewer4.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.AcumISN.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.AcumISN.ligaExcel">
-	<summary>
-Control ligaExcel.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.AcumISN.WebViewer1">
-	<summary>
-Control WebViewer1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member><member name="F:ReportesCliente.Reporte19.Form1">
 	<summary>
 Control Form1.
@@ -935,6 +594,43 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ReportesCliente.Reporte19.WebViewer19">
 	<summary>
 Control WebViewer19.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:ReportesCliente.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ReportesCliente.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ReportesCliente.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:ReportesCliente.PensionAlimenticia.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.PensionAlimenticia.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.PensionAlimenticia.WebViewer1">
+	<summary>
+Control WebViewer1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -964,7 +660,7 @@ Control WebViewer29.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte13.Form1">
+</member><member name="F:ReportesCliente.Reporte4.Form1">
 	<summary>
 Control Form1.
 </summary>
@@ -972,7 +668,23 @@ Control Form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte13.ligaExcel">
+</member><member name="F:ReportesCliente.Reporte4.WebViewer4">
+	<summary>
+Control WebViewer4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.PensionSP.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.PensionSP.ligaExcel">
 	<summary>
 Control ligaExcel.
 </summary>
@@ -980,9 +692,33 @@ Control ligaExcel.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte13.WebViewer13">
+</member><member name="F:ReportesCliente.PensionSP.WebViewer1">
 	<summary>
-Control WebViewer13.
+Control WebViewer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ISNREPORTE.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ISNREPORTE.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ISNREPORTE.WebViewer10">
+	<summary>
+Control WebViewer10.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -1012,7 +748,7 @@ Control WebViewer23.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte4.Form1">
+</member><member name="F:ReportesCliente.Reporte13.Form1">
 	<summary>
 Control Form1.
 </summary>
@@ -1020,23 +756,7 @@ Control Form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.Reporte4.WebViewer4">
-	<summary>
-Control WebViewer4.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.ImpuestoSNomina.Form1">
-	<summary>
-Control Form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReportesCliente.ImpuestoSNomina.ligaExcel">
+</member><member name="F:ReportesCliente.Reporte13.ligaExcel">
 	<summary>
 Control ligaExcel.
 </summary>
@@ -1044,7 +764,31 @@ Control ligaExcel.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.ImpuestoSNomina.WebViewer1">
+</member><member name="F:ReportesCliente.Reporte13.WebViewer13">
+	<summary>
+Control WebViewer13.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ResumenOIC.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ResumenOIC.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ResumenOIC.WebViewer1">
 	<summary>
 Control WebViewer1.
 </summary>
@@ -1052,7 +796,7 @@ Control WebViewer1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.ICFTerminoContrato.Form1">
+</member><member name="F:ReportesCliente.MemorandumOIC.Form1">
 	<summary>
 Control Form1.
 </summary>
@@ -1060,7 +804,7 @@ Control Form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.ICFTerminoContrato.ligaExcel">
+</member><member name="F:ReportesCliente.MemorandumOIC.ligaExcel">
 	<summary>
 Control ligaExcel.
 </summary>
@@ -1068,7 +812,7 @@ Control ligaExcel.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReportesCliente.ICFTerminoContrato.WebViewer1">
+</member><member name="F:ReportesCliente.MemorandumOIC.WebViewer1">
 	<summary>
 Control WebViewer1.
 </summary>
@@ -1099,6 +843,262 @@ Control WebViewer18.
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte9.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte9.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte9.WebViewer9">
+	<summary>
+Control WebViewer9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.AcumuladoTrimestral.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.AcumuladoTrimestral.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.AcumuladoTrimestral.WebViewer1">
+	<summary>
+Control WebViewer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte28.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte28.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte28.WebViewer28">
+	<summary>
+Control WebViewer28.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte3.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte3.WebViewer3">
+	<summary>
+Control WebViewer3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ImpuestoSNomina.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ImpuestoSNomina.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.ImpuestoSNomina.WebViewer1">
+	<summary>
+Control WebViewer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte22.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte22.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte22.WebViewer22">
+	<summary>
+Control WebViewer22.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte17.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte17.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte17.WebViewer17">
+	<summary>
+Control WebViewer17.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte8.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte8.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte8.WebViewer8">
+	<summary>
+Control WebViewer5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.MemorandumDetalle.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.MemorandumDetalle.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.MemorandumDetalle.WebViewer1">
+	<summary>
+Control WebViewer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte27.Form1">
+	<summary>
+Control Form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte27.ligaExcel">
+	<summary>
+Control ligaExcel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte27.WebViewer27">
+	<summary>
+Control WebViewer27.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte2.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte2.ligaExcel1">
+	<summary>
+ligaExcel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ReportesCliente.Reporte2.WebViewer2">
+	<summary>
+WebViewer2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 </members>
