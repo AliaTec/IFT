@@ -122,6 +122,15 @@ Public Class Items
         newRow.Item("Case") = 100029
         Me.Rows.Add(newRow)
 
+        'Reporte Auditoria
+        newRow = Me.NewRow()
+        newRow.Item("Label") = 100030
+        'accion
+        newRow.Item("Accion") = 100030
+        'case del aspx
+        newRow.Item("Case") = 100030
+        Me.Rows.Add(newRow)
+
         'newRow = Me.NewRow()
         'newRow.Item("Label") = 100031
         ''accion
@@ -229,15 +238,6 @@ Public Class Items
         newRow.Item("Accion") = 100128
         'case del aspx
         newRow.Item("Case") = 100128
-        Me.Rows.Add(newRow)
-
-        'Reporte Auditoria
-        newRow = Me.NewRow()
-        newRow.Item("Label") = 100130
-        'accion
-        newRow.Item("Accion") = 100130
-        'case del aspx
-        newRow.Item("Case") = 100130
         Me.Rows.Add(newRow)
 
     End Sub
