@@ -131,6 +131,15 @@ Public Class Items
         newRow.Item("Case") = 100030
         Me.Rows.Add(newRow)
 
+        'Reporte de Envio y Recepcion de CFDI
+        newRow = Me.NewRow()
+        newRow.Item("Label") = 100132
+        'accion
+        newRow.Item("Accion") = 100132
+        'case del aspx
+        newRow.Item("Case") = 100132
+        Me.Rows.Add(newRow)
+
         'newRow = Me.NewRow()
         'newRow.Item("Label") = 100031
         ''accion
