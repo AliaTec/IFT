@@ -37,10 +37,10 @@ Public Class InfotecAcumuladoTrimestral
         Dim Path As String = Intelexion.Framework.ApplicationConfiguration.ConfigurationSettings.GetConfigurationSettings("ApplicationPath")
         Dim picRazonSocial As String = "/logos/Logoempresa" + Me.Parameters("IdRazonSocial").Value + ".jpg"
         Dim archivo As New FileInfo(System.Web.HttpContext.Current.Server.MapPath(Path) + picRazonSocial)
+        ' "@IdTipoNomina = " + Me.Parameters("IdTipoNomina").Value + "," & _
 
         Me.DataSource = New DataDynamics.ActiveReports.DataSources.OleDBDataSource("Provider=SQLOLEDB.1;" & _
                  sConnection, "sp_Reporte_Trimestral @IdRazonSocial = " + Me.Parameters("IdRazonSocial").Value + "," & _
-                 "@IdTipoNomina = " + Me.Parameters("IdTipoNomina").Value + "," & _
                  "@Anio = " + Me.Parameters("Anio").Value + "," & _
                  "@Bimestre = " + Me.Parameters("Bimestre").Value + "," & _
                  "@UID = " + Me.Parameters("UID").Value + "," & _
@@ -52,9 +52,9 @@ Public Class InfotecAcumuladoTrimestral
         Dim ParamIdRazonSocial As New Parameter
         ParamIdRazonSocial.Key = "IdRazonSocial"
 
-        Dim ParamIdTipoNomina As New Parameter
-        ParamIdTipoNomina.Key = "IdTipoNomina"
-        ParamIdTipoNomina.Type = Parameter.DataType.String
+        'Dim ParamIdTipoNomina As New Parameter
+        'ParamIdTipoNomina.Key = "IdTipoNomina"
+        'ParamIdTipoNomina.Type = Parameter.DataType.String
 
         Dim ParamAnio As New Parameter
         ParamAnio.Key = "Anio"
@@ -73,12 +73,15 @@ Public Class InfotecAcumuladoTrimestral
         Dim ParamidAccion As New Parameter
         ParamidAccion.Key = "idAccion"
 
+        ''*************************************************************************
+        ''                                  nombre del subreporte
+
         Dim SubReporteAc As New Trimestral
         SubReporteAc.Parameters.Clear()
 
         'aqui se agregan
         SubReporteAc.Parameters.Add(ParamIdRazonSocial)
-        SubReporteAc.Parameters.Add(ParamIdTipoNomina)
+        'SubReporteAc.Parameters.Add(ParamIdTipoNomina)
         SubReporteAc.Parameters.Add(ParamAnio)
         SubReporteAc.Parameters.Add(ParamBimestre)
         SubReporteAc.Parameters.Add(ParamUID)
@@ -88,7 +91,7 @@ Public Class InfotecAcumuladoTrimestral
 
         'aqui se les asigna el valor
         SubReporteAc.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
-        SubReporteAc.Parameters("IdTipoNomina").Value = Me.Parameters("IdTipoNomina").Value
+        'SubReporteAc.Parameters("IdTipoNomina").Value = Me.Parameters("IdTipoNomina").Value
         SubReporteAc.Parameters("Anio").Value = Me.Parameters("Anio").Value
         SubReporteAc.Parameters("Bimestre").Value = Me.Parameters("Bimestre").Value
         SubReporteAc.Parameters("UID").Value = Me.Parameters("UID").Value
@@ -105,7 +108,7 @@ Public Class InfotecAcumuladoTrimestral
 
         'aqui se agregan
         SubReporteTrimestral.Parameters.Add(ParamIdRazonSocial)
-        SubReporteTrimestral.Parameters.Add(ParamIdTipoNomina)
+        'SubReporteTrimestral.Parameters.Add(ParamIdTipoNomina)
         SubReporteTrimestral.Parameters.Add(ParamAnio)
         SubReporteTrimestral.Parameters.Add(ParamBimestre)
         SubReporteTrimestral.Parameters.Add(ParamUID)
@@ -115,7 +118,7 @@ Public Class InfotecAcumuladoTrimestral
 
         'aqui se les asigna el valor
         SubReporteTrimestral.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
-        SubReporteTrimestral.Parameters("IdTipoNomina").Value = Me.Parameters("IdTipoNomina").Value
+        'SubReporteTrimestral.Parameters("IdTipoNomina").Value = Me.Parameters("IdTipoNomina").Value
         SubReporteTrimestral.Parameters("Anio").Value = Me.Parameters("Anio").Value
         SubReporteTrimestral.Parameters("Bimestre").Value = Me.Parameters("Bimestre").Value
         SubReporteTrimestral.Parameters("UID").Value = Me.Parameters("UID").Value
@@ -130,7 +133,7 @@ Public Class InfotecAcumuladoTrimestral
 
         'aqui se agregan
         SubReporteDeduccionesTotal.Parameters.Add(ParamIdRazonSocial)
-        SubReporteDeduccionesTotal.Parameters.Add(ParamIdTipoNomina)
+        'SubReporteDeduccionesTotal.Parameters.Add(ParamIdTipoNomina)
         SubReporteDeduccionesTotal.Parameters.Add(ParamAnio)
         SubReporteDeduccionesTotal.Parameters.Add(ParamBimestre)
         SubReporteDeduccionesTotal.Parameters.Add(ParamUID)
@@ -140,7 +143,7 @@ Public Class InfotecAcumuladoTrimestral
 
         'aqui se les asigna el valor
         SubReporteDeduccionesTotal.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
-        SubReporteDeduccionesTotal.Parameters("IdTipoNomina").Value = Me.Parameters("IdTipoNomina").Value
+        'SubReporteDeduccionesTotal.Parameters("IdTipoNomina").Value = Me.Parameters("IdTipoNomina").Value
         SubReporteDeduccionesTotal.Parameters("Anio").Value = Me.Parameters("Anio").Value
         SubReporteDeduccionesTotal.Parameters("Bimestre").Value = Me.Parameters("Bimestre").Value
         SubReporteDeduccionesTotal.Parameters("UID").Value = Me.Parameters("UID").Value

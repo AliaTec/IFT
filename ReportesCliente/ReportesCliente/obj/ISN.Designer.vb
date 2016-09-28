@@ -46,6 +46,7 @@ Partial Public Class ISN
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.ReportInfo1 = New DataDynamics.ActiveReports.ReportInfo
         Me.PageBreak1 = New DataDynamics.ActiveReports.PageBreak
+        Me.TextBox4 = New DataDynamics.ActiveReports.TextBox
         CType(Me.Label6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -68,6 +69,7 @@ Partial Public Class ISN
         CType(Me.Label5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'Detail1
@@ -275,7 +277,7 @@ Partial Public Class ISN
         '
         'PageHeader1
         '
-        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Label2, Me.TextBox2, Me.Line3, Me.Label7, Me.TextBox10, Me.Label10, Me.TextBox15, Me.TextBox16, Me.TextBox19, Me.Line4, Me.Label11, Me.TextBox1, Me.Label4, Me.Label5, Me.TextBox17})
+        Me.PageHeader1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.Label2, Me.TextBox2, Me.Line3, Me.Label7, Me.TextBox10, Me.Label10, Me.TextBox15, Me.TextBox16, Me.TextBox19, Me.Line4, Me.Label11, Me.TextBox1, Me.Label4, Me.Label5, Me.TextBox17, Me.TextBox4})
         Me.PageHeader1.Height = 2.25!
         Me.PageHeader1.Name = "PageHeader1"
         '
@@ -607,6 +609,25 @@ Partial Public Class ISN
         Me.PageBreak1.Top = 0.25!
         Me.PageBreak1.Width = 6.5!
         '
+        'TextBox4
+        '
+        Me.TextBox4.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox4.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox4.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox4.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox4.DataField = "anio"
+        Me.TextBox4.Height = 0.1875!
+        Me.TextBox4.Left = 8.375!
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Style = "font-weight: bold; "
+        Me.TextBox4.Text = Nothing
+        Me.TextBox4.Top = 0.0625!
+        Me.TextBox4.Width = 0.625!
+        '
         'ISN
         '
         Me.MasterReport = False
@@ -644,6 +665,7 @@ Partial Public Class ISN
         CType(Me.Label5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ReportInfo1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -676,4 +698,5 @@ Partial Public Class ISN
     Friend WithEvents Line1 As DataDynamics.ActiveReports.Line
     Friend WithEvents TextBox7 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox3 As DataDynamics.ActiveReports.TextBox
+    Friend WithEvents TextBox4 As DataDynamics.ActiveReports.TextBox
 End Class

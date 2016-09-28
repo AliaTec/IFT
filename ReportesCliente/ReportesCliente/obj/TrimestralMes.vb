@@ -27,10 +27,10 @@ Public Class TrimestralMes
         Me.SetLicense("Hector Ramirez,Intelexion,DD-APN-30-C000260,S4VKSH448MS77HKH9FH9")
         Dim sConnection As String = Intelexion.Framework.Model.SQLConnectionProvider.getConnection("default").getConnection.ConnectionString
         'Dim sConnection As String = "Data Source=DCW319V1\MSSQLSERVER8; Initial Catalog=V5McGrawHillNominaTest; User Id=ITXTV5; Password=ITXTV5; Connection Lifetime=60; Max Pool Size=50; Min Pool Size=3"
+        '"@IdTipoNomina = " + Me.Parameters("IdTipoNomina").Value + "," & _
 
         Me.DataSource = New DataDynamics.ActiveReports.DataSources.OleDBDataSource("Provider=SQLOLEDB.1;" & _
         sConnection, "sp_Reporte_TrimestralMes @IdRazonSocial = " + Me.Parameters("IdRazonSocial").Value + "," & _
-        "@IdTipoNomina = " + Me.Parameters("IdTipoNomina").Value + "," & _
         "@Anio = " + Me.Parameters("Anio").Value + "," & _
         "@Bimestre = " + Me.Parameters("Bimestre").Value + "," & _
         "@UID = " + Me.Parameters("UID").Value + "," & _

@@ -20,6 +20,11 @@ Partial Public Class InfotecAcumuladoTrimestral
         Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(InfotecAcumuladoTrimestral))
         Me.PageHeader1 = New DataDynamics.ActiveReports.PageHeader
         Me.TextBox1 = New DataDynamics.ActiveReports.TextBox
+        Me.Label4 = New DataDynamics.ActiveReports.Label
+        Me.TextBox16 = New DataDynamics.ActiveReports.TextBox
+        Me.Label10 = New DataDynamics.ActiveReports.Label
+        Me.Label11 = New DataDynamics.ActiveReports.Label
+        Me.TextBox17 = New DataDynamics.ActiveReports.TextBox
         Me.Detail1 = New DataDynamics.ActiveReports.Detail
         Me.SubReport1 = New DataDynamics.ActiveReports.SubReport
         Me.TextBox5 = New DataDynamics.ActiveReports.TextBox
@@ -50,15 +55,15 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.SubReport2 = New DataDynamics.ActiveReports.SubReport
         Me.TextBox10 = New DataDynamics.ActiveReports.TextBox
         Me.Line10 = New DataDynamics.ActiveReports.Line
-        Me.Label4 = New DataDynamics.ActiveReports.Label
         Me.PageFooter1 = New DataDynamics.ActiveReports.PageFooter
         Me.ReportInfo3 = New DataDynamics.ActiveReports.ReportInfo
         Me.PageBreak1 = New DataDynamics.ActiveReports.PageBreak
-        Me.TextBox16 = New DataDynamics.ActiveReports.TextBox
-        Me.Label10 = New DataDynamics.ActiveReports.Label
-        Me.Label11 = New DataDynamics.ActiveReports.Label
-        Me.TextBox17 = New DataDynamics.ActiveReports.TextBox
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Label11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -75,12 +80,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         CType(Me.Label8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Label9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Label4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ReportInfo3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Label10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Label11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'PageHeader1
@@ -107,6 +107,101 @@ Partial Public Class InfotecAcumuladoTrimestral
             "OMUNICACIÓN"
         Me.TextBox1.Top = 0.5!
         Me.TextBox1.Width = 5.375!
+        '
+        'Label4
+        '
+        Me.Label4.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label4.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label4.Border.RightColor = System.Drawing.Color.Black
+        Me.Label4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label4.Border.TopColor = System.Drawing.Color.Black
+        Me.Label4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label4.Height = 0.1875!
+        Me.Label4.HyperLink = Nothing
+        Me.Label4.Left = 3.0625!
+        Me.Label4.Name = "Label4"
+        Me.Label4.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 12pt; "
+        Me.Label4.Text = "REPORTE TRIMESTRAL"
+        Me.Label4.Top = 1.0!
+        Me.Label4.Width = 3.0!
+        '
+        'TextBox16
+        '
+        Me.TextBox16.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox16.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox16.DataField = "Fecha"
+        Me.TextBox16.Height = 0.1875!
+        Me.TextBox16.Left = 7.0!
+        Me.TextBox16.Name = "TextBox16"
+        Me.TextBox16.Style = ""
+        Me.TextBox16.Text = "TextBox16"
+        Me.TextBox16.Top = 0.0!
+        Me.TextBox16.Width = 2.0!
+        '
+        'Label10
+        '
+        Me.Label10.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label10.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label10.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label10.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label10.Border.RightColor = System.Drawing.Color.Black
+        Me.Label10.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label10.Border.TopColor = System.Drawing.Color.Black
+        Me.Label10.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label10.Height = 0.1979167!
+        Me.Label10.HyperLink = Nothing
+        Me.Label10.Left = 6.0!
+        Me.Label10.Name = "Label10"
+        Me.Label10.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
+        Me.Label10.Text = "Fecha :"
+        Me.Label10.Top = 0.0!
+        Me.Label10.Width = 1.0!
+        '
+        'Label11
+        '
+        Me.Label11.Border.BottomColor = System.Drawing.Color.Black
+        Me.Label11.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label11.Border.LeftColor = System.Drawing.Color.Black
+        Me.Label11.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label11.Border.RightColor = System.Drawing.Color.Black
+        Me.Label11.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label11.Border.TopColor = System.Drawing.Color.Black
+        Me.Label11.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.Label11.Height = 0.1979167!
+        Me.Label11.HyperLink = Nothing
+        Me.Label11.Left = 6.0!
+        Me.Label11.Name = "Label11"
+        Me.Label11.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
+        Me.Label11.Text = "Hora :"
+        Me.Label11.Top = 0.25!
+        Me.Label11.Width = 1.0!
+        '
+        'TextBox17
+        '
+        Me.TextBox17.Border.BottomColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Border.LeftColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Border.RightColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.Border.TopColor = System.Drawing.Color.Black
+        Me.TextBox17.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
+        Me.TextBox17.DataField = "Hora"
+        Me.TextBox17.Height = 0.198!
+        Me.TextBox17.Left = 7.0!
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Style = ""
+        Me.TextBox17.Text = "TextBox16"
+        Me.TextBox17.Top = 0.25!
+        Me.TextBox17.Width = 1.0!
         '
         'Detail1
         '
@@ -304,7 +399,7 @@ Partial Public Class InfotecAcumuladoTrimestral
             "lue; font-size: 11.25pt; "
         Me.TextBox4.Text = "                                           PRESTACION"
         Me.TextBox4.Top = 0.375!
-        Me.TextBox4.Width = 2.375!
+        Me.TextBox4.Width = 2.4375!
         '
         'TextBox8
         '
@@ -317,7 +412,7 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.TextBox8.Border.TopColor = System.Drawing.Color.Black
         Me.TextBox8.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
         Me.TextBox8.Height = 0.375!
-        Me.TextBox8.Left = 3.375!
+        Me.TextBox8.Left = 3.4375!
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; background-color: DodgerB" & _
             "lue; font-size: 11.25pt; "
@@ -682,25 +777,6 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.Line10.Y1 = 0.375!
         Me.Line10.Y2 = 0.375!
         '
-        'Label4
-        '
-        Me.Label4.Border.BottomColor = System.Drawing.Color.Black
-        Me.Label4.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label4.Border.LeftColor = System.Drawing.Color.Black
-        Me.Label4.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label4.Border.RightColor = System.Drawing.Color.Black
-        Me.Label4.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label4.Border.TopColor = System.Drawing.Color.Black
-        Me.Label4.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label4.Height = 0.1875!
-        Me.Label4.HyperLink = Nothing
-        Me.Label4.Left = 3.0625!
-        Me.Label4.Name = "Label4"
-        Me.Label4.Style = "ddo-char-set: 0; text-align: center; font-weight: bold; font-size: 12pt; "
-        Me.Label4.Text = "REPORTE TRIMESTRAL"
-        Me.Label4.Top = 1.0!
-        Me.Label4.Width = 3.0!
-        '
         'PageFooter1
         '
         Me.PageFooter1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.ReportInfo3, Me.PageBreak1})
@@ -742,82 +818,6 @@ Partial Public Class InfotecAcumuladoTrimestral
         Me.PageBreak1.Top = 0.25!
         Me.PageBreak1.Width = 6.5!
         '
-        'TextBox16
-        '
-        Me.TextBox16.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox16.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox16.DataField = "Fecha"
-        Me.TextBox16.Height = 0.1875!
-        Me.TextBox16.Left = 7.0!
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Style = ""
-        Me.TextBox16.Text = "TextBox16"
-        Me.TextBox16.Top = 0.0!
-        Me.TextBox16.Width = 2.0!
-        '
-        'Label10
-        '
-        Me.Label10.Border.BottomColor = System.Drawing.Color.Black
-        Me.Label10.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label10.Border.LeftColor = System.Drawing.Color.Black
-        Me.Label10.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label10.Border.RightColor = System.Drawing.Color.Black
-        Me.Label10.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label10.Border.TopColor = System.Drawing.Color.Black
-        Me.Label10.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label10.Height = 0.1979167!
-        Me.Label10.HyperLink = Nothing
-        Me.Label10.Left = 6.0!
-        Me.Label10.Name = "Label10"
-        Me.Label10.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
-        Me.Label10.Text = "Fecha :"
-        Me.Label10.Top = 0.0!
-        Me.Label10.Width = 1.0!
-        '
-        'Label11
-        '
-        Me.Label11.Border.BottomColor = System.Drawing.Color.Black
-        Me.Label11.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label11.Border.LeftColor = System.Drawing.Color.Black
-        Me.Label11.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label11.Border.RightColor = System.Drawing.Color.Black
-        Me.Label11.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label11.Border.TopColor = System.Drawing.Color.Black
-        Me.Label11.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.Label11.Height = 0.1979167!
-        Me.Label11.HyperLink = Nothing
-        Me.Label11.Left = 6.0!
-        Me.Label11.Name = "Label11"
-        Me.Label11.Style = "ddo-char-set: 0; text-align: right; font-weight: bold; font-size: 9.75pt; "
-        Me.Label11.Text = "Hora :"
-        Me.Label11.Top = 0.25!
-        Me.Label11.Width = 1.0!
-        '
-        'TextBox17
-        '
-        Me.TextBox17.Border.BottomColor = System.Drawing.Color.Black
-        Me.TextBox17.Border.BottomStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox17.Border.LeftColor = System.Drawing.Color.Black
-        Me.TextBox17.Border.LeftStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox17.Border.RightColor = System.Drawing.Color.Black
-        Me.TextBox17.Border.RightStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox17.Border.TopColor = System.Drawing.Color.Black
-        Me.TextBox17.Border.TopStyle = DataDynamics.ActiveReports.BorderLineStyle.None
-        Me.TextBox17.DataField = "Hora"
-        Me.TextBox17.Height = 0.198!
-        Me.TextBox17.Left = 7.0!
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Style = ""
-        Me.TextBox17.Text = "TextBox16"
-        Me.TextBox17.Top = 0.25!
-        Me.TextBox17.Width = 1.0!
-        '
         'InfotecAcumuladoTrimestral
         '
         Me.MasterReport = False
@@ -834,6 +834,11 @@ Partial Public Class InfotecAcumuladoTrimestral
                     "lic; ", "Heading2", "Normal"))
         Me.StyleSheet.Add(New DDCssLib.StyleSheetRule("font-size: 13pt; font-weight: bold; ", "Heading3", "Normal"))
         CType(Me.TextBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Label11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox6, System.ComponentModel.ISupportInitialize).EndInit()
@@ -850,17 +855,11 @@ Partial Public Class InfotecAcumuladoTrimestral
         CType(Me.Label8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Label9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Label4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ReportInfo3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Label10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Label11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextBox17, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
     Friend WithEvents TextBox1 As DataDynamics.ActiveReports.TextBox
-    Friend WithEvents SubReport1 As DataDynamics.ActiveReports.SubReport
     Friend WithEvents TextBox5 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox12 As DataDynamics.ActiveReports.TextBox
     Friend WithEvents TextBox6 As DataDynamics.ActiveReports.TextBox
@@ -896,4 +895,5 @@ Partial Public Class InfotecAcumuladoTrimestral
     Friend WithEvents Label10 As DataDynamics.ActiveReports.Label
     Friend WithEvents Label11 As DataDynamics.ActiveReports.Label
     Friend WithEvents TextBox17 As DataDynamics.ActiveReports.TextBox
+    Friend WithEvents SubReport1 As DataDynamics.ActiveReports.SubReport
 End Class
