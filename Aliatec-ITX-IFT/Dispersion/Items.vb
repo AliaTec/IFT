@@ -122,13 +122,13 @@ Public Class Items
         newRow.Item("Case") = 100029
         Me.Rows.Add(newRow)
 
-        'Reporte Auditoria
+        'Reporte Auditoria de Servicios Profesionales
         newRow = Me.NewRow()
-        newRow.Item("Label") = 100030
+        newRow.Item("Label") = 100133
         'accion
-        newRow.Item("Accion") = 100030
+        newRow.Item("Accion") = 100133
         'case del aspx
-        newRow.Item("Case") = 100030
+        newRow.Item("Case") = 100133
         Me.Rows.Add(newRow)
 
         'Reporte de Envio y Recepcion de CFDI
@@ -138,6 +138,42 @@ Public Class Items
         newRow.Item("Accion") = 100132
         'case del aspx
         newRow.Item("Case") = 100132
+        Me.Rows.Add(newRow)
+
+        'Reporte de Prestamo Personal
+        newRow = Me.NewRow()
+        newRow.Item("Label") = 100134
+        'accion
+        newRow.Item("Accion") = 100134
+        'case del aspx
+        newRow.Item("Case") = 100134
+        Me.Rows.Add(newRow)
+
+        'Reporte de Prestamo Fondo de Ahorro
+        newRow = Me.NewRow()
+        newRow.Item("Label") = 100135
+        'accion
+        newRow.Item("Accion") = 100135
+        'case del aspx
+        newRow.Item("Case") = 100135
+        Me.Rows.Add(newRow)
+
+        'Reporte Memo OIC Detalle
+        newRow = Me.NewRow()
+        newRow.Item("Label") = 100136
+        'accion
+        newRow.Item("Accion") = 100136
+        'case del aspx
+        newRow.Item("Case") = 100136
+        Me.Rows.Add(newRow)
+
+        'Reporte Resumen por Centro de Costos
+        newRow = Me.NewRow()
+        newRow.Item("Label") = 100137
+        'accion
+        newRow.Item("Accion") = 100137
+        'case del aspx
+        newRow.Item("Case") = 100137
         Me.Rows.Add(newRow)
 
         'newRow = Me.NewRow()

@@ -291,6 +291,60 @@
       <DependentUpon>IntotecPensionAlimenticia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="obj\SubMemoOIC6.Designer.vb">
+      <DependentUpon>SubMemoOIC6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubMemoOIC6.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubMemoOIC5.Designer.vb">
+      <DependentUpon>SubMemoOIC5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubMemoOIC5.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC11.Designer.vb">
+      <DependentUpon>SubResumenOIC11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC11.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC10.Designer.vb">
+      <DependentUpon>SubResumenOIC10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC10.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC9.Designer.vb">
+      <DependentUpon>SubResumenOIC9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC9.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC8.Designer.vb">
+      <DependentUpon>SubResumenOIC8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC8.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC7.Designer.vb">
+      <DependentUpon>SubResumenOIC7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\SubResumenOIC7.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\InfotecMemoOICDetalleSubReporte2.Designer.vb">
+      <DependentUpon>InfotecMemoOICDetalleSubReporte2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\InfotecMemoOICDetalleSubReporte2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="obj\InfotecMemoOICDetalleSubReporte1.Designer.vb">
+      <DependentUpon>InfotecMemoOICDetalleSubReporte1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="obj\InfotecMemoOICDetalleSubReporte1.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="obj\SubMemoOIC4.Designer.vb">
       <DependentUpon>SubMemoOIC4.vb</DependentUpon>
     </Compile>
@@ -1131,6 +1185,42 @@
     </EmbeddedResource>
     <EmbeddedResource Include="obj\AcumuladodeConceptos.resx">
       <DependentUpon>AcumuladodeConceptos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubMemoOIC6.resx">
+      <DependentUpon>SubMemoOIC6.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubMemoOIC5.resx">
+      <DependentUpon>SubMemoOIC5.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubResumenOIC11.resx">
+      <DependentUpon>SubResumenOIC11.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubResumenOIC10.resx">
+      <DependentUpon>SubResumenOIC10.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubResumenOIC9.resx">
+      <DependentUpon>SubResumenOIC9.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubResumenOIC8.resx">
+      <DependentUpon>SubResumenOIC8.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\SubResumenOIC7.resx">
+      <DependentUpon>SubResumenOIC7.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\InfotecMemoOICDetalleSubReporte2.resx">
+      <DependentUpon>InfotecMemoOICDetalleSubReporte2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\InfotecMemoOICDetalleSubReporte1.resx">
+      <DependentUpon>InfotecMemoOICDetalleSubReporte1.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\SubMemoOIC4.resx">

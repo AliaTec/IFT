@@ -41,7 +41,7 @@ Partial Class MemorandumDetalle
         Dim sConnection As String = Intelexion.Framework.Model.SQLConnectionProvider.getConnection("default").getConnection.ConnectionString
         'Dim sConnection As String = "Data Source=DCW319V1\MSSQLSERVER8; Initial Catalog=V5McGrawHillNominaTest; User Id=ITXTV5; Password=ITXTV5; Connection Lifetime=60; Max Pool Size=50; Min Pool Size=3"
 
-        RPT.DataSource = New DataDynamics.ActiveReports.DataSources.OleDBDataSource("Provider=SQLOLEDB.1;" + sConnection, "sp_Reporte_MemoOIC_Detalle @IdRazonSocial = <%IdRazonSocial%>,@Anio = <%Anio%>,@Mes = <%Mes%>,@UID = <%UID%>, @LID = <%LID%>, @idAccion = <%idAccion%>", 90)
+        RPT.DataSource = New DataDynamics.ActiveReports.DataSources.OleDBDataSource("Provider=SQLOLEDB.1;" + sConnection, "sp_Reporte_MemoOIC @IdRazonSocial = <%IdRazonSocial%>,@Anio = <%Anio%>,@Mes = <%Mes%>,@IdElementoUsuario = <%IdElementoUsuario%>,@UID = <%UID%>, @LID = <%LID%>, @idAccion = <%idAccion%>", 90)
 
         Dim ParamIdRazonSocial As New Parameter
         ParamIdRazonSocial.Key = "IdRazonSocial"
@@ -51,6 +51,10 @@ Partial Class MemorandumDetalle
 
         Dim ParamMes As New Parameter
         ParamMes.Key = "Mes"
+
+        Dim ParamIdElementoUsuario As New Parameter
+        ParamIdElementoUsuario.Key = "IdElementoUsuario"
+        ParamIdElementoUsuario.Type = Parameter.DataType.String
 
         Dim ParamUID As New Parameter
         ParamUID.Key = "UID"
@@ -67,6 +71,7 @@ Partial Class MemorandumDetalle
         RPT.Parameters.Add(ParamIdRazonSocial)
         RPT.Parameters.Add(ParamAnio)
         RPT.Parameters.Add(ParamMes)
+        RPT.Parameters.Add(ParamIdElementoUsuario)
         RPT.Parameters.Add(ParamUID)
         RPT.Parameters.Add(ParamLID)
         RPT.Parameters.Add(ParamidAccion)
@@ -75,6 +80,7 @@ Partial Class MemorandumDetalle
         RPT.Parameters("IdRazonSocial").Value = Request.Params("IdRazonSocial")
         RPT.Parameters("Anio").Value = Request.Params("Anio")
         RPT.Parameters("Mes").Value = Request.Params("Mes")
+        RPT.Parameters("IdElementoUsuario").Value = Request.Params("IdElementoUsuario")
         RPT.Parameters("UID").Value = "'" + Context.Session("UID") + "'"
         RPT.Parameters("LID").Value = "'" + Context.Session("LID") + "'"
         RPT.Parameters("idAccion").Value = Request.Params("idAccion")

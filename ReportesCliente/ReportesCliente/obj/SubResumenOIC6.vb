@@ -29,7 +29,7 @@ Public Class SubResumenOIC6
         'Dim sConnection As String = "Data Source=DCW319V1\MSSQLSERVER8; Initial Catalog=V5McGrawHillNominaTest; User Id=ITXTV5; Password=ITXTV5; Connection Lifetime=60; Max Pool Size=50; Min Pool Size=3"
 
         Me.DataSource = New DataDynamics.ActiveReports.DataSources.OleDBDataSource("Provider=SQLOLEDB.1;" & _
-        sConnection, "sp_Reporte_OIC_Patronales2 @IdRazonSocial = " + Me.Parameters("IdRazonSocial").Value + "," & _
+        sConnection, "sp_Reporte_OIC_Otros2 @IdRazonSocial = " + Me.Parameters("IdRazonSocial").Value + "," & _
         "@Anio = " + Me.Parameters("Anio").Value + "," & _
         "@Mes = " + Me.Parameters("Mes").Value + "," & _
         "@UID = " + Me.Parameters("UID").Value + "," & _

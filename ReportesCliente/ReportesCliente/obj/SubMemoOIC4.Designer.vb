@@ -25,7 +25,7 @@ Partial Public Class SubMemoOIC4
         '
         Me.Detail1.ColumnSpacing = 0.0!
         Me.Detail1.Controls.AddRange(New DataDynamics.ActiveReports.ARControl() {Me.TextBox2})
-        Me.Detail1.Height = 0.1875!
+        Me.Detail1.Height = 0.1979167!
         Me.Detail1.Name = "Detail1"
         '
         'TextBox2
@@ -44,7 +44,7 @@ Partial Public Class SubMemoOIC4
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.OutputFormat = resources.GetString("TextBox2.OutputFormat")
         Me.TextBox2.Style = "ddo-char-set: 0; text-align: right; font-size: 9pt; "
-        Me.TextBox2.Text = Nothing
+        Me.TextBox2.Text = "-"
         Me.TextBox2.Top = 0.0!
         Me.TextBox2.Width = 1.0!
         '

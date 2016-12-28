@@ -1169,3 +1169,12 @@ C:\Users\Aliatec-HP\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Rel
 C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.SubMemoOIC2.resources
 C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.SubMemoOIC3.resources
 C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.SubMemoOIC4.resources
+C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.InfotecMemoOICDetalleSubReporte1.resources
+C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.InfotecMemoOICDetalleSubReporte2.resources
+C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.SubResumenOIC8.resources
+C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.SubResumenOIC7.resources
+C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.SubResumenOIC9.resources
+C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.SubResumenOIC10.resources
+C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.SubResumenOIC11.resources
+C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.SubMemoOIC6.resources
+C:\Users\Eduardo\Documents\GitHub\IFT\ReportesCliente\ReportesCliente\obj\Release\ReportesCliente.SubMemoOIC5.resources

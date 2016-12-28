@@ -29,12 +29,15 @@ Public Class DAO
     Private Const spReportePropinas As String = "sp_Reporte_Propinas '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
     'Private Const LayoutDispersionHSBC As String = "sp_Reporte_LayoutDispersionHSBC_ALI '@IdRazonSocial','@IdEmpleado','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
     Private Const ReporteCentroCostosporProyectos As String = "sp_CentroCostosCategoria2 '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
+    Private Const ReporteCentroCostosporCentroCostos As String = "sp_CentroCostosCategoria3 '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
 
-    Private Const ReporteAuditoria As String = "sp_Reporte_Auditoria '@IdRazonSocial','@IdTipoNominaAsig','@Anio','@Mes','@UID','@LID','@idAccion'"
-    Private Const ReporteEnvRecCFDI As String = "CFDI_EVENTUAL_INSTITUCIONAL '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
+    Private Const ReporteAuditoria As String = "sp_Reporte_Auditoria '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
+    Private Const CFDI_EVENTUAL_INSTITUCIONAL As String = "CFDI_EVENTUAL_INSTITUCIONAL '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
+    Private Const PrestamoPersonal As String = "sp_reporteprestamopersonal '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
+    Private Const PrestamoFAhorro As String = "sp_reporte_prestamofondoa '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
+    Private Const ReporteMemoOIC As String = "sp_Reporte_MemoOIC_Prueba '@IdRazonSocial','@Anio','@Periodo','@UID','@LID','@idAccion'"
     Private Const LayoutDispersionBANCOMER_108Tradicional_Liberados As String = "sp_Reporte_LayoutDispersionBANCOMER_108Tradicional_Liberados '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
     Private Const LayoutDispersionBANCOMER_108TradicionalInter_Liberados As String = "sp_Reporte_LayoutDispersionBANCOMER_108TradicionalInter_Liberados '@IdRazonSocial','@IdTipoNominaAsig','@IdTipoNominaProc','@Anio','@Periodo','@UID','@LID','@idAccion'"
-
     Public Sub New(ByVal DataConnection As SQLDataConnection)
         MyBase.New(DataConnection)
     End Sub
@@ -84,8 +87,23 @@ Public Class DAO
                     resultado = Me.ExecuteQuery(comandstr, ds, ReportesProceso)
                     Return ds
 
-                Case "ReporteEnvRecCFDI"
-                    comandstr = ReporteEnvRecCFDI
+                Case "CFDI_EVENTUAL_INSTITUCIONAL"
+                    comandstr = CFDI_EVENTUAL_INSTITUCIONAL
+                    resultado = Me.ExecuteQuery(comandstr, ds, ReportesProceso)
+                    Return ds
+
+                Case "PrestamoPersonal"
+                    comandstr = PrestamoPersonal
+                    resultado = Me.ExecuteQuery(comandstr, ds, ReportesProceso)
+                    Return ds
+
+                Case "PrestamoFAhorro"
+                    comandstr = PrestamoFAhorro
+                    resultado = Me.ExecuteQuery(comandstr, ds, ReportesProceso)
+                    Return ds
+
+                Case "ReporteCentroCostosporCentroCostos"
+                    comandstr = ReporteCentroCostosporCentroCostos
                     resultado = Me.ExecuteQuery(comandstr, ds, ReportesProceso)
                     Return ds
 

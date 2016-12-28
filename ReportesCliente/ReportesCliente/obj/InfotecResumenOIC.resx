@@ -171,58 +171,10 @@
   <data name="TextBox47.OutputFormat" xml:space="preserve">
     <value>$#,##0.00</value>
   </data>
-  <data name="TextBox54.OutputFormat" xml:space="preserve">
+  <data name="TextBox17.OutputFormat" xml:space="preserve">
     <value>$#,##0.00</value>
   </data>
-  <data name="TextBox55.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox56.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox57.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox58.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox59.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox60.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox61.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox62.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox63.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox64.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox68.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox69.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox72.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox73.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox65.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox66.OutputFormat" xml:space="preserve">
-    <value>$#,##0.00</value>
-  </data>
-  <data name="TextBox67.OutputFormat" xml:space="preserve">
+  <data name="TextBox18.OutputFormat" xml:space="preserve">
     <value>$#,##0.00</value>
   </data>
   <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

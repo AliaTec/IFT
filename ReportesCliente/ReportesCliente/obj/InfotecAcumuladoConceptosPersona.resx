@@ -117,82 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="TextBox7.OutputFormat" xml:space="preserve">
+  <data name="TextBox26.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox8.OutputFormat" xml:space="preserve">
+  <data name="TextBox16.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox13.OutputFormat" xml:space="preserve">
+  <data name="TextBox1.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox3.OutputFormat" xml:space="preserve">
+  <data name="TextBox2.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox15.OutputFormat" xml:space="preserve">
+  <data name="TextBox4.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox14.OutputFormat" xml:space="preserve">
+  <data name="TextBox12.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox17.OutputFormat" xml:space="preserve">
+  <data name="TextBox24.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox18.OutputFormat" xml:space="preserve">
+  <data name="TextBox25.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox19.OutputFormat" xml:space="preserve">
+  <data name="TextBox27.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox20.OutputFormat" xml:space="preserve">
+  <data name="TextBox28.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox21.OutputFormat" xml:space="preserve">
+  <data name="TextBox30.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox22.OutputFormat" xml:space="preserve">
+  <data name="TextBox34.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox23.OutputFormat" xml:space="preserve">
+  <data name="TextBox35.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox7.OutputFormat" xml:space="preserve">
+  <data name="TextBox36.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
-  <data name="TextBox8.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox13.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox3.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox15.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox14.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox17.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox18.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox19.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox20.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox21.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox22.OutputFormat" xml:space="preserve">
-    <value>#,##0.00</value>
-  </data>
-  <data name="TextBox23.OutputFormat" xml:space="preserve">
+  <data name="TextBox37.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
   <data name="TextBox26.OutputFormat" xml:space="preserve">
@@ -238,6 +205,84 @@
     <value>#,##0.00</value>
   </data>
   <data name="TextBox37.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox9.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox10.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox11.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox13.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox14.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox15.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox17.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox18.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox19.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox20.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox21.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox22.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox23.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox9.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox10.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox11.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox13.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox14.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox15.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox17.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox18.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox19.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox20.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox21.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox22.OutputFormat" xml:space="preserve">
+    <value>#,##0.00</value>
+  </data>
+  <data name="TextBox23.OutputFormat" xml:space="preserve">
     <value>#,##0.00</value>
   </data>
   <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

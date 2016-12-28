@@ -90,6 +90,8 @@ Public Class InfotecMemoOIC
         SubReportePercepciones1.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
         Me.SubReport1.Report = SubReportePercepciones1
 
+        '--------------------------------------------------------
+
         Dim SubReportePercepciones2 As New SubMemoOIC2
         SubReportePercepciones2.Parameters.Clear()
 
@@ -110,6 +112,8 @@ Public Class InfotecMemoOIC
         SubReportePercepciones2.Parameters("LID").Value = Me.Parameters("LID").Value
         SubReportePercepciones2.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
         Me.SubReport2.Report = SubReportePercepciones2
+
+        '--------------------------------------------------------
 
         Dim SubReportePercepciones3 As New SubMemoOIC3
         SubReportePercepciones3.Parameters.Clear()
@@ -132,6 +136,8 @@ Public Class InfotecMemoOIC
         SubReportePercepciones3.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
         Me.SubReport3.Report = SubReportePercepciones3
 
+        '--------------------------------------------------------
+
         Dim SubReportePercepciones4 As New SubMemoOIC4
         SubReportePercepciones4.Parameters.Clear()
 
@@ -143,7 +149,6 @@ Public Class InfotecMemoOIC
         SubReportePercepciones4.Parameters.Add(ParamLID)
         SubReportePercepciones4.Parameters.Add(ParamidAccion)
 
-
         'aqui se les asigna el valor
         SubReportePercepciones4.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
         SubReportePercepciones4.Parameters("Anio").Value = Me.Parameters("Anio").Value
@@ -152,6 +157,50 @@ Public Class InfotecMemoOIC
         SubReportePercepciones4.Parameters("LID").Value = Me.Parameters("LID").Value
         SubReportePercepciones4.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
         Me.SubReport4.Report = SubReportePercepciones4
+
+        '--------------------------------------------------------
+
+        Dim SubReportePercepciones5 As New SubMemoOIC5
+        SubReportePercepciones5.Parameters.Clear()
+
+        ''aqui se agregan
+        SubReportePercepciones5.Parameters.Add(ParamIdRazonSocial)
+        SubReportePercepciones5.Parameters.Add(ParamAnio)
+        SubReportePercepciones5.Parameters.Add(ParamMes)
+        SubReportePercepciones5.Parameters.Add(ParamUID)
+        SubReportePercepciones5.Parameters.Add(ParamLID)
+        SubReportePercepciones5.Parameters.Add(ParamidAccion)
+
+        'aqui se les asigna el valor
+        SubReportePercepciones5.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
+        SubReportePercepciones5.Parameters("Anio").Value = Me.Parameters("Anio").Value
+        SubReportePercepciones5.Parameters("Mes").Value = Me.Parameters("Mes").Value
+        SubReportePercepciones5.Parameters("UID").Value = Me.Parameters("UID").Value
+        SubReportePercepciones5.Parameters("LID").Value = Me.Parameters("LID").Value
+        SubReportePercepciones5.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
+        Me.SubReport5.Report = SubReportePercepciones5
+
+        '--------------------------------------------------------
+
+        Dim SubReportePercepciones6 As New SubMemoOIC6
+        SubReportePercepciones6.Parameters.Clear()
+
+        ''aqui se agregan
+        SubReportePercepciones6.Parameters.Add(ParamIdRazonSocial)
+        SubReportePercepciones6.Parameters.Add(ParamAnio)
+        SubReportePercepciones6.Parameters.Add(ParamMes)
+        SubReportePercepciones6.Parameters.Add(ParamUID)
+        SubReportePercepciones6.Parameters.Add(ParamLID)
+        SubReportePercepciones6.Parameters.Add(ParamidAccion)
+
+        'aqui se les asigna el valor
+        SubReportePercepciones6.Parameters("IdRazonSocial").Value = Me.Parameters("IdRazonSocial").Value
+        SubReportePercepciones6.Parameters("Anio").Value = Me.Parameters("Anio").Value
+        SubReportePercepciones6.Parameters("Mes").Value = Me.Parameters("Mes").Value
+        SubReportePercepciones6.Parameters("UID").Value = Me.Parameters("UID").Value
+        SubReportePercepciones6.Parameters("LID").Value = Me.Parameters("LID").Value
+        SubReportePercepciones6.Parameters("idAccion").Value = Me.Parameters("idAccion").Value
+        Me.SubReport6.Report = SubReportePercepciones6
 
 
     End Sub
